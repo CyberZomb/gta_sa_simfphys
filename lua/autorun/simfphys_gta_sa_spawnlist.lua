@@ -101,18 +101,18 @@ local V = {
 		Sound_Mid = "bank_031/sound_001.wav",
 		Sound_MidPitch = 1,
 		Sound_MidVolume = 1,
-		Sound_MidFadeOutRPMpercent = 58,
-		Sound_MidFadeOutRate = 0.5,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
 		
-		Sound_High = "bank_032/sound_001.wav",
-		Sound_HighPitch = 1,
+		Sound_High = "bank_031/sound_001.wav",
+		Sound_HighPitch = 1.3,
 		Sound_HighVolume = 1.5,
-		Sound_HighFadeInRPMpercent = 58,
-		Sound_HighFadeInRate = 0.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
 		
 		Sound_Throttle = "bank_032/sound_001.wav",
 		Sound_ThrottlePitch = 1,
-		Sound_ThrottleVolume = 1,
+		Sound_ThrottleVolume = 4,
 		
 		--
 		snd_horn = "bank_068/sound_002.wav",
