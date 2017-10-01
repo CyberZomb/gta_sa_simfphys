@@ -9,7 +9,7 @@ local V = {
 	Members = {
 		Mass = 1200,
 		
-		EnginePos = Vector(46,0,28),
+		EnginePos = Vector(60,0,10),
 		
 		LightsTable = "alpha",
 		
@@ -27,22 +27,22 @@ local V = {
 		
 		CustomSteerAngle = 30,
 		
-		SeatOffset = Vector(-10,-17,10),
+		SeatOffset = Vector(-10,-17,11),
 		SeatPitch = -5,
 		SeatYaw = 90,
 		
 		PassengerSeats = {
 			{
-				pos = Vector(-0,-17,-20),
+				pos = Vector(-0,-17,-21),
 				ang = Angle(0,-90,17)
 			},
 			{
 				pos = Vector(-32,17,-20),
-				ang = Angle(0,-90,23)
+				ang = Angle(0,-90,25)
 			},
 			{
 				pos = Vector(-32,-17,-20),
-				ang = Angle(0,-90,23)
+				ang = Angle(0,-90,25)
 			}
 		
 		},
