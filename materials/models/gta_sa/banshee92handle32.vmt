@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gta_sa/banshee92handle32"
+	"$translucent" 1
+}
