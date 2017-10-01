@@ -49,7 +49,7 @@ local light_table = {
 	}
 
 }
-list.Set( "simfphys_lights", "fordtco", light_table)
+list.Set( "simfphys_lights", "fordtco", light_table)//
 
 local light_table = {
 	L_HeadLampPos = Vector( 59, -13.5, 22 ),
