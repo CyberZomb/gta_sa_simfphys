@@ -1,8 +1,8 @@
 local V = {
-	Name = "Bolt Ace Coupe",
-	Model = "models/mafia/fordtco.mdl",
+	Name = "Alpha",
+	Model = "models/GTA_SA/alpha.mdl",
 	Class = "gmod_sent_vehicle_fphysics_base",
-	Category = "Mafia",
+	Category = "GTA SA:Sport",
 	SpawnOffset = Vector(0,0,10),
 	SpawnAngleOffset = 90,
 
@@ -11,12 +11,12 @@ local V = {
 		
 		EnginePos = Vector(46,0,28),
 		
-		LightsTable = "fordtco",
+		LightsTable = "alpha",
 		
 		CustomWheels = true,
 		CustomSuspensionTravel = 5,
 		
-		CustomWheelModel = "models/mafia/fordt_wheel.mdl",
+		CustomWheelModel = "models/GTA_SA/alpha_wheel.mdl",
 		CustomWheelPosFL = Vector(60,26,3),
 		CustomWheelPosFR = Vector(60,-26,3),
 		CustomWheelPosRL = Vector(-38,26,3),
@@ -80,37 +80,26 @@ local V = {
 		PowerBias = 1,
 		
 		EngineSoundPreset = 0,
+
 		
-		snd_pitch = 0.9,
-		snd_idle = "mafia/fordt_npc.wav",
-		
-		snd_low = "mafia/fordt_npc.wav",
-		snd_low_revdown = "mafia/fordt_npc.wav",
-		snd_low_pitch = 0.9,
-		
-		snd_mid = "mafia/fordt_npc.wav",
-		snd_mid_gearup = "mafia/fordt_npc.wav",
-		snd_mid_pitch = 0.9,
-		
-		--
-		Sound_Idle = "mafia/fordt_npc.wav",
+		Sound_Idle = "bank_031/sound_002.wav",
 		Sound_IdlePitch = 1,
 		
-		Sound_Mid = "mafia/fordt_npc.wav",
+		Sound_Mid = "bank_031/sound_001.wav",
 		Sound_MidPitch = 1,
 		Sound_MidVolume = 1,
 		Sound_MidFadeOutRPMpercent = 58,
 		Sound_MidFadeOutRate = 0.5,
 		
-		Sound_High = "mafia/fordt_npc.wav",
+		Sound_High = "bank_032/sound_001.wav",
 		Sound_HighPitch = 1,
 		Sound_HighVolume = 1.5,
 		Sound_HighFadeInRPMpercent = 58,
 		Sound_HighFadeInRate = 0.5,
 		
-		Sound_Throttle = "",
-		Sound_ThrottlePitch = 0,
-		Sound_ThrottleVolume = 0,
+		Sound_Throttle = "bank_032/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 1,
 		
 		--
 		snd_horn = "mafia/horn1.wav",
