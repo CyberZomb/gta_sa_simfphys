@@ -1,4 +1,4 @@
-local V = {`
+local V = {
 	Name = "Alpha",
 	Model = "models/GTA_SA/alpha.mdl",
 	Class = "gmod_sent_vehicle_fphysics_base",
@@ -17,32 +17,49 @@ local V = {`
 		CustomSuspensionTravel = 5,
 		
 		CustomWheelModel = "models/GTA_SA/alpha_wheel.mdl",
-		CustomWheelPosFL = Vector(60,26,3),
-		CustomWheelPosFR = Vector(60,-26,3),
-		CustomWheelPosRL = Vector(-38,26,3),
-		CustomWheelPosRR = Vector(-38,-26,3),
+		CustomWheelPosFL = Vector(56,35,-20),
+		CustomWheelPosFR = Vector(56,-35,-20),
+		CustomWheelPosRL = Vector(-55,35,-20),
+		CustomWheelPosRR = Vector(-55,-35,-20),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
-		CustomMassCenter = Vector(10,0,10),
+		CustomMassCenter = Vector(10,0,0),
 		
 		CustomSteerAngle = 30,
 		
-		SeatOffset = Vector(-16,-10,45),
-		SeatPitch = 10,
-		SeatYaw = 135,
+		SeatOffset = Vector(-10,-17,10),
+		SeatPitch = -5,
+		SeatYaw = 90,
 		
 		PassengerSeats = {
 			{
-				pos = Vector(-1,-9,10),
+				pos = Vector(-0,-17,-20),
 				ang = Angle(0,-90,17)
+			},
+			{
+				pos = Vector(-32,17,-20),
+				ang = Angle(0,-90,23)
+			},
+			{
+				pos = Vector(-32,-17,-20),
+				ang = Angle(0,-90,23)
 			}
+		
 		},
 		
 		ExhaustPositions = {
 			{
-				pos = Vector(-35,-10,7),
+				pos = Vector(-85,-22,-20),
 				ang = Angle(90,165,0),
-			}
+			},
+				{
+				pos = Vector(-85,-22,-20),
+				ang = Angle(90,165,0),
+			},
+				{
+				pos = Vector(-85,-22,-20),
+				ang = Angle(90,165,0),
+			}			
 		},
 		
 		FrontHeight = 7,
