@@ -49,50 +49,46 @@ local V = {
 		
 		ExhaustPositions = {
 			{
-				pos = Vector(-85,-22,-20),
+				pos = Vector(-88,-20,-20),
 				ang = Angle(90,165,0),
 			},
 				{
-				pos = Vector(-85,-22,-20),
+				pos = Vector(-88,20,-20),
 				ang = Angle(90,165,0),
-			},
-				{
-				pos = Vector(-85,-22,-20),
-				ang = Angle(90,165,0),
-			}			
+			}		
 		},
 		
-		FrontHeight = 7,
-		FrontConstant = 15000,
-		FrontDamping = 800,
-		FrontRelativeDamping = 800,
+		FrontHeight = 5,
+		FrontConstant = 25000,
+		FrontDamping = 1000,
+		FrontRelativeDamping = 1000,
 		
-		RearHeight = 6,
-		RearConstant = 15000,
-		RearDamping = 800,
-		RearRelativeDamping = 800,
+		RearHeight = 5,
+		RearConstant = 25000,
+		RearDamping = 1000,
+		RearRelativeDamping = 1000,
 		
 		FastSteeringAngle = 10,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 20,
+		MaxGrip = 35,
 		Efficiency = 1,
 		GripOffset = -2,
-		BrakePower = 10,
+		BrakePower = 30,
 		
-		IdleRPM = 300,
-		LimitRPM = 2100,
-		PeakTorque = 50,
-		PowerbandStart = 500,
-		PowerbandEnd = 1800,
-		Turbocharged = false,
+		IdleRPM = 1100,
+		LimitRPM = 5700,
+		PeakTorque = 200,
+		PowerbandStart = 1200,
+		PowerbandEnd = 5500,
+		Turbocharged = true,
 		Supercharged = false,
 		
-		FuelFillPos = Vector(-50,0,28),
+		FuelFillPos = Vector(-70,-37,3),
 		FuelType = FUELTYPE_PETROL,
-		FuelTankSize = 10,
+		FuelTankSize = 50,
 		
 		PowerBias = 1,
 		
@@ -121,8 +117,8 @@ local V = {
 		--
 		snd_horn = "bank_068/sound_002.wav",
 		
-		DifferentialGear = 0.75,
-		Gears = {-0.12,0,0.1,0.4}
+		DifferentialGear = 0.6,
+		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_alpha", V )
