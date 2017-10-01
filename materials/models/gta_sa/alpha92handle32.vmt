@@ -1,4 +1,5 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "models/gta_sa/alpha92handle32"
+	"$translucent" 1
 }

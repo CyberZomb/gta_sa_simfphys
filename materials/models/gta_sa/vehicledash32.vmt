@@ -1,4 +1,5 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "models/gta_sa/vehicledash32"
+	"$translucent" 1
 }

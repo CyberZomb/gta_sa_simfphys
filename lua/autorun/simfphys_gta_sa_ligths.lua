@@ -4,10 +4,10 @@ local light_table = {
 	R_HeadLampPos = Vector( 75, -30.5, -0.5),
 	R_HeadLampAng = Angle(0,0,0),
 	
-	L_RearLampPos = Vector(-87,34.5,2),
-	L_RearLampAng = Angle(0,0,0),
-	R_RearLampPos = Vector(-87,-34,2),
-	R_RearLampAng = Angle(0,0,0),
+	L_RearLampPos = Vector(-80,34.5,2),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-80,-34,2),
+	R_RearLampAng = Angle(0,180,0),
 	
 	Headlight_sprites = {
 		{pos = Vector( 75, 30, -0.5 ),material = "sprites/light_ignorez",size = 15, color = Color( 210,205,200,120)},
