@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gta_sa/monster92interior128"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
