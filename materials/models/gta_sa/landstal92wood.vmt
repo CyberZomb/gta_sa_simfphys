@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gta_sa/landstal92wood"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ 0.12 0.12 0.12 ]"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
