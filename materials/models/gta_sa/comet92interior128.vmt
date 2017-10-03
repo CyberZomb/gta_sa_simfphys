@@ -1,6 +1,6 @@
 "VertexlitGeneric"
 {
-	"$basetexture" "models/gta_sa/bullet92interior128"
+	"$basetexture" "models/gta_sa/comet92interior128"
 	"$nocull" "1"
 		"$colorfix" "{255 255 255}"
 	"Proxies"
