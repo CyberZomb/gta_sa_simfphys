@@ -1,6 +1,6 @@
 local V = {
 	Name = "Alpha",
-	Model = "models/GTA_SA/alpha.mdl",
+	Model = "models/GTA_SA/Sport cars/alpha.mdl",
 	Class = "gmod_sent_vehicle_fphysics_base",
 	Category = "GTA SA / Sports",
 	SpawnOffset = Vector(0,0,10),
@@ -16,7 +16,7 @@ local V = {
 		CustomWheels = true,
 		CustomSuspensionTravel = 5,
 		
-		CustomWheelModel = "models/GTA_SA/alpha_wheel.mdl",
+		CustomWheelModel = "models/GTA_SA/Sport cars/alpha_wheel.mdl",
 		CustomWheelPosFL = Vector(56,35,-20),
 		CustomWheelPosFR = Vector(56,-35,-20),
 		CustomWheelPosRL = Vector(-55,35,-20),
