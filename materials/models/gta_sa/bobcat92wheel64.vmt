@@ -1,4 +1,5 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "models/gta_sa/bobcat92wheel64"
+	"$nocull" "1"
 }

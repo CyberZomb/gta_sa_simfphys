@@ -1,6 +1,7 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "models/gta_sa/vehiclegrunge256_secondary6"
+	"$nocull" "1"
 		"$colorfix" "{255 255 255}"
 	"Proxies"
 	{
