@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gta_sa/buffalo92interior128"
+	"$nocull" "1"
+}
