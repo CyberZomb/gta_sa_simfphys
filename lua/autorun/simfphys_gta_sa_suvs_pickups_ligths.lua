@@ -310,3 +310,58 @@ local light_table = {
 
 }
 list.Set( "simfphys_lights", "monstera", light_table)
+
+
+local light_table = {
+	L_HeadLampPos = Vector( 92, 34, 26 ),
+	L_HeadLampAng = Angle(0,0,0),
+	R_HeadLampPos = Vector( 92, -34, 26 ),
+	R_HeadLampAng = Angle(0,0,0),
+	
+	L_RearLampPos = Vector(-101,42,28),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-101,-42,28),
+	R_RearLampAng = Angle(0,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 92, 34, 26 ),material = "sprites/light_ignorez",size = 38, color = Color( 255,230,210,150)},
+		{pos = Vector( 92, -34, 26 ),material = "sprites/light_ignorez",size = 38, color = Color( 255,230,210,150)},
+		{pos = Vector( 92, 26, 26 ),material = "sprites/light_ignorez",size = 38, color = Color( 255,230,210,150)},
+		{pos = Vector( 92, -26, 26 ),material = "sprites/light_ignorez",size = 38, color = Color( 255,230,210,150)},
+		
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 14, 25, 62 ),material = "sprites/light_ignorez",size = 45, color = Color( 255,235,220,170)},
+		{pos = Vector( 14, -25, 62 ),material = "sprites/light_ignorez",size = 45, color = Color( 255,235,220,170)},
+		{pos = Vector( 14, 8, 62 ),material = "sprites/light_ignorez",size = 45, color = Color( 255,235,220,170)},
+		{pos = Vector( 14, -8, 62 ),material = "sprites/light_ignorez",size = 45, color = Color( 255,235,220,170)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-101,42,28),material = "sprites/light_ignorez",size = 35,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-101,-42,28),material = "sprites/light_ignorez",size = 35,color = Color( 255, 0, 0,  150)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-101,42,28),material = "sprites/light_ignorez",size = 40,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-101,-42,28),material = "sprites/light_ignorez",size = 40,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-101,42,28),material = "sprites/light_ignorez",size = 25,color = Color( 255, 255, 255, 250)},
+		{pos = Vector(-101,-42,28),material = "sprites/light_ignorez",size = 25,color = Color( 255, 255, 255, 250)},
+	},
+	
+	DelayOn = 0.1,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			Vector(-101,42,23),
+			Vector( 90, 42, 26 ),
+		},
+		Right = {
+			Vector(-101,-42,23),
+			Vector( 90, -42, 26 ),
+		},
+	}
+
+}
+list.Set( "simfphys_lights", "monsterb", light_table)
