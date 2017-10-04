@@ -2,7 +2,7 @@ local V = {
 	Name = "Alpha",
 	Model = "models/GTA_SA/Sport cars/alpha.mdl",
 	Class = "gmod_sent_vehicle_fphysics_base",
-	Category = "GTA SA / Sports",
+	Category = "GTA SA Sports",
 	SpawnOffset = Vector(0,0,10),
 	SpawnAngleOffset = 90,
 
