@@ -120,30 +120,44 @@ local light_table = {
 	R_RearLampAng = Angle(0,180,0),
 	
 	Headlight_sprites = {
-		{pos = Vector( 75, 28, 0 ),material = "sprites/light_ignorez",size = 35, color = Color( 210,205,200,190)},
-		{pos = Vector( 75, -28, 0 ),material = "sprites/light_ignorez",size = 35, color = Color( 210,205,200,190)},
-		
-		
+		{pos = Vector( 89, 30.5, -1.75 ),material = "sprites/light_ignorez",size = 8, color = Color( 210,205,200,255)},
+		{pos = Vector( 90, 30.5, -1.75 ),material = "sprites/light_ignorez",size = 35, color = Color( 210,205,200,180)},
+		{pos = Vector( 89, -30.5, -1.75 ),material = "sprites/light_ignorez",size = 8, color = Color( 210,205,200,255)},
+		{pos = Vector( 90, -30.5, -1.75 ),material = "sprites/light_ignorez",size = 35, color = Color( 210,205,200,180)},
 	},
 	Headlamp_sprites = {
-		{pos = Vector( 75, 28, 2 ),material = "sprites/light_ignorez",size = 45, color = Color( 200,205,220,220)},
-		{pos = Vector( 75, -28, 2 ),material = "sprites/light_ignorez",size = 45, color = Color( 200,205,220,220)},
+		{pos = Vector( 89, 23.5, -1.75 ),material = "sprites/light_ignorez",size = 10, color = Color( 210,210,210,255)},
+		{pos = Vector( 90, 23.5, -1.75 ),material = "sprites/light_ignorez",size = 45, color = Color( 210,210,210,220)},
+		{pos = Vector( 89, -23.5, -1.75 ),material = "sprites/light_ignorez",size = 10, color = Color( 210,210,210,255)},
+		{pos = Vector( 90, -23.5, -1.75 ),material = "sprites/light_ignorez",size = 45, color = Color( 210,210,210,220)},
 	},
 	Rearlight_sprites = {
-		{pos = Vector(-88,28,0),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},
-		{pos = Vector(-88,24,0),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},		
-		{pos = Vector(-88,-28,0),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},
-		{pos = Vector(-88,-24,0),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-93,28,0),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-93,24,0),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-93,20,0),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},	
+		{pos = Vector(-92,28,4),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-92,24,4),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-92,20,4),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},	
+		{pos = Vector(-93,-28,0),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-93,-24,0),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-93,-20,0),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-92,-28,4),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-92,-24,4),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-92,-20,4),material = "sprites/light_ignorez",size = 25,color = Color( 255, 0, 0,  150)},
 	},
 	Brakelight_sprites = {
-		{pos = Vector(-88,24,0),material = "sprites/light_ignorez",size = 50,color = Color( 255, 0, 0,  220)},
-		{pos = Vector(-88,20,0),material = "sprites/light_ignorez",size = 50,color = Color( 255, 0, 0,  220)},	
-		{pos = Vector(-88,-24,0),material = "sprites/light_ignorez",size = 50,color = Color( 255, 0, 0,  220)},
-		{pos = Vector(-88,-20,0),material = "sprites/light_ignorez",size = 50,color = Color( 255, 0, 0,  220)},
+		{pos = Vector(-92,28,2),material = "sprites/light_ignorez",size = 50,color = Color( 255, 0, 0,  255)},
+		{pos = Vector(-93,24,2),material = "sprites/light_ignorez",size = 50,color = Color( 255, 0, 0,  255)},
+		{pos = Vector(-93,20,2),material = "sprites/light_ignorez",size = 50,color = Color( 255, 0, 0,  255)},
+		{pos = Vector(-92,-26,2),material = "sprites/light_ignorez",size = 50,color = Color( 255, 0, 0,  255)},
+		{pos = Vector(-93,-22,2),material = "sprites/light_ignorez",size = 50,color = Color( 255, 0, 0,  255)},
+		{pos = Vector(-93,-20,2),material = "sprites/light_ignorez",size = 50,color = Color( 255, 0, 0,  255)},
 	},
 	Reverselight_sprites = {
-		{pos = Vector(-88,19,-0.25),material = "sprites/light_ignorez",size = 25,color = Color( 255, 255, 255, 250)},
-		{pos = Vector(-88,-19,-0.25),material = "sprites/light_ignorez",size = 25,color = Color( 255, 255, 255, 250)},
+		{pos = Vector(-95,17,4),material = "sprites/light_ignorez",size = 50,color = Color( 255, 255, 255, 255)},
+		{pos = Vector(-95,17,0),material = "sprites/light_ignorez",size = 50,color = Color( 255, 255, 255, 255)},
+		{pos = Vector(-95,-17,4),material = "sprites/light_ignorez",size = 50,color = Color( 255, 255, 255, 255)},
+		{pos = Vector(-95,-17,0),material = "sprites/light_ignorez",size = 50,color = Color( 255, 255, 255, 255	)},
 	},
 	
 	DelayOn = 0.1,
@@ -151,13 +165,15 @@ local light_table = {
 	
 	Turnsignal_sprites = {
 		Left = {
-			Vector(-87,31,0),
-			Vector(83,29,-10),
+			Vector(-93,33,1),
+			Vector(-92,33,3),
+			Vector(90,23.5,-1.75),
 			
 		},
 		Right = {
-			Vector(-87,-31,0),
-			Vector(83,-29,-10),
+			Vector(-93,-33,1),
+			Vector(-92,-33,3),
+			Vector(90,-23.5,-1.75),
 			
 		},
 	}
@@ -177,8 +193,8 @@ local light_table = {
 	R_RearLampAng = Angle(0,180,0),
 	
 	Headlight_sprites = {
-		{pos = Vector( 75, 28, 0 ),material = "sprites/light_ignorez",size = 35, color = Color( 210,205,200,190)},
-		{pos = Vector( 75, -28, 0 ),material = "sprites/light_ignorez",size = 35, color = Color( 210,205,200,190)},
+		{pos = Vector( 80, 28, 0 ),material = "sprites/light_ignorez",size = 35, color = Color( 210,205,200,190)},
+		{pos = Vector( 80, -28, 0 ),material = "sprites/light_ignorez",size = 35, color = Color( 210,205,200,190)},
 		
 		
 	},

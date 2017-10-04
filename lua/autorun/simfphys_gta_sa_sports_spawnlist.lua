@@ -318,7 +318,7 @@ local V = {
 		Turbocharged = false,
 		Supercharged = true,
 		
-		FuelFillPos = Vector(-90,0,-7),
+		FuelFillPos = Vector(-69,-35,4),
 		FuelType = FUELTYPE_PETROL,
 		FuelTankSize = 50,
 		
