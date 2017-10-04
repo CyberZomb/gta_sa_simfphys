@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gta_sa/zr350badge64ba"
+	"$additive" 1
+	"$alphatest" 1
+	"$vertexalpha" 1
+}
