@@ -365,7 +365,7 @@ local V = {
 	SpawnAngleOffset = 90,
 
 	Members = {
-		Mass = 1400,
+		Mass = 1200,
 		
 		EnginePos = Vector(60,0,10),
 		
@@ -375,24 +375,24 @@ local V = {
 		CustomSuspensionTravel = 5,
 		
 		CustomWheelModel = "models/GTA_SA/Sport cars/banshee_wheel.mdl",
-		CustomWheelPosFL = Vector(56,30,-15),
-		CustomWheelPosFR = Vector(56,-30,-15),
-		CustomWheelPosRL = Vector(-56,30,-15),
-		CustomWheelPosRR = Vector(-56,-30,-15),
+		CustomWheelPosFL = Vector(55,30,-13),
+		CustomWheelPosFR = Vector(55,-30,-13),
+		CustomWheelPosRL = Vector(-54,30,-13),
+		CustomWheelPosRR = Vector(-54,-30,-13),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
-		CustomMassCenter = Vector(10,0,0),
+		CustomMassCenter = Vector(-3,0,0),
 		
 		CustomSteerAngle = 30,
 		
-		SeatOffset = Vector(-30,-17,11),
-		SeatPitch = -5,
+		SeatOffset = Vector(-10,-17,11),
+		SeatPitch = -15,
 		SeatYaw = 90,
 		
 		PassengerSeats = {
 			{
-				pos = Vector(-20,-17,-21),
-				ang = Angle(0,-90,17)
+				pos = Vector(0,-17,-21),
+				ang = Angle(0,-90,27)
 			}
 		},
 		
@@ -422,10 +422,10 @@ local V = {
 		
 		TurnSpeed = 6.9,
 		
-		MaxGrip = 35,
-		Efficiency = 1,
+		MaxGrip = 45,
+		Efficiency = 1.25,
 		GripOffset = -2,
-		BrakePower = 30,
+		BrakePower = 50,
 		
 		IdleRPM = 1100,
 		LimitRPM = 5600,
@@ -433,7 +433,7 @@ local V = {
 		PowerbandStart = 1200,
 		PowerbandEnd = 5400,
 		Turbocharged = true,
-		Supercharged = false,
+		Supercharged = true,
 		
 		FuelFillPos = Vector(-90,0,-7),
 		FuelType = FUELTYPE_PETROL,
@@ -444,22 +444,22 @@ local V = {
 		EngineSoundPreset = 0,
 
 		
-		Sound_Idle = "bank_031/sound_002.wav",
+		Sound_Idle = "bank_010/sound_002.wav",
 		Sound_IdlePitch = 1,
 		
-		Sound_Mid = "bank_031/sound_001.wav",
+		Sound_Mid = "bank_010/sound_001.wav",
 		Sound_MidPitch = 1,
 		Sound_MidVolume = 1,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
 		
-		Sound_High = "bank_031/sound_001.wav",
+		Sound_High = "bank_011/sound_001.wav",
 		Sound_HighPitch = 1.3,
 		Sound_HighVolume = 1.5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
-		Sound_Throttle = "bank_032/sound_001.wav",
+		Sound_Throttle = "bank_011/sound_001.wav",
 		Sound_ThrottlePitch = 1,
 		Sound_ThrottleVolume = 4,
 		
