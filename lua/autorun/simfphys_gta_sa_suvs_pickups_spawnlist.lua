@@ -598,3 +598,128 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_monster", V )
+
+local V = {
+	Name = "MonsterA",
+	Model = "models/GTA_SA/suvs_pickups/monstera.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA SUVs & Pickups",
+	SpawnOffset = Vector(0,0,40),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 5000,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "monstera",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/suvs_pickups/monster_wheel.mdl",
+		CustomWheelPosFL = Vector(62,48,-25),
+		CustomWheelPosFR = Vector(62,-48,-25),
+		CustomWheelPosRL = Vector(-61,48,-25),
+		CustomWheelPosRR = Vector(-61,-48,-25),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(-4,-20,46),
+		SeatPitch = 8,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(12,-20,13),
+				ang = Angle(0,-90,17)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-36,-26,-4),
+				ang = Angle(90,230,0),
+			},
+			{
+				pos = Vector(-36,-26,-1),
+				ang = Angle(90,230,0),
+			},
+			{
+				pos = Vector(-36,26,-4),
+				ang = Angle(90,-230,0),
+			},
+			{
+				pos = Vector(-36,26,-1),
+				ang = Angle(90,-230,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 50000,
+		FrontDamping = 2000,
+		FrontRelativeDamping = 2000,
+		
+		RearHeight = 5,
+		RearConstant = 50000,
+		RearDamping = 2000,
+		RearRelativeDamping = 2000,
+		
+		FastSteeringAngle = 10,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 100,
+		Efficiency = 1,
+		GripOffset = -2,
+		BrakePower = 50,
+		
+		IdleRPM = 500,
+		LimitRPM = 4000,
+		PeakTorque = 260,
+		PowerbandStart = 600,
+		PowerbandEnd = 3800,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-62,33,-3),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 70,
+		
+		PowerBias = 0,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_064/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_064/sound_001.wav",
+		Sound_MidPitch = 1.4,
+		Sound_MidVolume = 3,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_064/sound_001.wav",
+		Sound_HighPitch = 1.7,
+		Sound_HighVolume = 4,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_065/sound_002.wav",
+		Sound_ThrottlePitch = 2,
+		Sound_ThrottleVolume = 10,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.07,0,0.03,0.07,0.11,0.16,0.22}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_monstera", V )
