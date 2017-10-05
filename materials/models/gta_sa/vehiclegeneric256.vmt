@@ -1,6 +1,11 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "models/gta_sa/vehiclegeneric256"
+///
+	$surfaceprop	metal
+	$bumpmap		models/gta_sa/vehiclegeneric256_normal	
+	$bumpscale 69
+///	
 	"$nocull" "1"
 	"$colorfix" "{255 255 255}"
 	"Proxies"

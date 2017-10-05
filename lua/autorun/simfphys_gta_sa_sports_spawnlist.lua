@@ -805,22 +805,22 @@ local V = {
 		EngineSoundPreset = 0,
 
 		
-		Sound_Idle = "bank_096/sound_002.wav",
+		Sound_Idle = "bank_001/sound_002.wav",
 		Sound_IdlePitch = 1,
 		
-		Sound_Mid = "bank_096/sound_001.wav",
+		Sound_Mid = "bank_001/sound_001.wav",
 		Sound_MidPitch = 1,
 		Sound_MidVolume = 1,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
 		
-		Sound_High = "bank_097/sound_001.wav",
+		Sound_High = "bank_002/sound_001.wav",
 		Sound_HighPitch = 1.3,
 		Sound_HighVolume = 1.5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
-		Sound_Throttle = "bank_097/sound_001.wav",
+		Sound_Throttle = "bank_002/sound_001.wav",
 		Sound_ThrottlePitch = 1,
 		Sound_ThrottleVolume = 4,
 		
