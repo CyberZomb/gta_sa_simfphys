@@ -736,34 +736,34 @@ local V = {
 		CustomSuspensionTravel = 5,
 		
 		CustomWheelModel = "models/GTA_SA/Sport cars/euros_wheel.mdl",
-		CustomWheelPosFL = Vector(48.5,34,-17),
-		CustomWheelPosFR = Vector(48.5,-34,-17),
-		CustomWheelPosRL = Vector(-48,34,-17),
-		CustomWheelPosRR = Vector(-48,-34,-17),
+		CustomWheelPosFL = Vector(54,34,-18),
+		CustomWheelPosFR = Vector(54,-34,-18),
+		CustomWheelPosRL = Vector(-58.5,34,-18),
+		CustomWheelPosRR = Vector(-58.5,-34,-18),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
 		CustomMassCenter = Vector(5,0,0),
 		
 		CustomSteerAngle = 30,
 		
-		SeatOffset = Vector(-18,-17,11),
+		SeatOffset = Vector(-15,-17,11),
 		SeatPitch = -5,
 		SeatYaw = 90,
 		
 		PassengerSeats = {
 			{
-				pos = Vector(-10,-17,-21),
+				pos = Vector(-6,-17,-20),
 				ang = Angle(0,-90,17)
 			}
 		},
 		
 		ExhaustPositions = {
 			{
-				pos = Vector(-87,-20,-19.5),
+				pos = Vector(-98,25,-16),
 				ang = Angle(90,165,0),
 			},	
 			{
-				pos = Vector(-87,-15,-19.5),
+				pos = Vector(-98,-25,-16),
 				ang = Angle(90,165,0),
 			}		
 		},
@@ -786,7 +786,7 @@ local V = {
 		MaxGrip = 45,
 		Efficiency = 1,
 		GripOffset = -2,
-		BrakePower = 30,
+		BrakePower = 35,
 		
 		IdleRPM = 1100,
 		LimitRPM = 5600,
@@ -796,7 +796,7 @@ local V = {
 		Turbocharged = true,	
 		Supercharged = false,
 		
-		FuelFillPos = Vector(-31.5,35,3.5),
+		FuelFillPos = Vector(-43.5,42,4),
 		FuelType = FUELTYPE_PETROL,
 		FuelTankSize = 50,
 		
