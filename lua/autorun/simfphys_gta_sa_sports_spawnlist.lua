@@ -73,7 +73,7 @@ local V = {
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 35,
+		MaxGrip = 38,
 		Efficiency = 1,
 		GripOffset = -2,
 		BrakePower = 30,
@@ -367,7 +367,7 @@ local V = {
 	Members = {
 		Mass = 1200,
 		
-		EnginePos = Vector(60,0,10),
+		EnginePos = Vector(-45,0,10),
 		
 		LightsTable = "bullet",
 		
@@ -383,7 +383,7 @@ local V = {
 		
 		CustomMassCenter = Vector(-3,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 35,
 		
 		SeatOffset = Vector(-10,-17,11),
 		SeatPitch = -15,
@@ -425,21 +425,21 @@ local V = {
 		RearDamping = 1000,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 20,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 6.9,
 		
-		MaxGrip = 38,
+		MaxGrip = 45,
 		Efficiency = 1.25,
-		GripOffset = -2,
-		BrakePower = 39,
+		GripOffset = -5,
+		BrakePower = 42,
 		
 		IdleRPM = 1100,
-		LimitRPM = 5600,
-		PeakTorque = 180,
-		PowerbandStart = 1200,
-		PowerbandEnd = 5400,
+		LimitRPM = 8500,
+		PeakTorque = 120,
+		PowerbandStart = 2200,
+		PowerbandEnd = 8300,
 		Turbocharged = true,
 		Supercharged = true,
 		
@@ -447,29 +447,30 @@ local V = {
 		FuelType = FUELTYPE_PETROL,
 		FuelTankSize = 22.8,
 		
-		PowerBias = 1,
+		PowerBias = 0.69,
 		
 		EngineSoundPreset = 0,
 
 		
 		Sound_Idle = "bank_010/sound_002.wav",
 		Sound_IdlePitch = 1,
+		Sound_IdleVolume = 2,
 		
 		Sound_Mid = "bank_010/sound_001.wav",
 		Sound_MidPitch = 1,
-		Sound_MidVolume = 1,
+		Sound_MidVolume = 2,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
 		
 		Sound_High = "bank_011/sound_001.wav",
 		Sound_HighPitch = 1.3,
-		Sound_HighVolume = 1.5,
+		Sound_HighVolume = 2.5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
 		Sound_Throttle = "bank_011/sound_001.wav",
 		Sound_ThrottlePitch = 1,
-		Sound_ThrottleVolume = 4,
+		Sound_ThrottleVolume = 5,
 		
 		DifferentialGear = 0.6,
 		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
@@ -486,7 +487,7 @@ local V = {
 	SpawnAngleOffset = 90,
 
 	Members = {
-		Mass = 1500,
+		Mass = 1200,
 		
 		EnginePos = Vector(60,0,10),
 		
@@ -496,36 +497,44 @@ local V = {
 		CustomSuspensionTravel = 5,
 		
 		CustomWheelModel = "models/GTA_SA/Sport cars/cheetah_wheel.mdl",
-		CustomWheelPosFL = Vector(55,34,-21),
-		CustomWheelPosFR = Vector(55,-34,-21),
-		CustomWheelPosRL = Vector(-56,34,-21),
-		CustomWheelPosRR = Vector(-56,-34,-21),
-		CustomWheelAngleOffset = Angle(0,90,0),
+		CustomWheelPosFL = Vector(57,34,-17),
+		CustomWheelPosFR = Vector(57,-34,-17),
+		CustomWheelPosRL = Vector(-58,34,-17),
+		CustomWheelPosRR = Vector(-58,-34,-17),
+		CustomWheelAngleOffset = Angle(0,-90,0),
 		
-		CustomMassCenter = Vector(5,0,0),
+		CustomMassCenter = Vector(-5,0,0),
 		
 		CustomSteerAngle = 30,
 		
-		SeatOffset = Vector(-18,-17,11),
-		SeatPitch = -5,
+		SeatOffset = Vector(-8,-15,8),
+		SeatPitch = -15,
 		SeatYaw = 90,
 		
 		PassengerSeats = {
 			{
-				pos = Vector(-10,-17,-21),
-				ang = Angle(0,-90,17)
+				pos = Vector(0,-13,-22),
+				ang = Angle(0,-90,22)
 			}
 		},
 		
 		ExhaustPositions = {
 			{
-				pos = Vector(-95,-18,-18),
+				pos = Vector(-85,15.5,-18),
 				ang = Angle(90,165,0),
 			},	
 			{
-				pos = Vector(-95,18,-18),
+				pos = Vector(-85,10.5,-18),
 				ang = Angle(90,165,0),
-			}		
+			},	
+			{
+				pos = Vector(-85,-15.5,-18),
+				ang = Angle(90,165,0),
+			},	
+			{
+				pos = Vector(-85,-10.5,-18),
+				ang = Angle(90,165,0),
+			},		
 		},
 		
 		FrontHeight = 5,
@@ -538,32 +547,31 @@ local V = {
 		RearDamping = 1000,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 20,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 6.9,
 		
-		MaxGrip = 35,
-		Efficiency = 1,
+		MaxGrip = 55,
+		Efficiency = 1.2,
 		GripOffset = -2,
 		BrakePower = 30,
 		
 		IdleRPM = 1100,
-		LimitRPM = 5600,
-		PeakTorque = 180,
-		PowerbandStart = 1200,
-		PowerbandEnd = 5400,
-		Turbocharged = false,
-		Supercharged = true,
+		LimitRPM = 6300,
+		PeakTorque = 150,
+		PowerbandStart = 1500,
+		PowerbandEnd = 6000,
+		Turbocharged = true,
+		Supercharged = false,
 		
-		FuelFillPos = Vector(-69,-35,4),
+		FuelFillPos = Vector(-74,35,0),
 		FuelType = FUELTYPE_PETROL,
 		FuelTankSize = 50,
 		
 		PowerBias = 1,
 		
 		EngineSoundPreset = 0,
-
 		
 		Sound_Idle = "bank_096/sound_002.wav",
 		Sound_IdlePitch = 1,
