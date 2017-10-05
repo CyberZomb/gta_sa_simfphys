@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gta_sa/vehicleshatter128"
+	"$translucent" 1
+}
