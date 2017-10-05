@@ -78,7 +78,7 @@ local V = {
 		FuelType = FUELTYPE_DIESEL,
 		FuelTankSize = 60,
 		
-		PowerBias = 0.35,
+		PowerBias = 0.25,
 		
 		EngineSoundPreset = 0,
 
@@ -848,3 +848,243 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_monsterb", V )
+
+local V = {
+	Name = "Patriot",
+	Model = "models/GTA_SA/suvs_pickups/patriot.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA SUVs & Pickups",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 2500,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "patriot",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/suvs_pickups/patriot_wheel.mdl",
+		CustomWheelPosFL = Vector(59,37,-20),
+		CustomWheelPosFR = Vector(59,-37,-20),
+		CustomWheelPosRL = Vector(-67,37,-20),
+		CustomWheelPosRR = Vector(-67,-37,-20),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(-9,-19,20),
+		SeatPitch = 8,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(3,-20,-10),
+				ang = Angle(0,-90,17)
+			},
+			{
+				pos = Vector(-30,25,-9),
+				ang = Angle(0,-90,17)
+			},
+			{
+				pos = Vector(-30,-25,-9),
+				ang = Angle(0,-90,17)
+			},
+			{
+				pos = Vector(-30,0,-9),
+				ang = Angle(0,-90,17)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-70,44,42),
+				ang = Angle(90,180,0),
+			},{
+				pos = Vector(-70,44,42),
+				ang = Angle(60,180,0),
+			}
+		},
+		
+		FrontHeight = 8,
+		FrontConstant = 40000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 5,
+		RearConstant = 40000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 10,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 42,
+		Efficiency = 1,
+		GripOffset = -2,
+		BrakePower = 30,
+		
+		IdleRPM = 700,
+		LimitRPM = 5100,
+		PeakTorque = 180,
+		PowerbandStart = 800,
+		PowerbandEnd = 4900,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-86,40,7),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 70,
+		
+		PowerBias = -0.15,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_092/sound_002.wav",
+		Sound_IdlePitch = 0.8,
+		
+		Sound_Mid = "bank_092/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_092/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_093/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.12,0,0.08,0.15,0.21,0.37,0.49}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_patriot", V )
+
+local V = {
+	Name = "Picador",
+	Model = "models/GTA_SA/suvs_pickups/picador.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA SUVs & Pickups",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1600,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "picador",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/suvs_pickups/picador_wheel.mdl",
+		CustomWheelPosFL = Vector(66,34,-15),
+		CustomWheelPosFR = Vector(66,-34,-15),
+		CustomWheelPosRL = Vector(-52,34,-15),
+		CustomWheelPosRR = Vector(-52,-34,-15),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(-4,-18,13),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(6,-18,-16),
+				ang = Angle(0,-90,21)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-100,-16,-16),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 38000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 5,
+		RearConstant = 38000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 10,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 42,
+		Efficiency = 1,
+		GripOffset = -2,
+		BrakePower = 30,
+		
+		IdleRPM = 700,
+		LimitRPM = 4800,
+		PeakTorque = 175,
+		PowerbandStart = 800,
+		PowerbandEnd = 4600,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-72,-40,4),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 58,
+		
+		PowerBias = 0.3,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_019/sound_002.wav",
+		Sound_IdlePitch = 0.8,
+		
+		Sound_Mid = "bank_019/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_019/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_020/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.12,0,0.12,0.22,0.33,0.48,0.65}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_picador", V )
