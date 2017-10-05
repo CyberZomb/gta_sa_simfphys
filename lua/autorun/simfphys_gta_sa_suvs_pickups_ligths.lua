@@ -472,3 +472,62 @@ local light_table = {
 
 }
 list.Set( "simfphys_lights", "picador", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 93, 30, 1 ),
+	L_HeadLampAng = Angle(0,0,0),
+	R_HeadLampPos = Vector( 93, -30, 1 ),
+	R_HeadLampAng = Angle(0,0,0),
+	
+	L_RearLampPos = Vector(-96,41,-3),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-96,-41,-3),
+	R_RearLampAng = Angle(0,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 93, 30, 1 ),material = "sprites/light_ignorez",size = 42, color = Color( 255,230,210,150)},
+		{pos = Vector( 93, -30, 1 ),material = "sprites/light_ignorez",size = 42, color = Color( 255,230,210,150)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 93, 30, 1 ),material = "sprites/light_ignorez",size = 45, color = Color( 255,235,220,170)},
+		{pos = Vector( 93, -30, 1 ),material = "sprites/light_ignorez",size = 45, color = Color( 255,235,220,170)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-96,41,-3),material = "sprites/light_ignorez",size = 35,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-96,-41,-3),material = "sprites/light_ignorez",size = 35,color = Color( 255, 0, 0,  150)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-96,41,-3),material = "sprites/light_ignorez",size = 40,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-96,-41,-3),material = "sprites/light_ignorez",size = 40,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-96,41,-3),material = "sprites/light_ignorez",size = 25,color = Color( 255, 255, 255, 250)},
+		{pos = Vector(-96,-41,-3),material = "sprites/light_ignorez",size = 25,color = Color( 255, 255, 255, 250)},
+	},
+	
+	DelayOn = 0.1,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			{pos = Vector(-96,41,5),material = "sprites/light_ignorez",size = 25,color = Color( 255, 205, 50, 250)},
+			Vector( 99, 31, -16 ),
+			{pos = Vector( 92, 40, -4 ),material = "sprites/light_ignorez",size = 15,color = Color( 255, 205, 50, 250)},
+			{pos = Vector( 92, 40, -1 ),material = "sprites/light_ignorez",size = 15,color = Color( 255, 205, 50, 250)},
+			{pos = Vector( 92, 40, 2 ),material = "sprites/light_ignorez",size = 15,color = Color( 255, 205, 50, 250)},
+			{pos = Vector( 92, 40, 5 ),material = "sprites/light_ignorez",size = 15,color = Color( 255, 205, 50, 250)},
+			
+		},
+		Right = {
+			{pos = Vector(-96,-41,5),material = "sprites/light_ignorez",size = 25,color = Color( 255, 205, 50, 250)},
+			Vector( 99, -31, -16 ),
+			{pos = Vector( 92, -40, -4 ),material = "sprites/light_ignorez",size = 15,color = Color( 255, 205, 50, 250)},
+			{pos = Vector( 92, -40, -1 ),material = "sprites/light_ignorez",size = 15,color = Color( 255, 205, 50, 250)},
+			{pos = Vector( 92, -40, 2 ),material = "sprites/light_ignorez",size = 15,color = Color( 255, 205, 50, 250)},
+			{pos = Vector( 92, -40, 5 ),material = "sprites/light_ignorez",size = 15,color = Color( 255, 205, 50, 250)},
+			
+		},
+	}
+
+}
+list.Set( "simfphys_lights", "rancher", light_table)
