@@ -398,13 +398,21 @@ local V = {
 		
 		ExhaustPositions = {
 			{
-				pos = Vector(-88,-20,-12),
+				pos = Vector(-80,21,-9.5),
 				ang = Angle(90,165,0),
 			},	
-				{
-				pos = Vector(-88,20,-12),
-				ang = Angle(90,165,0),
-			}		
+			{
+				pos = Vector(-80,25,-9.5),
+				ang = Angle(90,175,0),
+			},	
+			{
+				pos = Vector(-80,-21,-9.5),
+				ang = Angle(90,175,0),
+			},
+			{
+				pos = Vector(-80,-25,-9.5),
+				ang = Angle(90,175,0),
+			},			
 		},
 		
 		FrontHeight = 5,
@@ -422,10 +430,10 @@ local V = {
 		
 		TurnSpeed = 6.9,
 		
-		MaxGrip = 45,
+		MaxGrip = 38,
 		Efficiency = 1.25,
 		GripOffset = -2,
-		BrakePower = 50,
+		BrakePower = 39,
 		
 		IdleRPM = 1100,
 		LimitRPM = 5600,
@@ -435,9 +443,9 @@ local V = {
 		Turbocharged = true,
 		Supercharged = true,
 		
-		FuelFillPos = Vector(-90,0,-7),
+		FuelFillPos = Vector(-80,0,2),
 		FuelType = FUELTYPE_PETROL,
-		FuelTankSize = 50,
+		FuelTankSize = 22.8,
 		
 		PowerBias = 1,
 		
@@ -469,4 +477,235 @@ local V = {
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_bullet", V )
 
+local V = {
+	Name = "Cheetah",
+	Model = "models/GTA_SA/Sport cars/cheetah.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Sports",
+	SpawnOffset = Vector(0,0,10),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1500,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "cheetah",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/Sport cars/cheetah_wheel.mdl",
+		CustomWheelPosFL = Vector(55,34,-21),
+		CustomWheelPosFR = Vector(55,-34,-21),
+		CustomWheelPosRL = Vector(-56,34,-21),
+		CustomWheelPosRR = Vector(-56,-34,-21),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(5,0,0),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(-18,-17,11),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(-10,-17,-21),
+				ang = Angle(0,-90,17)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-95,-18,-18),
+				ang = Angle(90,165,0),
+			},	
+			{
+				pos = Vector(-95,18,-18),
+				ang = Angle(90,165,0),
+			}		
+		},
+		
+		FrontHeight = 5,
+		FrontConstant = 25000,
+		FrontDamping = 1000,
+		FrontRelativeDamping = 1000,
+		
+		RearHeight = 5,
+		RearConstant = 25000,
+		RearDamping = 1000,
+		RearRelativeDamping = 1000,
+		
+		FastSteeringAngle = 10,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 6.9,
+		
+		MaxGrip = 35,
+		Efficiency = 1,
+		GripOffset = -2,
+		BrakePower = 30,
+		
+		IdleRPM = 1100,
+		LimitRPM = 5600,
+		PeakTorque = 180,
+		PowerbandStart = 1200,
+		PowerbandEnd = 5400,
+		Turbocharged = false,
+		Supercharged = true,
+		
+		FuelFillPos = Vector(-69,-35,4),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 50,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_096/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_096/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_097/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_097/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.6,
+		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_cheetah", V )
+
+local V = {
+	Name = "Comet",
+	Model = "models/GTA_SA/Sport cars/comet.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Sports",
+	SpawnOffset = Vector(0,0,10),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1500,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "comet",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/Sport cars/cheetah_wheel.mdl",
+		CustomWheelPosFL = Vector(55,34,-21),
+		CustomWheelPosFR = Vector(55,-34,-21),
+		CustomWheelPosRL = Vector(-56,34,-21),
+		CustomWheelPosRR = Vector(-56,-34,-21),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(5,0,0),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(-18,-17,11),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(-10,-17,-21),
+				ang = Angle(0,-90,17)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-95,-18,-18),
+				ang = Angle(90,165,0),
+			},	
+			{
+				pos = Vector(-95,18,-18),
+				ang = Angle(90,165,0),
+			}		
+		},
+		
+		FrontHeight = 5,
+		FrontConstant = 25000,
+		FrontDamping = 1000,
+		FrontRelativeDamping = 1000,
+		
+		RearHeight = 5,
+		RearConstant = 25000,
+		RearDamping = 1000,
+		RearRelativeDamping = 1000,
+		
+		FastSteeringAngle = 10,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 6.9,
+		
+		MaxGrip = 35,
+		Efficiency = 1,
+		GripOffset = -2,
+		BrakePower = 30,
+		
+		IdleRPM = 1100,
+		LimitRPM = 5600,
+		PeakTorque = 180,
+		PowerbandStart = 1200,
+		PowerbandEnd = 5400,
+		Turbocharged = false,
+		Supercharged = true,
+		
+		FuelFillPos = Vector(-69,-35,4),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 50,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_096/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_096/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_097/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_097/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.6,
+		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_comet", V )
 
