@@ -489,7 +489,7 @@ local V = {
 	Members = {
 		Mass = 1200,
 		
-		EnginePos = Vector(60,0,10),
+		EnginePos = Vector(-60,0,10),
 		
 		LightsTable = "cheetah",
 		
@@ -610,20 +610,20 @@ local V = {
 	SpawnAngleOffset = 90,
 
 	Members = {
-		Mass = 1500,
+		Mass = 1400,
 		
-		EnginePos = Vector(60,0,10),
+		EnginePos = Vector(50,0,10),
 		
 		LightsTable = "comet",
 		
 		CustomWheels = true,
 		CustomSuspensionTravel = 5,
 		
-		CustomWheelModel = "models/GTA_SA/Sport cars/cheetah_wheel.mdl",
-		CustomWheelPosFL = Vector(55,34,-21),
-		CustomWheelPosFR = Vector(55,-34,-21),
-		CustomWheelPosRL = Vector(-56,34,-21),
-		CustomWheelPosRR = Vector(-56,-34,-21),
+		CustomWheelModel = "models/GTA_SA/Sport cars/banshee_wheel.mdl",
+		CustomWheelPosFL = Vector(48.5,34,-17),
+		CustomWheelPosFR = Vector(48.5,-34,-17),
+		CustomWheelPosRL = Vector(-48,34,-17),
+		CustomWheelPosRR = Vector(-48,-34,-17),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
 		CustomMassCenter = Vector(5,0,0),
@@ -643,11 +643,11 @@ local V = {
 		
 		ExhaustPositions = {
 			{
-				pos = Vector(-95,-18,-18),
+				pos = Vector(-87,-20,-19.5),
 				ang = Angle(90,165,0),
 			},	
 			{
-				pos = Vector(-95,18,-18),
+				pos = Vector(-87,-15,-19.5),
 				ang = Angle(90,165,0),
 			}		
 		},
@@ -667,24 +667,24 @@ local V = {
 		
 		TurnSpeed = 6.9,
 		
-		MaxGrip = 35,
+		MaxGrip = 45,
 		Efficiency = 1,
 		GripOffset = -2,
 		BrakePower = 30,
 		
 		IdleRPM = 1100,
 		LimitRPM = 5600,
-		PeakTorque = 180,
+		PeakTorque = 200,
 		PowerbandStart = 1200,
 		PowerbandEnd = 5400,
-		Turbocharged = false,
-		Supercharged = true,
+		Turbocharged = true,	
+		Supercharged = false,
 		
-		FuelFillPos = Vector(-69,-35,4),
+		FuelFillPos = Vector(-31.5,35,3.5),
 		FuelType = FUELTYPE_PETROL,
 		FuelTankSize = 50,
 		
-		PowerBias = 1,
+		PowerBias = 0.2,
 		
 		EngineSoundPreset = 0,
 
