@@ -1431,3 +1431,341 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_sadlshit", V )
+
+local V = {
+	Name = "Sandking",
+	Model = "models/GTA_SA/suvs_pickups/sandking.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA SUVs & Pickups",
+	SpawnOffset = Vector(0,0,30),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 2000,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "sandking",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/suvs_pickups/sandking_wheel.mdl",
+		CustomWheelPosFL = Vector(60,42,-30),
+		CustomWheelPosFR = Vector(60,-42,-30),
+		CustomWheelPosRL = Vector(-47,42,-30),
+		CustomWheelPosRR = Vector(-47,-42,-30),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(-4,-18,17),
+		SeatPitch = -2,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(4,-17,-14),
+				ang = Angle(0,-90,20)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-83,-22,-25),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 45000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 5,
+		RearConstant = 45000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 10,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 48,
+		Efficiency = 1,
+		GripOffset = -2,
+		BrakePower = 30,
+		
+		IdleRPM = 700,
+		LimitRPM = 4400,
+		PeakTorque = 210,
+		PowerbandStart = 800,
+		PowerbandEnd = 4200,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-69,-40,-4),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 65,
+		
+		PowerBias = -0.15,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_092/sound_002.wav",
+		Sound_IdlePitch = 0.8,
+		
+		Sound_Mid = "bank_092/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_092/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_093/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.12,0,0.08,0.17,0.28,0.39,0.54}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_sandking", V )
+
+
+local V = {
+	Name = "Walton",
+	Model = "models/GTA_SA/suvs_pickups/walton.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA SUVs & Pickups",
+	SpawnOffset = Vector(0,0,30),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1850,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "walton",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/suvs_pickups/walton_wheel.mdl",
+		CustomWheelPosFL = Vector(54,32,-23),
+		CustomWheelPosFR = Vector(54,-32,-23),
+		CustomWheelPosRL = Vector(-59,32,-23),
+		CustomWheelPosRR = Vector(-59,-32,-23),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(-4,-16,17),
+		SeatPitch = -2,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(8,-17,-14),
+				ang = Angle(0,-90,20)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-93,-15,-21),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 40000,
+		FrontDamping = 1100,
+		FrontRelativeDamping = 1100,
+		
+		RearHeight = 6,
+		RearConstant = 42000,
+		RearDamping = 1100,
+		RearRelativeDamping = 1100,
+		
+		FastSteeringAngle = 10,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 40,
+		Efficiency = 1,
+		GripOffset = -2,
+		BrakePower = 20,
+		
+		IdleRPM = 600,
+		LimitRPM = 4000,
+		PeakTorque = 150,
+		PowerbandStart = 700,
+		PowerbandEnd = 3800,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-13,-39,10),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 56,
+		
+		PowerBias = 0.4,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_082/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_082/sound_001.wav",
+		Sound_MidPitch = 1.2,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_082/sound_001.wav",
+		Sound_HighPitch = 1.4,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_083/sound_002.wav",
+		Sound_ThrottlePitch = 1.7,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.52,
+		Gears = {-0.12,0,0.12,0.27,0.45,0.68}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_walton", V )
+
+local V = {
+	Name = "Yosemite",
+	Model = "models/GTA_SA/suvs_pickups/yosemite.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA SUVs & Pickups",
+	SpawnOffset = Vector(0,0,30),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 3000,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "yosemite",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/suvs_pickups/yosemite_f_wheel.mdl",
+		//CustomWheelModel_R = "models/GTA_SA/suvs_pickups/yosemite_r_wheel.mdl",
+		CustomWheelPosFL = Vector(61,40,-25),
+		CustomWheelPosFR = Vector(61,-40,-25),
+		CustomWheelPosRL = Vector(-60,40,-25),
+		CustomWheelPosRR = Vector(-60,-40,-25),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(-2,-19,22),
+		SeatPitch = -2,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(9,-19,-10),
+				ang = Angle(0,-90,20)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-98,-21,-22),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 50000,
+		FrontDamping = 1800,
+		FrontRelativeDamping = 1800,
+		
+		RearHeight = 5,
+		RearConstant = 50000,
+		RearDamping = 1800,
+		RearRelativeDamping = 1800,
+		
+		FastSteeringAngle = 10,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 60,
+		Efficiency = 1,
+		GripOffset = -2,
+		BrakePower = 34,
+		
+		IdleRPM = 700,
+		LimitRPM = 4800,
+		PeakTorque = 210,
+		PowerbandStart = 800,
+		PowerbandEnd = 4600,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-87,-42,3),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 65,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_019/sound_002.wav",
+		Sound_IdlePitch = 0.8,
+		
+		Sound_Mid = "bank_019/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_019/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_020/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.12,0,0.1,0.21,0.34,0.44,0.57}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_yosemite", V )
