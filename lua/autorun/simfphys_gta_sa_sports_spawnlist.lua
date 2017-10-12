@@ -948,7 +948,7 @@ local V = {
 		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
 	}
 }
-list.Set( "simfphys_vehicles", "simfphys_gta_sa_infernus", V )
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_hotknife", V )
 
 local V = {
 	Name = "Infernus",
@@ -968,7 +968,7 @@ local V = {
 		CustomWheels = true,
 		CustomSuspensionTravel = 5,
 		
-		CustomWheelModel = "models/GTA_SA/Sport cars/euros_wheel.mdl",
+		CustomWheelModel = "models/GTA_SA/Sport cars/banshee_wheel.mdl",
 		CustomWheelPosFL = Vector(54,34,-18),
 		CustomWheelPosFR = Vector(54,-34,-18),
 		CustomWheelPosRL = Vector(-58.5,34,-18),
