@@ -853,23 +853,23 @@ local V = {
 		CustomSuspensionTravel = 5,
 		
 		CustomWheelModel = "models/GTA_SA/Sport cars/hotknife_wheel.mdl",
-		CustomWheelPosFL = Vector(48.5,34,-17),
-		CustomWheelPosFR = Vector(48.5,-34,-17),
-		CustomWheelPosRL = Vector(-48,34,-17),
-		CustomWheelPosRR = Vector(-48,-34,-17),
-		CustomWheelAngleOffset = Angle(0,90,0),
+		CustomWheelPosFL = Vector(65,32,-22),
+		CustomWheelPosFR = Vector(65,-32,-22),
+		CustomWheelPosRL = Vector(-50,34,-20),
+		CustomWheelPosRR = Vector(-50,-34,-20),
+		CustomWheelAngleOffset = Angle(0,-90,0),
 		
 		CustomMassCenter = Vector(5,0,0),
 		
 		CustomSteerAngle = 30,
 		
-		SeatOffset = Vector(-18,-17,11),
+		SeatOffset = Vector(-22,-12,11),
 		SeatPitch = -5,
 		SeatYaw = 90,
 		
 		PassengerSeats = {
 			{
-				pos = Vector(-10,-17,-21),
+				pos = Vector(-10,-12,-23),
 				ang = Angle(0,-90,17)
 			}
 		},
@@ -887,7 +887,7 @@ local V = {
 		
 		FrontHeight = 5,
 		FrontConstant = 25000,
-		FrontDamping = 1000,
+		FrontDamping = 2000,
 		FrontRelativeDamping = 1000,
 		
 		RearHeight = 5,
@@ -898,26 +898,26 @@ local V = {
 		FastSteeringAngle = 10,
 		SteeringFadeFastSpeed = 535,
 		
-		TurnSpeed = 6.9,
+		TurnSpeed = 5.2,
 		
-		MaxGrip = 45,
+		MaxGrip = 40,
 		Efficiency = 1,
 		GripOffset = -2,
 		BrakePower = 30,
 		
 		IdleRPM = 1100,
-		LimitRPM = 5600,
+		LimitRPM = 4600,
 		PeakTorque = 200,
 		PowerbandStart = 1200,
-		PowerbandEnd = 5400,
-		Turbocharged = true,	
-		Supercharged = false,
+		PowerbandEnd = 4300,
+		Turbocharged = false,	
+		Supercharged = true,
 		
-		FuelFillPos = Vector(-31.5,35,3.5),
+		FuelFillPos = Vector(-57.5,25,8.5),
 		FuelType = FUELTYPE_PETROL,
-		FuelTankSize = 50,
+		FuelTankSize = 35,
 		
-		PowerBias = 0.2,
+		PowerBias = 1,
 		
 		EngineSoundPreset = 0,
 
@@ -948,4 +948,237 @@ local V = {
 		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
 	}
 }
-list.Set( "simfphys_vehicles", "simfphys_gta_sa_hotknife", V )
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_infernus", V )
+
+local V = {
+	Name = "Infernus",
+	Model = "models/GTA_SA/Sport cars/infernus.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Sports",
+	SpawnOffset = Vector(0,0,10),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1400,
+		
+		EnginePos = Vector(50,0,10),
+		
+		LightsTable = "infernus",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/Sport cars/euros_wheel.mdl",
+		CustomWheelPosFL = Vector(54,34,-18),
+		CustomWheelPosFR = Vector(54,-34,-18),
+		CustomWheelPosRL = Vector(-58.5,34,-18),
+		CustomWheelPosRR = Vector(-58.5,-34,-18),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(5,0,0),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(-15,-17,11),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(-6,-17,-20),
+				ang = Angle(0,-90,17)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-98,25,-16),
+				ang = Angle(90,165,0),
+			},	
+			{
+				pos = Vector(-98,-25,-16),
+				ang = Angle(90,165,0),
+			}		
+		},
+		
+		FrontHeight = 5,
+		FrontConstant = 25000,
+		FrontDamping = 1000,
+		FrontRelativeDamping = 1000,
+		
+		RearHeight = 5,
+		RearConstant = 25000,
+		RearDamping = 1000,
+		RearRelativeDamping = 1000,
+		
+		FastSteeringAngle = 10,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 6.9,
+		
+		MaxGrip = 45,
+		Efficiency = 1,
+		GripOffset = -2,
+		BrakePower = 35,
+		
+		IdleRPM = 1100,
+		LimitRPM = 5600,
+		PeakTorque = 200,
+		PowerbandStart = 1200,
+		PowerbandEnd = 5400,
+		Turbocharged = true,	
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-43.5,42,4),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 50,
+		
+		PowerBias = 0.2,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_001/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_001/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_002/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_002/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.6,
+		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_infernus", V )
+
+local V = {
+	Name = "Phoenix",
+	Model = "models/GTA_SA/Sport cars/phoenix.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Sports",
+	SpawnOffset = Vector(0,0,10),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1400,
+		
+		EnginePos = Vector(50,0,10),
+		
+		LightsTable = "phoenix",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/Sport cars/euros_wheel.mdl",
+		CustomWheelPosFL = Vector(54,34,-18),
+		CustomWheelPosFR = Vector(54,-34,-18),
+		CustomWheelPosRL = Vector(-58.5,34,-18),
+		CustomWheelPosRR = Vector(-58.5,-34,-18),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(5,0,0),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(-15,-17,11),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(-6,-17,-20),
+				ang = Angle(0,-90,17)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-98,25,-16),
+				ang = Angle(90,165,0),
+			},	
+			{
+				pos = Vector(-98,-25,-16),
+				ang = Angle(90,165,0),
+			}		
+		},
+		
+		FrontHeight = 5,
+		FrontConstant = 25000,
+		FrontDamping = 1000,
+		FrontRelativeDamping = 1000,
+		
+		RearHeight = 5,
+		RearConstant = 25000,
+		RearDamping = 1000,
+		RearRelativeDamping = 1000,
+		
+		FastSteeringAngle = 10,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 6.9,
+		
+		MaxGrip = 45,
+		Efficiency = 1,
+		GripOffset = -2,
+		BrakePower = 35,
+		
+		IdleRPM = 1100,
+		LimitRPM = 5600,
+		PeakTorque = 200,
+		PowerbandStart = 1200,
+		PowerbandEnd = 5400,
+		Turbocharged = true,	
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-43.5,42,4),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 50,
+		
+		PowerBias = 0.2,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_001/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_001/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_002/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_002/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.6,
+		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_phoenix", V )
+
