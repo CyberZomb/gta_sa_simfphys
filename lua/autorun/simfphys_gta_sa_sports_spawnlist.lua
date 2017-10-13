@@ -1104,7 +1104,7 @@ local V = {
 	SpawnAngleOffset = 90,
 
 	Members = {
-		Mass = 1400,
+		Mass = 1500,
 		
 		EnginePos = Vector(50,0,10),
 		
@@ -1113,12 +1113,12 @@ local V = {
 		CustomWheels = true,
 		CustomSuspensionTravel = 5,
 		
-		CustomWheelModel = "models/GTA_SA/Sport cars/euros_wheel.mdl",
-		CustomWheelPosFL = Vector(54,34,-18),
-		CustomWheelPosFR = Vector(54,-34,-18),
-		CustomWheelPosRL = Vector(-58.5,34,-18),
-		CustomWheelPosRR = Vector(-58.5,-34,-18),
-		CustomWheelAngleOffset = Angle(0,90,0),
+		CustomWheelModel = "models/GTA_SA/Sport cars/hotknife_wheel.mdl",
+		CustomWheelPosFL = Vector(58,38,-18),
+		CustomWheelPosFR = Vector(58,-38,-18),
+		CustomWheelPosRL = Vector(-57.5,38,-18),
+		CustomWheelPosRR = Vector(-57.5,-38,-18),
+		CustomWheelAngleOffset = Angle(0,-90,0),
 		
 		CustomMassCenter = Vector(5,0,0),
 		
@@ -1130,7 +1130,7 @@ local V = {
 		
 		PassengerSeats = {
 			{
-				pos = Vector(-6,-17,-20),
+				pos = Vector(-10,-17,-22),
 				ang = Angle(0,-90,17)
 			}
 		},
@@ -1146,12 +1146,12 @@ local V = {
 			}		
 		},
 		
-		FrontHeight = 5,
+		FrontHeight = 9,
 		FrontConstant = 25000,
-		FrontDamping = 1000,
-		FrontRelativeDamping = 1000,
+		FrontDamping = 700,
+		FrontRelativeDamping = 2000,
 		
-		RearHeight = 5,
+		RearHeight = 9,
 		RearConstant = 25000,
 		RearDamping = 1000,
 		RearRelativeDamping = 1000,
@@ -1161,7 +1161,7 @@ local V = {
 		
 		TurnSpeed = 6.9,
 		
-		MaxGrip = 45,
+		MaxGrip = 35,
 		Efficiency = 1,
 		GripOffset = -2,
 		BrakePower = 35,
@@ -1169,16 +1169,16 @@ local V = {
 		IdleRPM = 1100,
 		LimitRPM = 5600,
 		PeakTorque = 200,
-		PowerbandStart = 1200,
+		PowerbandStart = 1900,
 		PowerbandEnd = 5400,
-		Turbocharged = true,	
-		Supercharged = false,
+		Turbocharged = false,	
+		Supercharged = true,
 		
 		FuelFillPos = Vector(-43.5,42,4),
 		FuelType = FUELTYPE_PETROL,
 		FuelTankSize = 50,
 		
-		PowerBias = 0.2,
+		PowerBias = 0.9,
 		
 		EngineSoundPreset = 0,
 
