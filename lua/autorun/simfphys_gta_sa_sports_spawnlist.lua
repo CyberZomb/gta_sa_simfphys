@@ -861,7 +861,7 @@ local V = {
 		
 		CustomMassCenter = Vector(5,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 25,
 		
 		SeatOffset = Vector(-22,-12,11),
 		SeatPitch = -5,
@@ -876,12 +876,34 @@ local V = {
 		
 		ExhaustPositions = {
 			{
-				pos = Vector(-87,-20,-19.5),
-				ang = Angle(90,165,0),
+				pos = Vector(34.5,31,-1.5),
+				ang = Angle(45,105,0),
 			},	
 			{
-				pos = Vector(-87,-15,-19.5),
-				ang = Angle(90,165,0),
+				pos = Vector(29.5,31,-1.5),
+				ang = Angle(45,105,0),
+			},				{
+				pos = Vector(27.5,31,-1.5),
+				ang = Angle(45,105,0),
+			},				{
+				pos = Vector(23.5,31,-1.5),
+				ang = Angle(45,105,0),
+			},					
+			{
+				pos = Vector(34.5,-31,-1.5),
+				ang = Angle(45,230,0),
+			},	
+			{
+				pos = Vector(29.5,-31,-1.5),
+				ang = Angle(45,230,0),
+			},				
+			{
+				pos = Vector(27.5,-31,-1.5),
+				ang = Angle(45,230,0),
+			},		
+			{
+				pos = Vector(23.5,-31,-1.5),
+				ang = Angle(45,230,0),
 			}		
 		},
 		
@@ -969,10 +991,10 @@ local V = {
 		CustomSuspensionTravel = 5,
 		
 		CustomWheelModel = "models/GTA_SA/Sport cars/banshee_wheel.mdl",
-		CustomWheelPosFL = Vector(54,34,-18),
-		CustomWheelPosFR = Vector(54,-34,-18),
-		CustomWheelPosRL = Vector(-58.5,34,-18),
-		CustomWheelPosRR = Vector(-58.5,-34,-18),
+		CustomWheelPosFL = Vector(61.5,34,-18),
+		CustomWheelPosFR = Vector(61.5,-34,-18),
+		CustomWheelPosRL = Vector(-61.5,34,-18),
+		CustomWheelPosRR = Vector(-61.5,-34,-18),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
 		CustomMassCenter = Vector(5,0,0),
