@@ -1137,6 +1137,122 @@ local V = {
 		
 		ExhaustPositions = {
 			{
+				pos = Vector(-96.5,20.5,-20),
+				ang = Angle(90,165,0),
+			},	
+			{
+				pos = Vector(-96.5,-20.5,-20),
+				ang = Angle(90,165,0),
+			}		
+		},
+		
+		FrontHeight = 9,
+		FrontConstant = 25000,
+		FrontDamping = 700,
+		FrontRelativeDamping = 2000,
+		
+		RearHeight = 9,
+		RearConstant = 25000,
+		RearDamping = 1000,
+		RearRelativeDamping = 1000,
+		
+		FastSteeringAngle = 10,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 6.9,
+		
+		MaxGrip = 35,
+		Efficiency = 1,
+		GripOffset = -2,
+		BrakePower = 35,
+		
+		IdleRPM = 1100,
+		LimitRPM = 5600,
+		PeakTorque = 200,
+		PowerbandStart = 1900,
+		PowerbandEnd = 5400,
+		Turbocharged = false,	
+		Supercharged = true,
+		
+		FuelFillPos = Vector(-78.5,-40,-3.5),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 50,
+		
+		PowerBias = 0.9,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_001/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_001/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_002/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_002/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.6,
+		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_phoenix", V )
+
+local V = {
+	Name = "Super GT",
+	Model = "models/GTA_SA/Sport cars/supergt.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Sports",
+	SpawnOffset = Vector(0,0,10),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1500,
+		
+		EnginePos = Vector(50,0,10),
+		
+		LightsTable = "supergt",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/Sport cars/supergt_wheel.mdl",
+		CustomWheelPosFL = Vector(58,38,-18),
+		CustomWheelPosFR = Vector(58,-38,-18),
+		CustomWheelPosRL = Vector(-57.5,38,-18),
+		CustomWheelPosRR = Vector(-57.5,-38,-18),
+		CustomWheelAngleOffset = Angle(0,-90,0),
+		
+		CustomMassCenter = Vector(5,0,0),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(-15,-17,11),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(-10,-17,-22),
+				ang = Angle(0,-90,17)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
 				pos = Vector(-98,25,-16),
 				ang = Angle(90,165,0),
 			},	
@@ -1209,5 +1325,353 @@ local V = {
 		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
 	}
 }
-list.Set( "simfphys_vehicles", "simfphys_gta_sa_phoenix", V )
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_supergt", V )
 
+local V = {
+	Name = "Turismo",
+	Model = "models/GTA_SA/Sport cars/turismo.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Sports",
+	SpawnOffset = Vector(0,0,10),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1500,
+		
+		EnginePos = Vector(50,0,10),
+		
+		LightsTable = "turismo",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/Sport cars/supergt_wheel.mdl",
+		CustomWheelPosFL = Vector(58,38,-18),
+		CustomWheelPosFR = Vector(58,-38,-18),
+		CustomWheelPosRL = Vector(-57.5,38,-18),
+		CustomWheelPosRR = Vector(-57.5,-38,-18),
+		CustomWheelAngleOffset = Angle(0,-90,0),
+		
+		CustomMassCenter = Vector(5,0,0),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(-15,-17,11),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(-10,-17,-22),
+				ang = Angle(0,-90,17)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-98,25,-16),
+				ang = Angle(90,165,0),
+			},	
+			{
+				pos = Vector(-98,-25,-16),
+				ang = Angle(90,165,0),
+			}		
+		},
+		
+		FrontHeight = 9,
+		FrontConstant = 25000,
+		FrontDamping = 700,
+		FrontRelativeDamping = 2000,
+		
+		RearHeight = 9,
+		RearConstant = 25000,
+		RearDamping = 1000,
+		RearRelativeDamping = 1000,
+		
+		FastSteeringAngle = 10,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 6.9,
+		
+		MaxGrip = 35,
+		Efficiency = 1,
+		GripOffset = -2,
+		BrakePower = 35,
+		
+		IdleRPM = 1100,
+		LimitRPM = 5600,
+		PeakTorque = 200,
+		PowerbandStart = 1900,
+		PowerbandEnd = 5400,
+		Turbocharged = false,	
+		Supercharged = true,
+		
+		FuelFillPos = Vector(-43.5,42,4),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 50,
+		
+		PowerBias = 0.9,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_001/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_001/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_002/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_002/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.6,
+		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_turismo", V )
+
+local V = {
+	Name = "Windsor",
+	Model = "models/GTA_SA/Sport cars/windsor.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Sports",
+	SpawnOffset = Vector(0,0,10),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1500,
+		
+		EnginePos = Vector(50,0,10),
+		
+		LightsTable = "windsor",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/Sport cars/supergt_wheel.mdl",
+		CustomWheelPosFL = Vector(58,38,-18),
+		CustomWheelPosFR = Vector(58,-38,-18),
+		CustomWheelPosRL = Vector(-57.5,38,-18),
+		CustomWheelPosRR = Vector(-57.5,-38,-18),
+		CustomWheelAngleOffset = Angle(0,-90,0),
+		
+		CustomMassCenter = Vector(5,0,0),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(-15,-17,11),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(-10,-17,-22),
+				ang = Angle(0,-90,17)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-98,25,-16),
+				ang = Angle(90,165,0),
+			},	
+			{
+				pos = Vector(-98,-25,-16),
+				ang = Angle(90,165,0),
+			}		
+		},
+		
+		FrontHeight = 9,
+		FrontConstant = 25000,
+		FrontDamping = 700,
+		FrontRelativeDamping = 2000,
+		
+		RearHeight = 9,
+		RearConstant = 25000,
+		RearDamping = 1000,
+		RearRelativeDamping = 1000,
+		
+		FastSteeringAngle = 10,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 6.9,
+		
+		MaxGrip = 35,
+		Efficiency = 1,
+		GripOffset = -2,
+		BrakePower = 35,
+		
+		IdleRPM = 1100,
+		LimitRPM = 5600,
+		PeakTorque = 200,
+		PowerbandStart = 1900,
+		PowerbandEnd = 5400,
+		Turbocharged = false,	
+		Supercharged = true,
+		
+		FuelFillPos = Vector(-43.5,42,4),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 50,
+		
+		PowerBias = 0.9,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_001/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_001/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_002/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_002/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.6,
+		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_windsor", V )
+
+
+local V = {
+	Name = "ZR-350",
+	Model = "models/GTA_SA/Sport cars/zr350.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Sports",
+	SpawnOffset = Vector(0,0,10),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1500,
+		
+		EnginePos = Vector(50,0,10),
+		
+		LightsTable = "zr350",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/Sport cars/supergt_wheel.mdl",
+		CustomWheelPosFL = Vector(58,38,-18),
+		CustomWheelPosFR = Vector(58,-38,-18),
+		CustomWheelPosRL = Vector(-57.5,38,-18),
+		CustomWheelPosRR = Vector(-57.5,-38,-18),
+		CustomWheelAngleOffset = Angle(0,-90,0),
+		
+		CustomMassCenter = Vector(5,0,0),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(-15,-17,11),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(-10,-17,-22),
+				ang = Angle(0,-90,17)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-98,25,-16),
+				ang = Angle(90,165,0),
+			},	
+			{
+				pos = Vector(-98,-25,-16),
+				ang = Angle(90,165,0),
+			}		
+		},
+		
+		FrontHeight = 9,
+		FrontConstant = 25000,
+		FrontDamping = 700,
+		FrontRelativeDamping = 2000,
+		
+		RearHeight = 9,
+		RearConstant = 25000,
+		RearDamping = 1000,
+		RearRelativeDamping = 1000,
+		
+		FastSteeringAngle = 10,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 6.9,
+		
+		MaxGrip = 35,
+		Efficiency = 1,
+		GripOffset = -2,
+		BrakePower = 35,
+		
+		IdleRPM = 1100,
+		LimitRPM = 5600,
+		PeakTorque = 200,
+		PowerbandStart = 1900,
+		PowerbandEnd = 5400,
+		Turbocharged = false,	
+		Supercharged = true,
+		
+		FuelFillPos = Vector(-43.5,42,4),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 50,
+		
+		PowerBias = 0.9,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_001/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_001/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_002/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_002/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.6,
+		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_zr350", V )
