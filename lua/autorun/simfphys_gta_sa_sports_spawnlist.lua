@@ -117,8 +117,8 @@ local V = {
 		--
 		snd_horn = "bank_068/sound_002.wav",
 		
-		DifferentialGear = 0.6,
-		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+		DifferentialGear = 0.8,
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_alpha", V )
@@ -233,8 +233,8 @@ local V = {
 		--
 		snd_horn = "bank_068/sound_002.wav",
 		
-		DifferentialGear = 0.6,
-		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+		DifferentialGear = 0.8,
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_banshee", V )
@@ -349,8 +349,8 @@ local V = {
 		--
 		snd_horn = "bank_068/sound_002.wav",
 		
-		DifferentialGear = 0.6,
-		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+		DifferentialGear = 0.8,
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_buffalo", V )
@@ -472,8 +472,8 @@ local V = {
 		Sound_ThrottlePitch = 1,
 		Sound_ThrottleVolume = 5,
 		
-		DifferentialGear = 0.6,
-		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+		DifferentialGear = 0.8,
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_bullet", V )
@@ -595,8 +595,8 @@ local V = {
 		--
 		snd_horn = "bank_068/sound_002.wav",
 		
-		DifferentialGear = 0.6,
-		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+		DifferentialGear = 0.8,
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_cheetah", V )
@@ -711,8 +711,8 @@ local V = {
 		--
 		snd_horn = "bank_068/sound_002.wav",
 		
-		DifferentialGear = 0.6,
-		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+		DifferentialGear = 0.75,
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_comet", V )
@@ -827,8 +827,8 @@ local V = {
 		--
 		snd_horn = "bank_068/sound_002.wav",
 		
-		DifferentialGear = 0.6,
-		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+		DifferentialGear = 0.8,
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_euros", V )
@@ -904,6 +904,36 @@ local V = {
 			{
 				pos = Vector(23.5,-31,-1.5),
 				ang = Angle(45,230,0),
+			},	
+			{
+				pos = Vector(34.5,31,-1.5),
+				ang = Angle(45,105,0),
+			},	
+			{
+				pos = Vector(29.5,31,-1.5),
+				ang = Angle(45,105,0),
+			},				{
+				pos = Vector(27.5,31,-1.5),
+				ang = Angle(45,105,0),
+			},				{
+				pos = Vector(23.5,31,-1.5),
+				ang = Angle(45,105,0),
+			},					
+			{
+				pos = Vector(34.5,-31,-1.5),
+				ang = Angle(45,230,0),
+			},	
+			{
+				pos = Vector(29.5,-31,-1.5),
+				ang = Angle(45,230,0),
+			},				
+			{
+				pos = Vector(27.5,-31,-1.5),
+				ang = Angle(45,230,0),
+			},		
+			{
+				pos = Vector(23.5,-31,-1.5),
+				ang = Angle(45,230,0),
 			}		
 		},
 		
@@ -922,17 +952,17 @@ local V = {
 		
 		TurnSpeed = 5.2,
 		
-		MaxGrip = 40,
+		MaxGrip = 45,
 		Efficiency = 1,
 		GripOffset = -2,
 		BrakePower = 30,
 		
 		IdleRPM = 1100,
 		LimitRPM = 4600,
-		PeakTorque = 200,
+		PeakTorque = 350,
 		PowerbandStart = 1200,
 		PowerbandEnd = 4300,
-		Turbocharged = false,	
+		Turbocharged = true,	
 		Supercharged = true,
 		
 		FuelFillPos = Vector(-57.5,25,8.5),
@@ -966,8 +996,8 @@ local V = {
 		--
 		snd_horn = "bank_068/sound_002.wav",
 		
-		DifferentialGear = 0.6,
-		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+		DifferentialGear = 0.9,
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_hotknife", V )
@@ -1090,7 +1120,7 @@ local V = {
 		snd_horn = "bank_068/sound_002.wav",
 		
 		DifferentialGear = 0.6,
-		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_infernus", V )
@@ -1148,29 +1178,29 @@ local V = {
 		
 		FrontHeight = 9,
 		FrontConstant = 25000,
-		FrontDamping = 700,
+		FrontDamping = 200,
 		FrontRelativeDamping = 2000,
 		
 		RearHeight = 9,
 		RearConstant = 25000,
-		RearDamping = 1000,
-		RearRelativeDamping = 1000,
+		RearDamping = 500,
+		RearRelativeDamping = 2500,
 		
 		FastSteeringAngle = 10,
 		SteeringFadeFastSpeed = 535,
 		
-		TurnSpeed = 6.9,
+		TurnSpeed = 4.9,
 		
-		MaxGrip = 35,
-		Efficiency = 1,
-		GripOffset = -2,
+		MaxGrip = 65,
+		Efficiency = 1.25,
+		GripOffset = -1,
 		BrakePower = 35,
 		
 		IdleRPM = 1100,
 		LimitRPM = 5600,
-		PeakTorque = 200,
-		PowerbandStart = 1900,
-		PowerbandEnd = 5400,
+		PeakTorque = 250,
+		PowerbandStart = 900,
+		PowerbandEnd = 5300,
 		Turbocharged = false,	
 		Supercharged = true,
 		
@@ -1178,7 +1208,7 @@ local V = {
 		FuelType = FUELTYPE_PETROL,
 		FuelTankSize = 50,
 		
-		PowerBias = 0.9,
+		PowerBias = 1,
 		
 		EngineSoundPreset = 0,
 
@@ -1205,8 +1235,8 @@ local V = {
 		--
 		snd_horn = "bank_068/sound_002.wav",
 		
-		DifferentialGear = 0.6,
-		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+		DifferentialGear = 0.8,
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_phoenix", V )
@@ -1230,47 +1260,47 @@ local V = {
 		CustomSuspensionTravel = 5,
 		
 		CustomWheelModel = "models/GTA_SA/Sport cars/supergt_wheel.mdl",
-		CustomWheelPosFL = Vector(58,38,-18),
-		CustomWheelPosFR = Vector(58,-38,-18),
-		CustomWheelPosRL = Vector(-57.5,38,-18),
-		CustomWheelPosRR = Vector(-57.5,-38,-18),
+		CustomWheelPosFL = Vector(43,32,-17),
+		CustomWheelPosFR = Vector(43,-32,-17),
+		CustomWheelPosRL = Vector(-61.5,32,-17),
+		CustomWheelPosRR = Vector(-61.5,-32,-17),
 		CustomWheelAngleOffset = Angle(0,-90,0),
 		
 		CustomMassCenter = Vector(5,0,0),
 		
 		CustomSteerAngle = 30,
 		
-		SeatOffset = Vector(-15,-17,11),
+		SeatOffset = Vector(-22,-17,11),
 		SeatPitch = -5,
 		SeatYaw = 90,
 		
 		PassengerSeats = {
 			{
-				pos = Vector(-10,-17,-22),
+				pos = Vector(-12,-17,-22),
 				ang = Angle(0,-90,17)
 			}
 		},
 		
 		ExhaustPositions = {
 			{
-				pos = Vector(-98,25,-16),
+				pos = Vector(-89,19.5,-18),
 				ang = Angle(90,165,0),
 			},	
 			{
-				pos = Vector(-98,-25,-16),
+				pos = Vector(-89,-19.5,-18),
 				ang = Angle(90,165,0),
 			}		
 		},
 		
-		FrontHeight = 9,
+		FrontHeight = 5,
 		FrontConstant = 25000,
 		FrontDamping = 700,
 		FrontRelativeDamping = 2000,
 		
-		RearHeight = 9,
+		RearHeight = 5,
 		RearConstant = 25000,
 		RearDamping = 1000,
-		RearRelativeDamping = 1000,
+		RearRelativeDamping = 2000,
 		
 		FastSteeringAngle = 10,
 		SteeringFadeFastSpeed = 535,
@@ -1283,12 +1313,12 @@ local V = {
 		BrakePower = 35,
 		
 		IdleRPM = 1100,
-		LimitRPM = 5600,
+		LimitRPM = 6600,
 		PeakTorque = 200,
-		PowerbandStart = 1900,
-		PowerbandEnd = 5400,
-		Turbocharged = false,	
-		Supercharged = true,
+		PowerbandStart = 900,
+		PowerbandEnd = 6400,
+		Turbocharged = true,	
+		Supercharged = false,
 		
 		FuelFillPos = Vector(-43.5,42,4),
 		FuelType = FUELTYPE_PETROL,
@@ -1299,30 +1329,30 @@ local V = {
 		EngineSoundPreset = 0,
 
 		
-		Sound_Idle = "bank_001/sound_002.wav",
+		Sound_Idle = "bank_096/sound_002.wav",
 		Sound_IdlePitch = 1,
 		
-		Sound_Mid = "bank_001/sound_001.wav",
+		Sound_Mid = "bank_096/sound_001.wav",
 		Sound_MidPitch = 1,
 		Sound_MidVolume = 1,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
 		
-		Sound_High = "bank_002/sound_001.wav",
+		Sound_High = "bank_097/sound_001.wav",
 		Sound_HighPitch = 1.3,
 		Sound_HighVolume = 1.5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
-		Sound_Throttle = "bank_002/sound_001.wav",
+		Sound_Throttle = "bank_097/sound_001.wav",
 		Sound_ThrottlePitch = 1,
 		Sound_ThrottleVolume = 4,
 		
 		--
 		snd_horn = "bank_068/sound_002.wav",
 		
-		DifferentialGear = 0.6,
-		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+		DifferentialGear = 0.8,
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_supergt", V )
@@ -1438,7 +1468,7 @@ local V = {
 		snd_horn = "bank_068/sound_002.wav",
 		
 		DifferentialGear = 0.6,
-		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_turismo", V )
@@ -1671,7 +1701,7 @@ local V = {
 		snd_horn = "bank_068/sound_002.wav",
 		
 		DifferentialGear = 0.6,
-		Gears = {-0.12,0,0.1,0.20,0.35,0.50,0.69}
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_zr350", V )
