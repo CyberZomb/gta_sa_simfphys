@@ -1,0 +1,171 @@
+001 002 - Euros, ELEGY, ZR350, URANUS, Cadrona, Bravura, Merit, Mesa, nebula, Previon, Primo, Solair,
+
+003 - Unknown Airplane
+
+004 005 - Tug, Baggage,
+
+006 - Cargobob, Hunter, Leviathan, Raindanc,
+
+007 - Unknown Helicopter
+
+008 009 - Unknown Vehicle
+
+010 011 - Bullet, Glendale, Oceanic, Tornado
+
+012 013 - Bike, Mountain Bike, BMX
+
+014 - Unknown
+
+015 016 - Coastguard, Dinghy, Jetmax, Launch, Marquis, Predator, Reefer, Speeder, Squalo, Tropic
+
+017 - Unknown
+
+018 - Unknown
+
+019 020 - Yosemite, Cabbie, Fortune, Intruder, Picador, Sunrise, Vincent, Willard
+
+021 - Bullets Hitting Target\Bullet Casing Falling Around
+
+022 - Unknown Beeps
+
+023 - Unknown Beeps
+
+024 - Unknown Beeps
+
+025 - Unknown Beeps
+
+026 027 - Bus, Coach, DFT30
+
+028 029 - Hermes, Remington, Broadway
+
+030 - RC Bandit
+
+031 032 - Hotring, Hotring A, INFURNUS, BUFFALO ,Alpha
+
+033 - Unknown (Maybe Shops Sounds)
+
+034 035 - Wayfarer, HPV-1000
+
+036 037 - Unknown Vehicle
+
+038 - Unknown
+
+039 040 - Sabre, Savanna, VOODOO, CLOVER, Blade, Buccaneer, Stallion
+
+041 042 - Sanchez, Quadbike
+
+043 044 - Unknown Vehicle
+
+045 - Garag Door, Inside House Door, Unknown Sound
+
+046 - Fire And exploding
+
+047 048 - Rustler, Stuntplane
+
+049 050 - Unknown Vehicle
+
+051 052 - Forklift
+
+053 - Unknown
+
+054 - Menu Sounds
+
+055 056 - Mower, Kart,
+
+057 058 - Caddy
+
+059 - Helicopter Engine Start\stop Working
+
+060 - Barber Haircut machine And Scissors
+
+061 - Barber Haircut machine And Scissors
+
+062 063 - Combine Harvester
+
+064 065 - MONSTER, Monster (A), Monster (B), Bloodring Banger
+
+066 067 - Unknown Vehicle
+
+068 - Horns and Sirens
+
+069 070 - HOTKNIFE, HUSTLER, BF INJECTION, Slamvan
+
+071 072 - Vortex
+
+073 - Mr Whoopee engines + His ICE Cream Van Ring on Sound_004.WAV
+
+074 075 - Swat Van, Trashmaster, Barracks, Dune, Enforcer, FBI Truck, Flatbed
+
+076 - Loading Screen Music
+
+077 078 - Packer, tanker, Benson, Cement, Dumper, Firetruck, Linerunner, Roadtrain, Rhino
+
+079 - Maverick, News Chopper, Police Maverick
+
+080 081 - Admiral, Elegant, Emperor, Premier, Sentinel, Stafford, Stratum, Stretch, Sultan, Taxi, Police (LS), Police (LV), Police (SF)
+
+082 083 - Tractor, Walton, Dozer
+
+084 085 - Unknown Vehicle
+
+086 087 - BLISTA COMPACT, CLUB, JESTER, Esperanto, Feltzer, Flash, Majestic, Tahoma
+
+088 089 - Bobcat, Greenwood, Manana, Moonbeam, Perennial, Regina, Romero, Sadler, Tampa, Virgo, Washington
+
+090 091 - Unknown Vehicle
+
+092 093 - FBI Rancher, Huntley, Landstalker, Patriot, Rancher, Ranger, Sandking
+
+094 095 - PHOENIX, WINDSOR, Hotring B
+
+096 097 - Super Gt, cheetah, Comet, Turismo, Banshee
+
+098 - Seasparrow, Sparrow
+
+099 - Unknown
+
+100 101 - RC Baron
+
+102 103 - RC Goblin, RC Raider
+
+104 - Unknown
+
+105 - Unknown
+
+106 107 - RC Tiger
+
+108 109 - FCR900, Bandito
+
+110 111 - Unknown Vehicle
+
+112 113 - faggio, Pizzaboy, RC Bandit
+
+114 - Cropduster, Dodo, Skimmer
+
+115 - Unknown
+
+116 117 - Unknown Vehicle
+
+118 119 - pcj600, BF400, NRG500,
+
+120 121 - Sweeper
+
+122 - Unknown
+
+123 124 - Baggage Trailer, Farm Trailer +Farm Plough, Tugstair
+
+125 126 - Freight, Streak, Tram ( All The Cars Of The Trains Use This Sounds )
+
+127 - Tram
+
+128 129 - Beagle, Nevada
+
+130 131 - mule, Ambulance, Topfun, Boxburg, Burrito, Journey, Newsvan, Pony, Securica, Towtruck, Utility Van
+
+132 - Unknown
+
+133 134 - freeway
+
+135 136 - Boxville, Camper, Hotdog, MrWhoop, Rumpo, Yankee
+
+137 - Weapons\Gun Shoting Sounds

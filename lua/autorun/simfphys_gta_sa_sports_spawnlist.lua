@@ -25,7 +25,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-10,-17,11),
 		SeatPitch = -5,
@@ -60,27 +60,27 @@ local V = {
 		
 		FrontHeight = 5,
 		FrontConstant = 25000,
-		FrontDamping = 1000,
+		FrontDamping = 1200,
 		FrontRelativeDamping = 1000,
 		
 		RearHeight = 5,
 		RearConstant = 25000,
-		RearDamping = 1000,
+		RearDamping = 1200,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 38,
-		Efficiency = 1,
-		GripOffset = -2,
-		BrakePower = 30,
+		MaxGrip = 48,
+		Efficiency = 1.2,
+		GripOffset = 2,
+		BrakePower = 35,
 		
 		IdleRPM = 1100,
 		LimitRPM = 5700,
-		PeakTorque = 180,
+		PeakTorque = 250,
 		PowerbandStart = 1200,
 		PowerbandEnd = 5500,
 		Turbocharged = true,
@@ -91,28 +91,27 @@ local V = {
 		FuelTankSize = 50,
 		
 		PowerBias = 1,
-		
 		EngineSoundPreset = 0,
 
-		
 		Sound_Idle = "bank_031/sound_002.wav",
 		Sound_IdlePitch = 1,
+		Sound_IdleVolume = 3,
 		
 		Sound_Mid = "bank_031/sound_001.wav",
 		Sound_MidPitch = 1,
-		Sound_MidVolume = 1,
+		Sound_MidVolume = 3,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
 		
 		Sound_High = "bank_031/sound_001.wav",
 		Sound_HighPitch = 1.3,
-		Sound_HighVolume = 1.5,
+		Sound_HighVolume = 3.5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
 		Sound_Throttle = "bank_032/sound_001.wav",
 		Sound_ThrottlePitch = 1,
-		Sound_ThrottleVolume = 4,
+		Sound_ThrottleVolume = 5,
 		
 		--
 		snd_horn = "bank_068/sound_002.wav",
@@ -150,7 +149,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-30,-17,11),
 		SeatPitch = -5,
@@ -176,27 +175,27 @@ local V = {
 		
 		FrontHeight = 5,
 		FrontConstant = 25000,
-		FrontDamping = 1000,
-		FrontRelativeDamping = 1000,
+		FrontDamping = 2000,
+		FrontRelativeDamping = 2000,
 		
 		RearHeight = 5,
 		RearConstant = 25000,
-		RearDamping = 1000,
-		RearRelativeDamping = 1000,
+		RearDamping = 2000,
+		RearRelativeDamping = 2000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
-		TurnSpeed = 6.9,
+		TurnSpeed = 8.9,
 		
-		MaxGrip = 35,
-		Efficiency = 1,
-		GripOffset = -2,
-		BrakePower = 30,
+		MaxGrip = 55,
+		Efficiency = 1.5,
+		GripOffset = 3.5,
+		BrakePower = 45,
 		
 		IdleRPM = 1100,
 		LimitRPM = 5600,
-		PeakTorque = 180,
+		PeakTorque = 300,
 		PowerbandStart = 1200,
 		PowerbandEnd = 5400,
 		Turbocharged = true,
@@ -207,28 +206,27 @@ local V = {
 		FuelTankSize = 50,
 		
 		PowerBias = 1,
-		
 		EngineSoundPreset = 0,
 
-		
 		Sound_Idle = "bank_096/sound_002.wav",
 		Sound_IdlePitch = 1,
+		Sound_IdleVolume = 3,
 		
 		Sound_Mid = "bank_096/sound_001.wav",
 		Sound_MidPitch = 1,
-		Sound_MidVolume = 1,
+		Sound_MidVolume = 3,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
 		
-		Sound_High = "bank_097/sound_001.wav",
+		Sound_High = "bank_096/sound_001.wav",
 		Sound_HighPitch = 1.3,
-		Sound_HighVolume = 1.5,
+		Sound_HighVolume = 3.5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
 		Sound_Throttle = "bank_097/sound_001.wav",
 		Sound_ThrottlePitch = 1,
-		Sound_ThrottleVolume = 4,
+		Sound_ThrottleVolume = 5,
 		
 		--
 		snd_horn = "bank_068/sound_002.wav",
@@ -266,7 +264,7 @@ local V = {
 		
 		CustomMassCenter = Vector(5,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-18,-17,11),
 		SeatPitch = -5,
@@ -292,27 +290,27 @@ local V = {
 		
 		FrontHeight = 5,
 		FrontConstant = 25000,
-		FrontDamping = 1000,
+		FrontDamping = 800,
 		FrontRelativeDamping = 1000,
 		
 		RearHeight = 5,
 		RearConstant = 25000,
-		RearDamping = 1000,
+		RearDamping = 1200,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 6.9,
 		
-		MaxGrip = 35,
-		Efficiency = 1,
-		GripOffset = -2,
-		BrakePower = 30,
+		MaxGrip = 55,
+		Efficiency = 1.2,
+		GripOffset = 0.5,
+		BrakePower = 35,
 		
 		IdleRPM = 1100,
 		LimitRPM = 5600,
-		PeakTorque = 180,
+		PeakTorque = 310,
 		PowerbandStart = 1200,
 		PowerbandEnd = 5400,
 		Turbocharged = false,
@@ -323,29 +321,28 @@ local V = {
 		FuelTankSize = 50,
 		
 		PowerBias = 1,
-		
 		EngineSoundPreset = 0,
 
 		
 		Sound_Idle = "bank_096/sound_002.wav",
 		Sound_IdlePitch = 1,
+		Sound_IdleVolume = 3,
 		
 		Sound_Mid = "bank_096/sound_001.wav",
 		Sound_MidPitch = 1,
-		Sound_MidVolume = 1,
+		Sound_MidVolume = 3,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
 		
-		Sound_High = "bank_097/sound_001.wav",
+		Sound_High = "bank_096/sound_001.wav",
 		Sound_HighPitch = 1.3,
-		Sound_HighVolume = 1.5,
+		Sound_HighVolume = 3.5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
 		Sound_Throttle = "bank_097/sound_001.wav",
 		Sound_ThrottlePitch = 1,
-		Sound_ThrottleVolume = 4,
-		
+		Sound_ThrottleVolume = 5,
 		--
 		snd_horn = "bank_068/sound_002.wav",
 		
@@ -428,16 +425,16 @@ local V = {
 		FastSteeringAngle = 20,
 		SteeringFadeFastSpeed = 535,
 		
-		TurnSpeed = 6.9,
+		TurnSpeed = 2.9,
 		
 		MaxGrip = 45,
 		Efficiency = 1.25,
-		GripOffset = -5,
+		GripOffset = -4,
 		BrakePower = 42,
 		
 		IdleRPM = 1100,
 		LimitRPM = 8500,
-		PeakTorque = 120,
+		PeakTorque = 160,
 		PowerbandStart = 2200,
 		PowerbandEnd = 8300,
 		Turbocharged = true,
@@ -472,8 +469,8 @@ local V = {
 		Sound_ThrottlePitch = 1,
 		Sound_ThrottleVolume = 5,
 		
-		DifferentialGear = 0.8,
-		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
+		DifferentialGear = 0.83,
+		Gears = {-0.12,0,0.05,0.15,0.25,0.34,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_bullet", V )
@@ -505,7 +502,7 @@ local V = {
 		
 		CustomMassCenter = Vector(-5,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-8,-15,8),
 		SeatPitch = -15,
@@ -539,8 +536,8 @@ local V = {
 		
 		FrontHeight = 5,
 		FrontConstant = 25000,
-		FrontDamping = 1000,
-		FrontRelativeDamping = 1000,
+		FrontDamping = 700,
+		FrontRelativeDamping = 1500,
 		
 		RearHeight = 5,
 		RearConstant = 25000,
@@ -550,16 +547,16 @@ local V = {
 		FastSteeringAngle = 20,
 		SteeringFadeFastSpeed = 535,
 		
-		TurnSpeed = 6.9,
+		TurnSpeed = 2.9,
 		
 		MaxGrip = 55,
 		Efficiency = 1.2,
-		GripOffset = -2,
-		BrakePower = 30,
+		GripOffset = -3.5,
+		BrakePower = 40,
 		
 		IdleRPM = 1100,
 		LimitRPM = 6300,
-		PeakTorque = 150,
+		PeakTorque = 200,
 		PowerbandStart = 1500,
 		PowerbandEnd = 6000,
 		Turbocharged = true,
@@ -575,23 +572,23 @@ local V = {
 		
 		Sound_Idle = "bank_096/sound_002.wav",
 		Sound_IdlePitch = 1,
+		Sound_IdleVolume = 2,
 		
 		Sound_Mid = "bank_096/sound_001.wav",
 		Sound_MidPitch = 1,
-		Sound_MidVolume = 1,
+		Sound_MidVolume = 2,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
 		
 		Sound_High = "bank_097/sound_001.wav",
 		Sound_HighPitch = 1.3,
-		Sound_HighVolume = 1.5,
+		Sound_HighVolume = 2.5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
 		Sound_Throttle = "bank_097/sound_001.wav",
 		Sound_ThrottlePitch = 1,
-		Sound_ThrottleVolume = 4,
-		
+		Sound_ThrottleVolume = 5,
 		--
 		snd_horn = "bank_068/sound_002.wav",
 		
@@ -628,7 +625,7 @@ local V = {
 		
 		CustomMassCenter = Vector(5,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-18,-17,11),
 		SeatPitch = -5,
@@ -662,7 +659,7 @@ local V = {
 		RearDamping = 1000,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 6.9,
@@ -744,7 +741,7 @@ local V = {
 		
 		CustomMassCenter = Vector(5,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-15,-17,11),
 		SeatPitch = -5,
@@ -778,7 +775,7 @@ local V = {
 		RearDamping = 1000,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 6.9,
@@ -861,7 +858,7 @@ local V = {
 		
 		CustomMassCenter = Vector(5,0,0),
 		
-		CustomSteerAngle = 25,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-22,-12,11),
 		SeatPitch = -5,
@@ -947,7 +944,7 @@ local V = {
 		RearDamping = 1000,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 17,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5.2,
@@ -959,8 +956,8 @@ local V = {
 		
 		IdleRPM = 1100,
 		LimitRPM = 4600,
-		PeakTorque = 350,
-		PowerbandStart = 1200,
+		PeakTorque = 320,
+		PowerbandStart = 600,
 		PowerbandEnd = 4300,
 		Turbocharged = true,	
 		Supercharged = true,
@@ -974,24 +971,24 @@ local V = {
 		EngineSoundPreset = 0,
 
 		
-		Sound_Idle = "bank_096/sound_002.wav",
-		Sound_IdlePitch = 1,
+		Sound_Idle = "bank_069/sound_002.wav",
+		Sound_IdlePitch = 0.8,
 		
-		Sound_Mid = "bank_096/sound_001.wav",
+		Sound_Mid = "bank_069/sound_001.wav",
 		Sound_MidPitch = 1,
-		Sound_MidVolume = 1,
+		Sound_MidVolume = 5,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
 		
-		Sound_High = "bank_097/sound_001.wav",
-		Sound_HighPitch = 1.3,
-		Sound_HighVolume = 1.5,
+		Sound_High = "bank_069/sound_001.wav",
+		Sound_HighPitch = 1.2,
+		Sound_HighVolume = 5.5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
-		Sound_Throttle = "bank_097/sound_001.wav",
-		Sound_ThrottlePitch = 1,
-		Sound_ThrottleVolume = 4,
+		Sound_Throttle = "bank_069/sound_001.wav",
+		Sound_ThrottlePitch = 1.5,
+		Sound_ThrottleVolume = 5,
 		
 		--
 		snd_horn = "bank_068/sound_002.wav",
@@ -1029,7 +1026,7 @@ local V = {
 		
 		CustomMassCenter = Vector(5,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-6,-17,11),
 		SeatPitch = -5,
@@ -1070,7 +1067,7 @@ local V = {
 		RearDamping = 1000,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5.9,
@@ -1152,7 +1149,7 @@ local V = {
 		
 		CustomMassCenter = Vector(5,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-15,-17,11),
 		SeatPitch = -5,
@@ -1186,7 +1183,7 @@ local V = {
 		RearDamping = 500,
 		RearRelativeDamping = 2500,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 4.9,
@@ -1213,24 +1210,25 @@ local V = {
 		EngineSoundPreset = 0,
 
 		
-		Sound_Idle = "bank_001/sound_002.wav",
+		Sound_Idle = "bank_094/sound_002.wav",
 		Sound_IdlePitch = 1,
+		Sound_IdleVolume = 3,
 		
-		Sound_Mid = "bank_001/sound_001.wav",
+		Sound_Mid = "bank_094/sound_001.wav",
 		Sound_MidPitch = 1,
-		Sound_MidVolume = 1,
+		Sound_MidVolume = 3,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
 		
-		Sound_High = "bank_002/sound_001.wav",
+		Sound_High = "bank_094/sound_001.wav",
 		Sound_HighPitch = 1.3,
-		Sound_HighVolume = 1.5,
+		Sound_HighVolume = 3.5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
-		Sound_Throttle = "bank_002/sound_001.wav",
+		Sound_Throttle = "bank_095/sound_001.wav",
 		Sound_ThrottlePitch = 1,
-		Sound_ThrottleVolume = 4,
+		Sound_ThrottleVolume = 5,
 		
 		--
 		snd_horn = "bank_068/sound_002.wav",
@@ -1268,7 +1266,7 @@ local V = {
 		
 		CustomMassCenter = Vector(5,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-22,-17,11),
 		SeatPitch = -5,
@@ -1302,7 +1300,7 @@ local V = {
 		RearDamping = 1000,
 		RearRelativeDamping = 2000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 6.9,
@@ -1331,22 +1329,23 @@ local V = {
 		
 		Sound_Idle = "bank_096/sound_002.wav",
 		Sound_IdlePitch = 1,
+		Sound_IdleVolume = 3,
 		
 		Sound_Mid = "bank_096/sound_001.wav",
 		Sound_MidPitch = 1,
-		Sound_MidVolume = 1,
+		Sound_MidVolume = 3,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
 		
 		Sound_High = "bank_097/sound_001.wav",
 		Sound_HighPitch = 1.3,
-		Sound_HighVolume = 1.5,
+		Sound_HighVolume = 3.5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
 		Sound_Throttle = "bank_097/sound_001.wav",
 		Sound_ThrottlePitch = 1,
-		Sound_ThrottleVolume = 4,
+		Sound_ThrottleVolume = 5,
 		
 		--
 		snd_horn = "bank_068/sound_002.wav",
@@ -1384,7 +1383,7 @@ local V = {
 		
 		CustomMassCenter = Vector(5,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-15,-17,11),
 		SeatPitch = -5,
@@ -1418,7 +1417,7 @@ local V = {
 		RearDamping = 1000,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 6.9,
@@ -1500,7 +1499,7 @@ local V = {
 		
 		CustomMassCenter = Vector(5,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-15,-17,11),
 		SeatPitch = -5,
@@ -1534,7 +1533,7 @@ local V = {
 		RearDamping = 1000,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 6.9,
@@ -1617,7 +1616,7 @@ local V = {
 		
 		CustomMassCenter = Vector(5,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-15,-17,11),
 		SeatPitch = -5,
@@ -1651,7 +1650,7 @@ local V = {
 		RearDamping = 1000,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 6.9,
