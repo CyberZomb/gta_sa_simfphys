@@ -363,115 +363,90 @@ local V = {
 
 	Members = {
 		Mass = 1200,
-		
-		EnginePos = Vector(-45,0,10),
-		
+		CustomMassCenter = Vector(-3,0,0),			
 		LightsTable = "bullet",
-		
+
+		//		|WHELLS|		\\
 		CustomWheels = true,
-		CustomSuspensionTravel = 5,
-		
 		CustomWheelModel = "models/GTA_SA/Sport cars/banshee_wheel.mdl",
 		CustomWheelPosFL = Vector(55,30,-13),
 		CustomWheelPosFR = Vector(55,-30,-13),
 		CustomWheelPosRL = Vector(-54,30,-13),
 		CustomWheelPosRR = Vector(-54,-30,-13),
 		CustomWheelAngleOffset = Angle(0,90,0),
-		
-		CustomMassCenter = Vector(-3,0,0),
-		
-		CustomSteerAngle = 35,
-		
-		SeatOffset = Vector(-10,-17,11),
-		SeatPitch = -15,
-		SeatYaw = 90,
-		
+			
+		//		|SEATS|		\\
+		SeatOffset = Vector(-10,-17,11),SeatPitch = -15,SeatYaw = 90,
 		PassengerSeats = {
-			{
-				pos = Vector(0,-17,-21),
-				ang = Angle(0,-90,27)
-			}
+			{pos = Vector(0,-17,-21),ang = Angle(0,-90,27)}
 		},
-		
-		ExhaustPositions = {
-			{
-				pos = Vector(-80,21,-9.5),
-				ang = Angle(90,165,0),
-			},	
-			{
-				pos = Vector(-80,25,-9.5),
-				ang = Angle(90,175,0),
-			},	
-			{
-				pos = Vector(-80,-21,-9.5),
-				ang = Angle(90,175,0),
-			},
-			{
-				pos = Vector(-80,-25,-9.5),
-				ang = Angle(90,175,0),
-			},			
-		},
-		
-		FrontHeight = 5,
-		FrontConstant = 25000,
-		FrontDamping = 1000,
-		FrontRelativeDamping = 1000,
-		
-		RearHeight = 5,
-		RearConstant = 25000,
-		RearDamping = 1000,
-		RearRelativeDamping = 1000,
-		
-		FastSteeringAngle = 20,
-		SteeringFadeFastSpeed = 535,
-		
-		TurnSpeed = 2.9,
-		
-		MaxGrip = 45,
-		Efficiency = 1.25,
-		GripOffset = -4,
-		BrakePower = 42,
-		
-		IdleRPM = 1100,
-		LimitRPM = 8500,
-		PeakTorque = 160,
-		PowerbandStart = 2200,
-		PowerbandEnd = 8300,
-		Turbocharged = true,
-		Supercharged = true,
-		
-		FuelFillPos = Vector(-80,0,2),
-		FuelType = FUELTYPE_PETROL,
-		FuelTankSize = 22.8,
-		
-		PowerBias = 0.69,
-		
-		EngineSoundPreset = 0,
 
+		//		|EXHAUST|		\\
+		ExhaustPositions = {
+			{ pos = Vector(-80,21,-9.5),ang = Angle(90,165,0),},	
+			{pos = Vector(-80,25,-9.5),ang = Angle(90,175,0),},	
+			{pos = Vector(-80,-21,-9.5),ang = Angle(90,175,0),},
+			{pos = Vector(-80,-25,-9.5),ang = Angle(90,175,0),},			
+		},
+
+		//		|SUSPENTION|		\\
+		CustomSuspensionTravel = 5,
+		FrontHeight = 5,
+		FrontConstant = 35000,
+		FrontDamping = 1500,
+		FrontRelativeDamping = 1800,
+		RearHeight = 5,
+		RearConstant = 35000,
+		RearDamping = 2500,
+		RearRelativeDamping = 1000,
+
+		//		|STEERING|		\\
+		CustomSteerAngle = 35,		
+		FastSteeringAngle = 20,
+		SteeringFadeFastSpeed = 335, //535
+		TurnSpeed = 8,
+		MaxGrip = 80,
+		Efficiency = 1.55,
+		GripOffset = -1.5,
+		BrakePower = 42,
+
+		//		|ENGINE|		\\	
+		PeakTorque = 220,
+		IdleRPM = 1100,
+		PowerbandStart = 3200,
+		LimitRPM = 8500,
+		PowerbandEnd = 7800,Turbocharged = true,Supercharged = true,
+		PowerBias = 0.5,
+		EnginePos = Vector(-45,0,10),
 		
+		//		|ENGINE SOUND|		\\
+		EngineSoundPreset = 0,
 		Sound_Idle = "bank_010/sound_002.wav",
 		Sound_IdlePitch = 1,
 		Sound_IdleVolume = 2,
-		
 		Sound_Mid = "bank_010/sound_001.wav",
 		Sound_MidPitch = 1,
 		Sound_MidVolume = 2,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
-		
 		Sound_High = "bank_011/sound_001.wav",
 		Sound_HighPitch = 1.3,
 		Sound_HighVolume = 2.5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
-		
 		Sound_Throttle = "bank_011/sound_001.wav",
 		Sound_ThrottlePitch = 1,
 		Sound_ThrottleVolume = 5,
+
+		//		|FUEL TAKNK|		\\
+		FuelFillPos = Vector(-80,0,2),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 32.8,
 		
-		DifferentialGear = 0.83,
-		Gears = {-0.12,0,0.05,0.15,0.25,0.34,0.45}
-	}
+		//		|GEARBOX|		\\
+		DifferentialGear = 0.68,
+		Gears = {-0.12,0,0.05,0.15,0.25,0.34,0.45},
+	},	
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_bullet", V )
 
@@ -536,8 +511,8 @@ local V = {
 		
 		FrontHeight = 5,
 		FrontConstant = 25000,
-		FrontDamping = 700,
-		FrontRelativeDamping = 1500,
+		FrontDamping = 1000,
+		FrontRelativeDamping = 1000,
 		
 		RearHeight = 5,
 		RearConstant = 25000,
@@ -550,13 +525,13 @@ local V = {
 		TurnSpeed = 2.9,
 		
 		MaxGrip = 55,
-		Efficiency = 1.2,
-		GripOffset = -3.5,
+		Efficiency = 1.25,
+		GripOffset = -1.5,
 		BrakePower = 40,
 		
 		IdleRPM = 1100,
 		LimitRPM = 6300,
-		PeakTorque = 200,
+		PeakTorque = 150,
 		PowerbandStart = 1500,
 		PowerbandEnd = 6000,
 		Turbocharged = true,
