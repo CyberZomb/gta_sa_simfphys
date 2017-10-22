@@ -59,16 +59,16 @@ local V = {
 		FastSteeringAngle = 18,
 		SteeringFadeFastSpeed = 535,
 		
-		TurnSpeed = 3,
+		TurnSpeed = 2,
 		
-		MaxGrip = 100,
+		MaxGrip = 50,
 		Efficiency = 1,
 		GripOffset = -5,
-		BrakePower = 60,
+		BrakePower = 50,
 		
 		IdleRPM = 600,
 		LimitRPM = 4000,
-		PeakTorque = 200,
+		PeakTorque = 280,
 		PowerbandStart = 700,
 		PowerbandEnd = 3800,
 		Turbocharged = false,
