@@ -473,3 +473,122 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_combine", V )
+
+local V = {
+	Name = "DFT-30",
+	Model = "models/GTA_SA/industrial/dft30.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Industrial",
+	SpawnOffset = Vector(0,0,70),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 5500,
+		
+		EnginePos = Vector(130,0,-20),
+		
+		LightsTable = "dft30",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = -6,
+		
+		CustomWheelModel = "models/GTA_SA/industrial/dft30_wheel.mdl",
+		CustomWheelPosFL = Vector(107,47,-47),
+		CustomWheelPosFR = Vector(107,-47,-47),
+		CustomWheelPosML = Vector(-103,47,-45),
+		CustomWheelPosMR = Vector(-103,-47,-45),
+		CustomWheelPosRL = Vector(-145,47,-45),
+		CustomWheelPosRR = Vector(-145,-47,-45),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(117,-17,41),
+		SeatPitch = 8,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(126,-18,-11),
+				ang = Angle(0,-90,8)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-170,-10,-30),
+				ang = Angle(90,180,0),
+			},
+			{
+				pos = Vector(-170,-10,-30),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 50000,
+		FrontDamping = 3000,
+		FrontRelativeDamping = 3000,
+		
+		RearHeight = 2,
+		RearConstant = 45000,
+		RearDamping = 3000,
+		RearRelativeDamping = 3000,
+		
+		FastSteeringAngle = 30,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 70,
+		Efficiency = 1,
+		GripOffset = -1,
+		BrakePower = 50,
+		
+		IdleRPM = 500,
+		LimitRPM = 3200,
+		PeakTorque = 230,
+		PowerbandStart = 650,
+		PowerbandEnd = 3000,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(105,45,0),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 70,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_026/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_026/sound_001.wav",
+		Sound_MidPitch = 1.5,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_026/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_027/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.12,0,0.1,0.15,0.24,0.34,0.46}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_dft30", V )
