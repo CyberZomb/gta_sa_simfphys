@@ -826,3 +826,122 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_dumper", V )
+
+local V = {
+	Name = "Flatbed",
+	Model = "models/GTA_SA/industrial/flatbed.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Industrial",
+	SpawnOffset = Vector(0,0,50),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 8500,
+		
+		EnginePos = Vector(120,0,0),
+		
+		LightsTable = "flatbed",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = -6,
+		
+		CustomWheelModel = "models/GTA_SA/industrial/flatbed_wheel.mdl",
+		CustomWheelPosFL = Vector(106,50,-41),
+		CustomWheelPosFR = Vector(106,-50,-41),
+		CustomWheelPosML = Vector(-54,50,-39),
+		CustomWheelPosMR = Vector(-54,-50,-39),
+		CustomWheelPosRL = Vector(-108,50,-39),
+		CustomWheelPosRR = Vector(-108,-50,-39),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(30,-18,51),
+		SeatPitch = 12,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(41,-18,10),
+				ang = Angle(0,-90,8)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(24,36,60),
+				ang = Angle(0,180,0),
+			},
+			{
+				pos = Vector(24,36,60),
+				ang = Angle(0,180,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 50000,
+		FrontDamping = 3000,
+		FrontRelativeDamping = 3000,
+		
+		RearHeight = 2,
+		RearConstant = 45000,
+		RearDamping = 3000,
+		RearRelativeDamping = 3000,
+		
+		FastSteeringAngle = 35,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 90,
+		Efficiency = 1,
+		GripOffset = 5,
+		BrakePower = 60,
+		
+		IdleRPM = 500,
+		LimitRPM = 3200,
+		PeakTorque = 230,
+		PowerbandStart = 650,
+		PowerbandEnd = 3000,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(0,54,-28),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 80,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_074/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_074/sound_001.wav",
+		Sound_MidPitch = 1.5,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_074/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_075/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.1,0,0.09,0.16,0.26,0.38,0.49}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_flatbed", V )
