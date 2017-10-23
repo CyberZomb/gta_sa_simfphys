@@ -244,3 +244,54 @@ local light_table = {
 
 }
 list.Set( "simfphys_lights", "dft30", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 55, 25, 38 ),
+	L_HeadLampAng = Angle(13,0,0),
+	R_HeadLampPos = Vector( 55, -25, 38 ),
+	R_HeadLampAng = Angle(13,0,0),
+	
+	L_RearLampPos = Vector(-118,21,34),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-118,-21,34),
+	R_RearLampAng = Angle(0,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 55, 25, 38 ),material = "sprites/light_ignorez",size = 49, color = Color( 255,230,230,180)},
+		{pos = Vector( 55, -25, 38 ),material = "sprites/light_ignorez",size = 49, color = Color( 255,230,230,180)},
+		{pos = Vector( 55, 33, 38 ),material = "sprites/light_ignorez",size = 49, color = Color( 255,230,230,120)},
+		{pos = Vector( 55, -33, 38 ),material = "sprites/light_ignorez",size = 49, color = Color( 255,230,230,120)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 55, 25, 38 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+		{pos = Vector( 55, -25, 38 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-118,21,34),material = "sprites/light_ignorez",size = 30,color = Color( 255, 0, 0,  190)},
+		{pos = Vector(-118,-21,34),material = "sprites/light_ignorez",size = 30,color = Color( 255, 0, 0,  190)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-118,21,34),material = "sprites/light_ignorez",size = 37,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-118,-21,34),material = "sprites/light_ignorez",size = 37,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-118,21,41),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+		{pos = Vector(-118,-21,41),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+	},
+	
+	DelayOn = 0,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			Vector(-118,21,41),
+			Vector( 55, 33, 38 ),
+		},
+		Right = {
+			Vector(-118,-21,41),
+			Vector( 55, -33, 38 ),
+		},
+	}
+
+}
+list.Set( "simfphys_lights", "dozer", light_table)

@@ -592,3 +592,120 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_dft30", V )
+
+local V = {
+	Name = "Dozer",
+	Model = "models/GTA_SA/industrial/dozer.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Industrial",
+	SpawnOffset = Vector(0,0,70),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 10000,
+		
+		EnginePos = Vector(-110,0,0),
+		
+		LightsTable = "dozer",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = -6,
+		
+		CustomWheelModel = "models/GTA_SA/industrial/dozer_wheel.mdl",
+		CustomWheelPosFL = Vector(60,45,-32),
+		CustomWheelPosFR = Vector(60,-45,-32),
+		CustomWheelPosRL = Vector(-62,45,-30),
+		CustomWheelPosRR = Vector(-62,-45,-30),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 35,
+		
+		SeatOffset = Vector(-35,0,58),
+		SeatPitch = 14,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-104,12,77),
+				ang = Angle(45,180,0),
+			},
+			{
+				pos = Vector(-104,12,77),
+				ang = Angle(45,180,0),
+			},
+			{
+				pos = Vector(-104,12,77),
+				ang = Angle(45,180,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 50000,
+		FrontDamping = 3000,
+		FrontRelativeDamping = 3000,
+		
+		RearHeight = 6,
+		RearConstant = 45000,
+		RearDamping = 3000,
+		RearRelativeDamping = 3000,
+		
+		FastSteeringAngle = 30,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 110,
+		Efficiency = 1,
+		GripOffset = -6,
+		BrakePower = 60,
+		
+		IdleRPM = 500,
+		LimitRPM = 3000,
+		PeakTorque = 350,
+		PowerbandStart = 650,
+		PowerbandEnd = 2800,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-114,20,20),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 80,
+		
+		PowerBias = 0,
+		
+		EngineSoundPreset = 0,
+		--
+		
+		Sound_Idle = "bank_082/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_082/sound_001.wav",
+		Sound_MidPitch = 1.8,
+		Sound_MidVolume = 3,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_082/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 3,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_083/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 6,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.12,0,0.07,0.13,0.18,0.24,0.3}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_dozer", V )
