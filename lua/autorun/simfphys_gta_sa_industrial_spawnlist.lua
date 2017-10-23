@@ -122,7 +122,7 @@ local V = {
 	Members = {
 		Mass = 5500,
 		
-		EnginePos = Vector(60,0,10),
+		EnginePos = Vector(100,0,10),
 		
 		LightsTable = "boxville",
 		
@@ -231,3 +231,126 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_boxville", V )
+
+local V = {
+	Name = "Cement Truck",
+	Model = "models/GTA_SA/industrial/cement.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Industrial",
+	SpawnOffset = Vector(0,0,70),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 5500,
+		
+		EnginePos = Vector(110,0,10),
+		
+		LightsTable = "cement",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = -6,
+		
+		CustomWheelModel = "models/GTA_SA/industrial/cement_wheel.mdl",
+		CustomWheelPosFL = Vector(104,47,-59),
+		CustomWheelPosFR = Vector(104,-47,-59),
+		CustomWheelPosML = Vector(-69,47,-57),
+		CustomWheelPosMR = Vector(-69,-47,-57),
+		CustomWheelPosRL = Vector(-111,47,-57),
+		CustomWheelPosRR = Vector(-111,-47,-57),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(-10,0,2),
+		
+		CustomSteerAngle = 30,
+		
+		SeatOffset = Vector(44,-17,22),
+		SeatPitch = 8,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(53,-17,-15),
+				ang = Angle(0,-90,8)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(31,-36,50),
+				ang = Angle(0,180,0),
+			},
+			{
+				pos = Vector(30,-36,50),
+				ang = Angle(0,180,0),
+			},
+			{
+				pos = Vector(29,-36,50),
+				ang = Angle(0,180,0),
+			}
+		},
+		
+		FrontHeight = 2,
+		FrontConstant = 50000,
+		FrontDamping = 3000,
+		FrontRelativeDamping = 3000,
+		
+		RearHeight = 2,
+		RearConstant = 45000,
+		RearDamping = 3000,
+		RearRelativeDamping = 3000,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 70,
+		Efficiency = 1,
+		GripOffset = -5,
+		BrakePower = 50,
+		
+		IdleRPM = 500,
+		LimitRPM = 3400,
+		PeakTorque = 220,
+		PowerbandStart = 650,
+		PowerbandEnd = 3200,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(17,-57,-34),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 70,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_077/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_077/sound_001.wav",
+		Sound_MidPitch = 1.5,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_077/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_078/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.12,0,0.07,0.15,0.24,0.34,0.42}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_cement", V )
