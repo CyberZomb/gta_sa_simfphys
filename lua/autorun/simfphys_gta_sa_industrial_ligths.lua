@@ -148,3 +148,46 @@ local light_table = {
 
 }
 list.Set( "simfphys_lights", "cement", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 155, 65, 46 ),
+	L_HeadLampAng = Angle(40,0,0),
+	R_HeadLampPos = Vector( 145, -40, -21 ),
+	R_HeadLampAng = Angle(10,0,0),
+	
+	L_RearLampPos = Vector(-10,43,-39),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-10,-43,-39),
+	R_RearLampAng = Angle(0,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 155, 65, 46 ),material = "sprites/light_ignorez",size = 49, color = Color( 255,230,230,180)},
+		{pos = Vector( 112, -52, 31 ),material = "sprites/light_ignorez",size = 49, color = Color( 255,230,230,180)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 112, -52, 37 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+	},
+	Rearlight_sprites = {
+
+	},
+	Brakelight_sprites = {
+
+	},
+	Reverselight_sprites = {
+
+	},
+	
+	DelayOn = 0,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			Vector( 112, -52, 37 ),
+		},
+		Right = {
+			Vector( 112, -52, 37 ),
+		},
+	}
+
+}
+list.Set( "simfphys_lights", "combine", light_table)
