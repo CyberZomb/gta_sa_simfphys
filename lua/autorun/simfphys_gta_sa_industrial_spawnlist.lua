@@ -1297,3 +1297,127 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_mule", V )
+
+local V = {
+	Name = "Packer",
+	Model = "models/GTA_SA/industrial/packer.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Industrial",
+	SpawnOffset = Vector(0,0,50),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 8000,
+		
+		EnginePos = Vector(180,0,0),
+		
+		LightsTable = "packer",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 1,
+		
+		CustomWheelModel = "models/GTA_SA/industrial/packer_f_wheel.mdl",
+		CustomWheelModel_R = "models/GTA_SA/industrial/packer_r_wheel.mdl",
+		CustomWheelPosFL = Vector(175,48,-52),
+		CustomWheelPosFR = Vector(175,-48,-52),
+		CustomWheelPosML = Vector(-144,48,-48),
+		CustomWheelPosMR = Vector(-144,-48,-48),
+		CustomWheelPosRL = Vector(-188,48,-48),
+		CustomWheelPosRR = Vector(-188,-48,-48),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(95,-15,52),
+		SeatPitch = 12,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(108,-16,-2),
+				ang = Angle(0,-90,8)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(75,-40,-25),
+				ang = Angle(90,235,0),
+			},
+			{
+				pos = Vector(75,-40,-25),
+				ang = Angle(90,235,0),
+			},
+			{
+				pos = Vector(75,-40,-25),
+				ang = Angle(90,235,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 50000,
+		FrontDamping = 3000,
+		FrontRelativeDamping = 3000,
+		
+		RearHeight = 0,
+		RearConstant = 45000,
+		RearDamping = 3000,
+		RearRelativeDamping = 3000,
+		
+		FastSteeringAngle = 38,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 90,
+		Efficiency = 1,
+		GripOffset = 5,
+		BrakePower = 60,
+		
+		IdleRPM = 400,
+		LimitRPM = 3000,
+		PeakTorque = 280,
+		PowerbandStart = 550,
+		PowerbandEnd = 2800,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(44,53,-30),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 120,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_077/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_077/sound_001.wav",
+		Sound_MidPitch = 1.5,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_077/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_078/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.1,0,0.09,0.17,0.28,0.4,0.6}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_packer", V )
