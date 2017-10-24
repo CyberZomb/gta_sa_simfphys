@@ -1049,3 +1049,138 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_forklift", V )
+
+local V = {
+	Name = "Linerunner",
+	Model = "models/GTA_SA/industrial/linerun.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Industrial",
+	SpawnOffset = Vector(0,0,50),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 3800,
+		
+		EnginePos = Vector(130,0,0),
+		
+		LightsTable = "linerun",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = -2,
+		
+		CustomWheelModel = "models/GTA_SA/industrial/linerun_f_wheel.mdl",
+		CustomWheelModel_R = "models/GTA_SA/industrial/linerun_r_wheel.mdl",
+		CustomWheelPosFL = Vector(129,48,-38),
+		CustomWheelPosFR = Vector(129,-48,-38),
+		CustomWheelPosML = Vector(-80,48,-38),
+		CustomWheelPosMR = Vector(-80,-48,-38),
+		CustomWheelPosRL = Vector(-124,48,-38),
+		CustomWheelPosRR = Vector(-124,-48,-38),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(43,-16,41),
+		SeatPitch = 12,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(56,-16,0),
+				ang = Angle(0,-90,8)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(35,40,85),
+				ang = Angle(0,180,0),
+			},
+			{
+				pos = Vector(35,40,85),
+				ang = Angle(0,180,0),
+			},
+			{
+				pos = Vector(35,40,85),
+				ang = Angle(0,180,0),
+			},{
+				pos = Vector(35,-40,85),
+				ang = Angle(0,180,0),
+			},
+			{
+				pos = Vector(35,-40,85),
+				ang = Angle(0,180,0),
+			},
+			{
+				pos = Vector(35,-40,85),
+				ang = Angle(0,180,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 50000,
+		FrontDamping = 3000,
+		FrontRelativeDamping = 3000,
+		
+		RearHeight = 3,
+		RearConstant = 45000,
+		RearDamping = 3000,
+		RearRelativeDamping = 3000,
+		
+		FastSteeringAngle = 35,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 90,
+		Efficiency = 1,
+		GripOffset = 5,
+		BrakePower = 60,
+		
+		IdleRPM = 400,
+		LimitRPM = 3000,
+		PeakTorque = 280,
+		PowerbandStart = 550,
+		PowerbandEnd = 2800,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(2,43,-28),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 130,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_077/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_077/sound_001.wav",
+		Sound_MidPitch = 1.5,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_077/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_078/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.1,0,0.09,0.16,0.26,0.38,0.5}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_linerun", V )
