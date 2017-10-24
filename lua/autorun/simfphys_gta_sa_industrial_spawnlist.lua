@@ -945,3 +945,107 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_flatbed", V )
+
+local V = {
+	Name = "Forklift",
+	Model = "models/GTA_SA/industrial/forklift.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Industrial",
+	SpawnOffset = Vector(0,0,50),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1000,
+		
+		EnginePos = Vector(-20,0,0),
+		
+		LightsTable = "forklift",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 0,
+		
+		CustomWheelModel = "models/GTA_SA/industrial/forklift_wheel.mdl",
+		CustomWheelPosFL = Vector(20,20,-16),
+		CustomWheelPosFR = Vector(20,-20,-16),
+		CustomWheelPosRL = Vector(-26,20,-16),
+		CustomWheelPosRR = Vector(-26,-20,-16),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(1,0,0),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-24,0,36),
+		SeatPitch = 12,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+		},
+		
+		ExhaustPositions = {
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 35000,
+		FrontDamping = 2000,
+		FrontRelativeDamping = 2000,
+		
+		RearHeight = 6,
+		RearConstant = 35000,
+		RearDamping = 2000,
+		RearRelativeDamping = 2000,
+		
+		FastSteeringAngle = 30,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 60,
+		Efficiency = 1,
+		GripOffset = 5,
+		BrakePower = 45,
+		
+		IdleRPM = 500,
+		LimitRPM = 3200,
+		PeakTorque = 60,
+		PowerbandStart = 650,
+		PowerbandEnd = 3000,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-35,0,-10),
+		FuelType = FUELTYPE_ELECTRIC,
+		FuelTankSize = 70,
+		
+		PowerBias = -1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_051/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_051/sound_001.wav",
+		Sound_MidPitch = 1.5,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_051/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_052/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.1,0,0.1,0.3,0.57}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_forklift", V )

@@ -401,3 +401,51 @@ local light_table = {
 
 }
 list.Set( "simfphys_lights", "flatbed", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 14, 18, 44 ),
+	L_HeadLampAng = Angle(20,0,0),
+	R_HeadLampPos = Vector( 14, -18, 44 ),
+	R_HeadLampAng = Angle(20,0,0),
+	
+	L_RearLampPos = Vector(-34,18,32),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-34,-18,32),
+	R_RearLampAng = Angle(0,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 14, 18, 44 ),material = "sprites/light_ignorez",size = 22, color = Color( 255,230,230,180)},
+		{pos = Vector( 14, -18, 44 ),material = "sprites/light_ignorez",size = 22, color = Color( 255,230,230,180)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 14, 18, 44 ),material = "sprites/light_ignorez",size = 30, color = Color( 255,235,220,170)},
+		{pos = Vector( 14, -18, 44 ),material = "sprites/light_ignorez",size = 30, color = Color( 255,235,220,170)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-34,18,32),material = "sprites/light_ignorez",size = 20,color = Color( 255, 0, 0,  190)},
+		{pos = Vector(-34,-18,32),material = "sprites/light_ignorez",size = 20,color = Color( 255, 0, 0,  190)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-34,18,32),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-34,-18,32),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-28,14,51),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+	},
+	
+	DelayOn = 0,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			Vector(-34,18,32),
+			Vector( 14, 18, 44 ),
+		},
+		Right = {
+			Vector(-34,-18,32),
+			Vector( 14, -18, 44 ),
+		},
+	}
+
+}
+list.Set( "simfphys_lights", "forklift", light_table)
