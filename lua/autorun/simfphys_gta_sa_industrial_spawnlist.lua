@@ -1421,3 +1421,127 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_packer", V )
+
+local V = {
+	Name = "Roadtrain",
+	Model = "models/GTA_SA/industrial/rdtrain.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Industrial",
+	SpawnOffset = Vector(0,0,70),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 5000,
+		
+		EnginePos = Vector(130,0,0),
+		
+		LightsTable = "rdtrain",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = -2,
+		
+		CustomWheelModel = "models/GTA_SA/industrial/rdtrain_f_wheel.mdl",
+		CustomWheelModel_R = "models/GTA_SA/industrial/rdtrain_r_wheel.mdl",
+		CustomWheelPosFL = Vector(129,57,-64),
+		CustomWheelPosFR = Vector(129,-57,-64),
+		CustomWheelPosML = Vector(-93,57,-64),
+		CustomWheelPosMR = Vector(-93,-57,-64),
+		CustomWheelPosRL = Vector(-144,57,-64),
+		CustomWheelPosRR = Vector(-144,-57,-64),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(39,-19,33),
+		SeatPitch = 8,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(48,-18,-6),
+				ang = Angle(0,-90,8)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-34,48,66),
+				ang = Angle(45,180,0),
+			},
+			{
+				pos = Vector(-34,48,66),
+				ang = Angle(45,180,0),
+			},
+			{
+				pos = Vector(-34,48,66),
+				ang = Angle(45,180,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 50000,
+		FrontDamping = 4000,
+		FrontRelativeDamping = 4000,
+		
+		RearHeight = 0,
+		RearConstant = 45000,
+		RearDamping = 4000,
+		RearRelativeDamping = 4000,
+		
+		FastSteeringAngle = 35,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 90,
+		Efficiency = 1,
+		GripOffset = 5,
+		BrakePower = 60,
+		
+		IdleRPM = 400,
+		LimitRPM = 3000,
+		PeakTorque = 280,
+		PowerbandStart = 550,
+		PowerbandEnd = 2800,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(18,58,-46),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 130,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_077/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_077/sound_001.wav",
+		Sound_MidPitch = 1.5,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_077/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_078/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.1,0,0.09,0.16,0.26,0.38,0.5}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_rdtrain", V )
