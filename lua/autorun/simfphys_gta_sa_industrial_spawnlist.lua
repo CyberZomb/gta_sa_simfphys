@@ -1680,3 +1680,124 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_petro", V )
+
+local V = {
+	Name = "Tractor",
+	Model = "models/GTA_SA/industrial/tractor.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Industrial",
+	SpawnOffset = Vector(0,0,70),
+	SpawnAngleOffset = 90,
+	
+	Members = {
+		Mass = 2000,
+		
+		EnginePos = Vector(30,0,8),
+		
+		LightsTable = "tractor",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 1,
+		
+		CustomWheelModel = "models/GTA_SA/industrial/tractor_f_wheel.mdl",
+		CustomWheelModel_R = "models/GTA_SA/industrial/tractor_r_wheel.mdl",
+		FrontWheelRadius = 11,
+		RearWheelRadius = 21,
+		CustomWheelPosFL = Vector(51,29,-20),
+		CustomWheelPosFR = Vector(51,-29,-20),
+		CustomWheelPosRL = Vector(-38,28,-10),
+		CustomWheelPosRR = Vector(-38,-28,-10),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-27,0,24),
+		SeatPitch = 8,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(20,17,41),
+				ang = Angle(0,180,0),
+			},
+			{
+				pos = Vector(20,17,41),
+				ang = Angle(0,180,0),
+			},
+			{
+				pos = Vector(20,17,41),
+				ang = Angle(0,180,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 50000,
+		FrontDamping = 4000,
+		FrontRelativeDamping = 4000,
+		
+		RearHeight = 6,
+		RearConstant = 45000,
+		RearDamping = 4000,
+		RearRelativeDamping = 4000,
+		
+		FastSteeringAngle = 35,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 60,
+		Efficiency = 1,
+		GripOffset = 5,
+		BrakePower = 20,
+		
+		IdleRPM = 300,
+		LimitRPM = 2400,
+		PeakTorque = 120,
+		PowerbandStart = 400,
+		PowerbandEnd = 2200,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(14,-10,7),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 50,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_082/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_082/sound_001.wav",
+		Sound_MidPitch = 1.5,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_082/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_083/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.1,0,0.09,0.16,0.26,0.38}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_tractor", V )
