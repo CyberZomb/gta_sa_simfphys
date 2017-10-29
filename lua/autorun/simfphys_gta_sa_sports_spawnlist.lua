@@ -14,7 +14,7 @@ local V = {
 		LightsTable = "alpha",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = 5,
+		CustomSuspensionTravel = 1,
 		
 		CustomWheelModel = "models/GTA_SA/Sport cars/alpha_wheel.mdl",
 		CustomWheelPosFL = Vector(56,35,-20),
@@ -25,7 +25,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 45,
+		CustomSteerAngle = 38,
 		
 		SeatOffset = Vector(-10,-17,11),
 		SeatPitch = -5,
@@ -59,28 +59,28 @@ local V = {
 		},
 		
 		FrontHeight = 5,
-		FrontConstant = 25000,
+		FrontConstant = 32000,
 		FrontDamping = 1200,
 		FrontRelativeDamping = 1000,
 		
 		RearHeight = 5,
-		RearConstant = 25000,
+		RearConstant = 32000,
 		RearDamping = 1200,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 25,
+		FastSteeringAngle = 35,
 		SteeringFadeFastSpeed = 535,
 		
-		TurnSpeed = 5,
+		TurnSpeed = 2,
 		
-		MaxGrip = 48,
-		Efficiency = 1.2,
-		GripOffset = 2,
+		MaxGrip = 50,
+		Efficiency = 1,
+		GripOffset = 4,
 		BrakePower = 35,
 		
 		IdleRPM = 1100,
 		LimitRPM = 5700,
-		PeakTorque = 250,
+		PeakTorque = 220,
 		PowerbandStart = 1200,
 		PowerbandEnd = 5500,
 		Turbocharged = true,
@@ -138,7 +138,7 @@ local V = {
 		LightsTable = "banshee",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = 5,
+		CustomSuspensionTravel = 1,
 		
 		CustomWheelModel = "models/GTA_SA/Sport cars/banshee_wheel.mdl",
 		CustomWheelPosFL = Vector(56,30,-15),
@@ -174,28 +174,28 @@ local V = {
 		},
 		
 		FrontHeight = 5,
-		FrontConstant = 25000,
+		FrontConstant = 36000,
 		FrontDamping = 2000,
 		FrontRelativeDamping = 2000,
 		
 		RearHeight = 5,
-		RearConstant = 25000,
+		RearConstant = 36000,
 		RearDamping = 2000,
 		RearRelativeDamping = 2000,
 		
 		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
-		TurnSpeed = 8.9,
+		TurnSpeed = 3,
 		
 		MaxGrip = 55,
-		Efficiency = 1.5,
+		Efficiency = 1,
 		GripOffset = 3.5,
 		BrakePower = 45,
 		
 		IdleRPM = 1100,
 		LimitRPM = 5600,
-		PeakTorque = 300,
+		PeakTorque = 250,
 		PowerbandStart = 1200,
 		PowerbandEnd = 5400,
 		Turbocharged = true,
@@ -253,7 +253,7 @@ local V = {
 		LightsTable = "buffalo",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = 5,
+		CustomSuspensionTravel = 1,
 		
 		CustomWheelModel = "models/GTA_SA/Sport cars/banshee_wheel.mdl",
 		CustomWheelPosFL = Vector(55,34,-21),
@@ -266,7 +266,7 @@ local V = {
 		
 		CustomSteerAngle = 45,
 		
-		SeatOffset = Vector(-18,-17,11),
+		SeatOffset = Vector(-18,-17,14),
 		SeatPitch = -5,
 		SeatYaw = 90,
 		
@@ -289,28 +289,28 @@ local V = {
 		},
 		
 		FrontHeight = 5,
-		FrontConstant = 25000,
-		FrontDamping = 800,
+		FrontConstant = 38000,
+		FrontDamping = 1200,
 		FrontRelativeDamping = 1000,
 		
 		RearHeight = 5,
-		RearConstant = 25000,
+		RearConstant = 38000,
 		RearDamping = 1200,
 		RearRelativeDamping = 1000,
 		
 		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
-		TurnSpeed = 6.9,
+		TurnSpeed = 3,
 		
 		MaxGrip = 55,
-		Efficiency = 1.2,
-		GripOffset = 0.5,
+		Efficiency = 1,
+		GripOffset = 1,
 		BrakePower = 35,
 		
 		IdleRPM = 1100,
 		LimitRPM = 5600,
-		PeakTorque = 310,
+		PeakTorque = 240,
 		PowerbandStart = 1200,
 		PowerbandEnd = 5400,
 		Turbocharged = false,
@@ -324,23 +324,23 @@ local V = {
 		EngineSoundPreset = 0,
 
 		
-		Sound_Idle = "bank_096/sound_002.wav",
+		Sound_Idle = "bank_031/sound_002.wav",
 		Sound_IdlePitch = 1,
 		Sound_IdleVolume = 3,
 		
-		Sound_Mid = "bank_096/sound_001.wav",
+		Sound_Mid = "bank_031/sound_001.wav",
 		Sound_MidPitch = 1,
 		Sound_MidVolume = 3,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
 		
-		Sound_High = "bank_096/sound_001.wav",
+		Sound_High = "bank_031/sound_001.wav",
 		Sound_HighPitch = 1.3,
 		Sound_HighVolume = 3.5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
-		Sound_Throttle = "bank_097/sound_001.wav",
+		Sound_Throttle = "bank_032/sound_001.wav",
 		Sound_ThrottlePitch = 1,
 		Sound_ThrottleVolume = 5,
 		--
@@ -363,7 +363,7 @@ local V = {
 
 	Members = {
 		Mass = 1200,
-		CustomMassCenter = Vector(-3,0,0),			
+		CustomMassCenter = Vector(1,0,0),			
 		LightsTable = "bullet",
 
 		//		|WHELLS|		\\
@@ -390,33 +390,33 @@ local V = {
 		},
 
 		//		|SUSPENTION|		\\
-		CustomSuspensionTravel = 5,
+		CustomSuspensionTravel = 1,
 		FrontHeight = 5,
-		FrontConstant = 35000,
+		FrontConstant = 20000,
 		FrontDamping = 1500,
-		FrontRelativeDamping = 1800,
+		FrontRelativeDamping = 1500,
 		RearHeight = 5,
-		RearConstant = 35000,
-		RearDamping = 2500,
-		RearRelativeDamping = 1000,
+		RearConstant = 20000,
+		RearDamping = 1500,
+		RearRelativeDamping = 1500,
 
 		//		|STEERING|		\\
 		CustomSteerAngle = 35,		
 		FastSteeringAngle = 20,
 		SteeringFadeFastSpeed = 335, //535
-		TurnSpeed = 8,
-		MaxGrip = 80,
-		Efficiency = 1.55,
-		GripOffset = -1.5,
-		BrakePower = 42,
+		TurnSpeed = 3,
+		MaxGrip = 55,
+		Efficiency = 1,
+		GripOffset = -2,
+		BrakePower = 32,
 
 		//		|ENGINE|		\\	
-		PeakTorque = 220,
-		IdleRPM = 1100,
-		PowerbandStart = 3200,
-		LimitRPM = 8500,
+		PeakTorque = 140,
+		IdleRPM = 800,
+		PowerbandStart = 1100,
+		LimitRPM = 8000,
 		PowerbandEnd = 7800,Turbocharged = true,Supercharged = true,
-		PowerBias = 0.5,
+		PowerBias = 1,
 		EnginePos = Vector(-45,0,10),
 		
 		//		|ENGINE SOUND|		\\
@@ -444,8 +444,8 @@ local V = {
 		FuelTankSize = 32.8,
 		
 		//		|GEARBOX|		\\
-		DifferentialGear = 0.68,
-		Gears = {-0.12,0,0.05,0.15,0.25,0.34,0.45},
+		DifferentialGear = 0.6,
+		Gears = {-0.12,0,0.12,0.18,0.25,0.34,0.45},
 	},	
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_bullet", V )
