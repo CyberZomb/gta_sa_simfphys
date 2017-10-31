@@ -23,9 +23,9 @@ local V = {
 		CustomWheelPosRR = Vector(-55,-35,-20),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
-		CustomMassCenter = Vector(10,0,0),
+		CustomMassCenter = Vector(1,0,0),
 		
-		CustomSteerAngle = 38,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-10,-17,11),
 		SeatPitch = -5,
@@ -59,23 +59,23 @@ local V = {
 		},
 		
 		FrontHeight = 5,
-		FrontConstant = 32000,
+		FrontConstant = 30000,
 		FrontDamping = 1200,
-		FrontRelativeDamping = 1000,
+		FrontRelativeDamping = 1200,
 		
 		RearHeight = 5,
-		RearConstant = 32000,
+		RearConstant = 30000,
 		RearDamping = 1200,
-		RearRelativeDamping = 1000,
+		RearRelativeDamping = 1200,
 		
-		FastSteeringAngle = 35,
+		FastSteeringAngle = 40,
 		SteeringFadeFastSpeed = 535,
 		
-		TurnSpeed = 2,
+		TurnSpeed = 3,
 		
-		MaxGrip = 50,
+		MaxGrip = 55,
 		Efficiency = 1,
-		GripOffset = 4,
+		GripOffset = -1,
 		BrakePower = 35,
 		
 		IdleRPM = 1100,
@@ -402,16 +402,16 @@ local V = {
 
 		//		|STEERING|		\\
 		CustomSteerAngle = 35,		
-		FastSteeringAngle = 20,
+		FastSteeringAngle = 15,
 		SteeringFadeFastSpeed = 335, //535
 		TurnSpeed = 3,
 		MaxGrip = 55,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = -1.1,
 		BrakePower = 32,
 
 		//		|ENGINE|		\\	
-		PeakTorque = 140,
+		PeakTorque = 95,
 		IdleRPM = 800,
 		PowerbandStart = 1100,
 		LimitRPM = 8000,
@@ -423,20 +423,20 @@ local V = {
 		EngineSoundPreset = 0,
 		Sound_Idle = "bank_010/sound_002.wav",
 		Sound_IdlePitch = 1,
-		Sound_IdleVolume = 2,
+		Sound_IdleVolume = 5,
 		Sound_Mid = "bank_010/sound_001.wav",
 		Sound_MidPitch = 1,
-		Sound_MidVolume = 2,
+		Sound_MidVolume = 5,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
 		Sound_High = "bank_011/sound_001.wav",
 		Sound_HighPitch = 1.3,
-		Sound_HighVolume = 2.5,
+		Sound_HighVolume = 4,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		Sound_Throttle = "bank_011/sound_001.wav",
 		Sound_ThrottlePitch = 1,
-		Sound_ThrottleVolume = 5,
+		Sound_ThrottleVolume = 4,
 
 		//		|FUEL TAKNK|		\\
 		FuelFillPos = Vector(-80,0,2),
@@ -445,7 +445,7 @@ local V = {
 		
 		//		|GEARBOX|		\\
 		DifferentialGear = 0.6,
-		Gears = {-0.12,0,0.12,0.18,0.25,0.34,0.45},
+		Gears = {-0.12,0,0.07,0.16,0.25,0.33,0.45},
 	},	
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_bullet", V )
@@ -475,7 +475,7 @@ local V = {
 		CustomWheelPosRR = Vector(-58,-34,-17),
 		CustomWheelAngleOffset = Angle(0,-90,0),
 		
-		CustomMassCenter = Vector(-5,0,0),
+		CustomMassCenter = Vector(1,0,0),
 		
 		CustomSteerAngle = 45,
 		
@@ -519,19 +519,19 @@ local V = {
 		RearDamping = 1000,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 20,
+		FastSteeringAngle = 29,
 		SteeringFadeFastSpeed = 535,
 		
-		TurnSpeed = 2.9,
+		TurnSpeed = 3,
 		
 		MaxGrip = 55,
-		Efficiency = 1.25,
+		Efficiency = 1,
 		GripOffset = -1.5,
-		BrakePower = 40,
+		BrakePower = 30,
 		
 		IdleRPM = 1100,
 		LimitRPM = 6300,
-		PeakTorque = 150,
+		PeakTorque = 155,
 		PowerbandStart = 1500,
 		PowerbandEnd = 6000,
 		Turbocharged = true,
@@ -568,7 +568,7 @@ local V = {
 		snd_horn = "bank_068/sound_002.wav",
 		
 		DifferentialGear = 0.8,
-		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
+		Gears = {-0.12,0,0.08,0.15,0.23,0.33,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_cheetah", V )
@@ -598,7 +598,7 @@ local V = {
 		CustomWheelPosRR = Vector(-48,-34,-17),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
-		CustomMassCenter = Vector(5,0,0),
+		CustomMassCenter = Vector(1,0,0),
 		
 		CustomSteerAngle = 45,
 		
@@ -625,23 +625,23 @@ local V = {
 		},
 		
 		FrontHeight = 5,
-		FrontConstant = 25000,
+		FrontConstant = 30000,
 		FrontDamping = 1000,
 		FrontRelativeDamping = 1000,
 		
 		RearHeight = 5,
-		RearConstant = 25000,
+		RearConstant = 30000,
 		RearDamping = 1000,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 25,
+		FastSteeringAngle = 27,
 		SteeringFadeFastSpeed = 535,
 		
-		TurnSpeed = 6.9,
+		TurnSpeed = 3,
 		
-		MaxGrip = 45,
+		MaxGrip = 55,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = -1.5,
 		BrakePower = 30,
 		
 		IdleRPM = 1100,
@@ -708,10 +708,10 @@ local V = {
 		CustomSuspensionTravel = 5,
 		
 		CustomWheelModel = "models/GTA_SA/Sport cars/euros_wheel.mdl",
-		CustomWheelPosFL = Vector(54,34,-18),
-		CustomWheelPosFR = Vector(54,-34,-18),
-		CustomWheelPosRL = Vector(-58.5,34,-18),
-		CustomWheelPosRR = Vector(-58.5,-34,-18),
+		CustomWheelPosFL = Vector(54,37,-18),
+		CustomWheelPosFR = Vector(54,-37,-18),
+		CustomWheelPosRL = Vector(-58.5,37,-18),
+		CustomWheelPosRR = Vector(-58.5,-37,-18),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
 		CustomMassCenter = Vector(5,0,0),
@@ -741,23 +741,23 @@ local V = {
 		},
 		
 		FrontHeight = 5,
-		FrontConstant = 25000,
+		FrontConstant = 28000,
 		FrontDamping = 1000,
 		FrontRelativeDamping = 1000,
 		
 		RearHeight = 5,
-		RearConstant = 25000,
+		RearConstant = 28000,
 		RearDamping = 1000,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 25,
+		FastSteeringAngle = 28,
 		SteeringFadeFastSpeed = 535,
 		
-		TurnSpeed = 6.9,
+		TurnSpeed = 3,
 		
-		MaxGrip = 45,
+		MaxGrip = 55,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = -1.5,
 		BrakePower = 35,
 		
 		IdleRPM = 1100,
@@ -772,7 +772,7 @@ local V = {
 		FuelType = FUELTYPE_PETROL,
 		FuelTankSize = 50,
 		
-		PowerBias = 0.2,
+		PowerBias = 0.25,
 		
 		EngineSoundPreset = 0,
 
@@ -800,7 +800,7 @@ local V = {
 		snd_horn = "bank_068/sound_002.wav",
 		
 		DifferentialGear = 0.8,
-		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
+		Gears = {-0.12,0,0.09,0.17,0.23,0.33,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_euros", V )
@@ -929,13 +929,13 @@ local V = {
 		GripOffset = -2,
 		BrakePower = 30,
 		
-		IdleRPM = 1100,
+		IdleRPM = 600,
 		LimitRPM = 4600,
 		PeakTorque = 320,
-		PowerbandStart = 600,
+		PowerbandStart = 700,
 		PowerbandEnd = 4300,
 		Turbocharged = true,	
-		Supercharged = true,
+		Supercharged = false,
 		
 		FuelFillPos = Vector(-57.5,25,8.5),
 		FuelType = FUELTYPE_PETROL,
@@ -957,7 +957,7 @@ local V = {
 		
 		Sound_High = "bank_069/sound_001.wav",
 		Sound_HighPitch = 1.2,
-		Sound_HighVolume = 5.5,
+		Sound_HighVolume = 5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
@@ -969,7 +969,7 @@ local V = {
 		snd_horn = "bank_068/sound_002.wav",
 		
 		DifferentialGear = 0.9,
-		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
+		Gears = {-0.12,0,0.08,0.15,0.24,0.33,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_hotknife", V )
@@ -985,7 +985,7 @@ local V = {
 	Members = {
 		Mass = 1400,
 		
-		EnginePos = Vector(50,0,10),
+		EnginePos = Vector(60,0,10),
 		
 		LightsTable = "infernus",
 		
@@ -1042,14 +1042,14 @@ local V = {
 		RearDamping = 1000,
 		RearRelativeDamping = 1000,
 		
-		FastSteeringAngle = 25,
+		FastSteeringAngle = 37,
 		SteeringFadeFastSpeed = 535,
 		
-		TurnSpeed = 5.9,
+		TurnSpeed = 3,
 		
-		MaxGrip = 45,
+		MaxGrip = 58,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = -0.6,
 		BrakePower = 35,
 		
 		IdleRPM = 1100,
@@ -1149,22 +1149,22 @@ local V = {
 		},
 		
 		FrontHeight = 9,
-		FrontConstant = 25000,
+		FrontConstant = 27000,
 		FrontDamping = 200,
 		FrontRelativeDamping = 2000,
 		
 		RearHeight = 9,
-		RearConstant = 25000,
+		RearConstant = 27000,
 		RearDamping = 500,
 		RearRelativeDamping = 2500,
 		
-		FastSteeringAngle = 25,
+		FastSteeringAngle = 29,
 		SteeringFadeFastSpeed = 535,
 		
-		TurnSpeed = 4.9,
+		TurnSpeed = 3,
 		
 		MaxGrip = 65,
-		Efficiency = 1.25,
+		Efficiency = 1,
 		GripOffset = -1,
 		BrakePower = 35,
 		
@@ -1201,7 +1201,7 @@ local V = {
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
-		Sound_Throttle = "bank_095/sound_001.wav",
+		Sound_Throttle = "bank_095/sound_002.wav",
 		Sound_ThrottlePitch = 1,
 		Sound_ThrottleVolume = 5,
 		
@@ -1209,7 +1209,7 @@ local V = {
 		snd_horn = "bank_068/sound_002.wav",
 		
 		DifferentialGear = 0.8,
-		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
+		Gears = {-0.12,0,0.08,0.16,0.24,0.33,0.45}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_phoenix", V )
