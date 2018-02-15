@@ -1340,7 +1340,7 @@ local V = {
 	SpawnAngleOffset = 90,
 
 	Members = {
-		Mass = 1500,
+		Mass = 1400,
 		
 		EnginePos = Vector(50,0,10),
 		
@@ -1349,7 +1349,7 @@ local V = {
 		CustomWheels = true,
 		CustomSuspensionTravel = 5,
 		
-		CustomWheelModel = "models/GTA_SA/Sport cars/supergt_wheel.mdl",
+		CustomWheelModel = "models/GTA_SA/Sport cars/turismo_wheel.mdl",
 		CustomWheelPosFL = Vector(58,38,-18),
 		CustomWheelPosFR = Vector(58,-38,-18),
 		CustomWheelPosRL = Vector(-57.5,38,-18),
@@ -1414,7 +1414,7 @@ local V = {
 		FuelType = FUELTYPE_PETROL,
 		FuelTankSize = 50,
 		
-		PowerBias = 0.9,
+		PowerBias = 0.6,
 		
 		EngineSoundPreset = 0,
 
