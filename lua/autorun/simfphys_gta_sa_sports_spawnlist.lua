@@ -1354,7 +1354,7 @@ local V = {
 		CustomWheelPosFR = Vector(58,-38,-18),
 		CustomWheelPosRL = Vector(-57.5,38,-18),
 		CustomWheelPosRR = Vector(-57.5,-38,-18),
-		CustomWheelAngleOffset = Angle(0,-90,0),
+		CustomWheelAngleOffset = Angle(0,90,0),
 		
 		CustomMassCenter = Vector(5,0,0),
 		
@@ -1419,22 +1419,22 @@ local V = {
 		EngineSoundPreset = 0,
 
 		
-		Sound_Idle = "bank_001/sound_002.wav",
+		Sound_Idle = "bank_096/sound_002.wav",
 		Sound_IdlePitch = 1,
 		
-		Sound_Mid = "bank_001/sound_001.wav",
+		Sound_Mid = "bank_096/sound_001.wav",
 		Sound_MidPitch = 1,
 		Sound_MidVolume = 1,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
 		
-		Sound_High = "bank_002/sound_001.wav",
+		Sound_High = "bank_097/sound_001.wav",
 		Sound_HighPitch = 1.3,
 		Sound_HighVolume = 1.5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
-		Sound_Throttle = "bank_002/sound_001.wav",
+		Sound_Throttle = "bank_097/sound_001.wav",
 		Sound_ThrottlePitch = 1,
 		Sound_ThrottleVolume = 4,
 		
@@ -1465,12 +1465,12 @@ local V = {
 		CustomWheels = true,
 		CustomSuspensionTravel = 5,
 		
-		CustomWheelModel = "models/GTA_SA/Sport cars/supergt_wheel.mdl",
+		CustomWheelModel = "models/GTA_SA/Sport cars/windsor_wheel.mdl",
 		CustomWheelPosFL = Vector(58,38,-18),
 		CustomWheelPosFR = Vector(58,-38,-18),
 		CustomWheelPosRL = Vector(-57.5,38,-18),
 		CustomWheelPosRR = Vector(-57.5,-38,-18),
-		CustomWheelAngleOffset = Angle(0,-90,0),
+		CustomWheelAngleOffset = Angle(0,90,0),
 		
 		CustomMassCenter = Vector(5,0,0),
 		
@@ -1535,22 +1535,22 @@ local V = {
 		EngineSoundPreset = 0,
 
 		
-		Sound_Idle = "bank_001/sound_002.wav",
+		Sound_Idle = "bank_094/sound_002.wav",
 		Sound_IdlePitch = 1,
 		
-		Sound_Mid = "bank_001/sound_001.wav",
+		Sound_Mid = "bank_094/sound_001.wav",
 		Sound_MidPitch = 1,
 		Sound_MidVolume = 1,
 		Sound_MidFadeOutRPMpercent = 80,
 		Sound_MidFadeOutRate = 0.8,
 		
-		Sound_High = "bank_002/sound_001.wav",
+		Sound_High = "bank_094/sound_001.wav",
 		Sound_HighPitch = 1.3,
 		Sound_HighVolume = 1.5,
 		Sound_HighFadeInRPMpercent = 80,
 		Sound_HighFadeInRate = 0.8,
 		
-		Sound_Throttle = "bank_002/sound_001.wav",
+		Sound_Throttle = "bank_095/sound_002.wav",
 		Sound_ThrottlePitch = 1,
 		Sound_ThrottleVolume = 4,
 		
@@ -1582,7 +1582,7 @@ local V = {
 		CustomWheels = true,
 		CustomSuspensionTravel = 5,
 		
-		CustomWheelModel = "models/GTA_SA/Sport cars/supergt_wheel.mdl",
+		CustomWheelModel = "models/GTA_SA/Sport cars/zr350_wheel.mdl",
 		CustomWheelPosFL = Vector(58,38,-18),
 		CustomWheelPosFR = Vector(58,-38,-18),
 		CustomWheelPosRL = Vector(-57.5,38,-18),
