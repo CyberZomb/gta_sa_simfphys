@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gta_sa/artict2_128x64"
+	"$nocull" 1
+}
