@@ -25,7 +25,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-10,-16,15),
 		SeatPitch = -10,
@@ -66,7 +66,7 @@ local V = {
 		
 		MaxGrip = 45,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = -0.8,
 		BrakePower = 34,
 		
 		IdleRPM = 800,
@@ -141,7 +141,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-10,-16,15),
 		SeatPitch = -10,
@@ -182,7 +182,7 @@ local V = {
 		
 		MaxGrip = 45,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = -1,
 		BrakePower = 34,
 		
 		IdleRPM = 800,
@@ -257,7 +257,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-13,-16,15),
 		SeatPitch = -10,
@@ -298,7 +298,7 @@ local V = {
 		
 		MaxGrip = 45,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = -0.9,
 		BrakePower = 34,
 		
 		IdleRPM = 800,
@@ -373,7 +373,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-2,-18,15),
 		SeatPitch = -4,
@@ -426,7 +426,7 @@ local V = {
 		
 		MaxGrip = 45,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = -0.4,
 		BrakePower = 34,
 		
 		IdleRPM = 800,
@@ -501,7 +501,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-2,-18,15),
 		SeatPitch = -4,
@@ -554,7 +554,7 @@ local V = {
 		
 		MaxGrip = 45,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = -0.4,
 		BrakePower = 34,
 		
 		IdleRPM = 800,
@@ -629,7 +629,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-14,-17,18),
 		SeatPitch = -4,
@@ -670,7 +670,7 @@ local V = {
 		
 		MaxGrip = 45,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 0.2,
 		BrakePower = 34,
 		
 		IdleRPM = 800,

@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gta_sa/petroltr92decal256"
+	"$nocull" 1
+	"$translucent" 1
+}
