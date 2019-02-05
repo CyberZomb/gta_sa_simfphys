@@ -25,7 +25,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-4,-16,13),
 		SeatPitch = 8,
@@ -56,14 +56,14 @@ local V = {
 		RearDamping = 1300,
 		RearRelativeDamping = 1300,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 43,
+		MaxGrip = 50,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 1,
 		BrakePower = 32,
 		
 		IdleRPM = 600,
@@ -138,7 +138,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-16,-17,26),
 		SeatPitch = 8,
@@ -177,14 +177,14 @@ local V = {
 		RearDamping = 1500,
 		RearRelativeDamping = 1500,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 50,
+		MaxGrip = 62,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 0.5,
 		BrakePower = 32,
 		
 		IdleRPM = 800,
@@ -259,7 +259,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-6,-12,13),
 		SeatPitch = 8,
@@ -298,14 +298,14 @@ local V = {
 		RearDamping = 1300,
 		RearRelativeDamping = 1300,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 45,
+		MaxGrip = 55,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 0.5,
 		BrakePower = 30,
 		
 		IdleRPM = 700,
@@ -380,7 +380,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-13,-16,16),
 		SeatPitch = 8,
@@ -419,14 +419,14 @@ local V = {
 		RearDamping = 1300,
 		RearRelativeDamping = 1300,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 42,
+		MaxGrip = 50,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 0.4,
 		BrakePower = 30,
 		
 		IdleRPM = 700,
@@ -501,7 +501,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(2,-20,46),
 		SeatPitch = 8,
@@ -544,14 +544,14 @@ local V = {
 		RearDamping = 2000,
 		RearRelativeDamping = 2000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 100,
+		MaxGrip = 150,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 0,
 		BrakePower = 50,
 		
 		IdleRPM = 500,
@@ -626,7 +626,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-4,-20,46),
 		SeatPitch = 8,
@@ -669,14 +669,14 @@ local V = {
 		RearDamping = 2000,
 		RearRelativeDamping = 2000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 100,
+		MaxGrip = 150,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 0,
 		BrakePower = 50,
 		
 		IdleRPM = 500,
@@ -751,7 +751,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-10,-20,46),
 		SeatPitch = 8,
@@ -794,14 +794,14 @@ local V = {
 		RearDamping = 2000,
 		RearRelativeDamping = 2000,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 100,
+		MaxGrip = 150,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 0,
 		BrakePower = 50,
 		
 		IdleRPM = 500,
@@ -876,7 +876,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-9,-19,20),
 		SeatPitch = 8,
@@ -922,14 +922,14 @@ local V = {
 		RearDamping = 1300,
 		RearRelativeDamping = 1300,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 42,
+		MaxGrip = 70,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 0.5,
 		BrakePower = 30,
 		
 		IdleRPM = 700,
@@ -1004,7 +1004,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-4,-18,13),
 		SeatPitch = -5,
@@ -1034,14 +1034,14 @@ local V = {
 		RearDamping = 1300,
 		RearRelativeDamping = 1300,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 42,
+		MaxGrip = 48,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 2,
 		BrakePower = 30,
 		
 		IdleRPM = 700,
@@ -1056,7 +1056,7 @@ local V = {
 		FuelType = FUELTYPE_DIESEL,
 		FuelTankSize = 58,
 		
-		PowerBias = 0.3,
+		PowerBias = 1,
 		
 		EngineSoundPreset = 0,
 
@@ -1116,7 +1116,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-6,-18,23),
 		SeatPitch = -2,
@@ -1150,14 +1150,14 @@ local V = {
 		RearDamping = 1300,
 		RearRelativeDamping = 1300,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 42,
+		MaxGrip = 65,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 1,
 		BrakePower = 30,
 		
 		IdleRPM = 700,
@@ -1232,7 +1232,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-2,-17,17),
 		SeatPitch = -2,
@@ -1262,14 +1262,14 @@ local V = {
 		RearDamping = 1300,
 		RearRelativeDamping = 1300,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 42,
+		MaxGrip = 48,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 1.2,
 		BrakePower = 30,
 		
 		IdleRPM = 700,
@@ -1345,7 +1345,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-2,-17,17),
 		SeatPitch = -2,
@@ -1375,14 +1375,14 @@ local V = {
 		RearDamping = 1300,
 		RearRelativeDamping = 1300,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 42,
+		MaxGrip = 48,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 1.2,
 		BrakePower = 20,
 		
 		IdleRPM = 700,
@@ -1459,7 +1459,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-4,-18,17),
 		SeatPitch = -2,
@@ -1489,14 +1489,14 @@ local V = {
 		RearDamping = 1300,
 		RearRelativeDamping = 1300,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 48,
+		MaxGrip = 60,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 0.5,
 		BrakePower = 30,
 		
 		IdleRPM = 700,
@@ -1572,7 +1572,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-4,-16,17),
 		SeatPitch = -2,
@@ -1602,14 +1602,14 @@ local V = {
 		RearDamping = 1100,
 		RearRelativeDamping = 1100,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 40,
+		MaxGrip = 46,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 1.1,
 		BrakePower = 20,
 		
 		IdleRPM = 600,
@@ -1685,7 +1685,7 @@ local V = {
 		
 		CustomMassCenter = Vector(10,0,0),
 		
-		CustomSteerAngle = 30,
+		CustomSteerAngle = 45,
 		
 		SeatOffset = Vector(-2,-19,22),
 		SeatPitch = -2,
@@ -1715,14 +1715,14 @@ local V = {
 		RearDamping = 1800,
 		RearRelativeDamping = 1800,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 60,
+		MaxGrip = 69,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 0.8,
 		BrakePower = 34,
 		
 		IdleRPM = 700,
