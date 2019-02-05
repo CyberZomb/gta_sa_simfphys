@@ -61,9 +61,9 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 50,
+		MaxGrip = 70,
 		Efficiency = 1,
-		GripOffset = -5,
+		GripOffset = 2,
 		BrakePower = 50,
 		
 		IdleRPM = 600,
@@ -182,9 +182,9 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 75,
+		MaxGrip = 110,
 		Efficiency = 1,
-		GripOffset = -5,
+		GripOffset = 0,
 		BrakePower = 50,
 		
 		IdleRPM = 600,
@@ -227,7 +227,7 @@ local V = {
 		snd_horn = "bank_068/sound_002.wav",
 		
 		DifferentialGear = 0.5,
-		Gears = {-0.12,0,0.14,0.24,0.36,0.48,0.6}
+		Gears = {-0.12,0,0.1,0.24,0.36,0.48,0.6}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_boxville", V )
@@ -305,9 +305,9 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 70,
+		MaxGrip = 90,
 		Efficiency = 1,
-		GripOffset = -5,
+		GripOffset = 1,
 		BrakePower = 50,
 		
 		IdleRPM = 500,
@@ -424,9 +424,9 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 70,
+		MaxGrip = 140,
 		Efficiency = 1,
-		GripOffset = -5,
+		GripOffset = 1,
 		BrakePower = 50,
 		
 		IdleRPM = 500,
@@ -543,9 +543,9 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 70,
+		MaxGrip = 90,
 		Efficiency = 1,
-		GripOffset = -1,
+		GripOffset = 1,
 		BrakePower = 50,
 		
 		IdleRPM = 500,
@@ -662,7 +662,7 @@ local V = {
 		
 		MaxGrip = 110,
 		Efficiency = 1,
-		GripOffset = -6,
+		GripOffset = 1,
 		BrakePower = 60,
 		
 		IdleRPM = 500,
@@ -777,7 +777,7 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 180,
+		MaxGrip = 250,
 		Efficiency = 1,
 		GripOffset = 0.1,
 		BrakePower = 80,
@@ -896,9 +896,9 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 90,
+		MaxGrip = 150,
 		Efficiency = 1,
-		GripOffset = 5,
+		GripOffset = 2,
 		BrakePower = 60,
 		
 		IdleRPM = 500,
@@ -1002,7 +1002,7 @@ local V = {
 		
 		MaxGrip = 60,
 		Efficiency = 1,
-		GripOffset = 5,
+		GripOffset = 1,
 		BrakePower = 45,
 		
 		IdleRPM = 500,
@@ -1248,9 +1248,9 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 60,
+		MaxGrip = 70,
 		Efficiency = 1,
-		GripOffset = -5,
+		GripOffset = 0,
 		BrakePower = 50,
 		
 		IdleRPM = 600,
@@ -1372,9 +1372,9 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 90,
+		MaxGrip = 100,
 		Efficiency = 1,
-		GripOffset = 5,
+		GripOffset = 2,
 		BrakePower = 60,
 		
 		IdleRPM = 400,
@@ -1496,7 +1496,7 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 90,
+		MaxGrip = 100,
 		Efficiency = 1,
 		GripOffset = 5,
 		BrakePower = 60,
@@ -1865,9 +1865,9 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 75,
+		MaxGrip = 80,
 		Efficiency = 1,
-		GripOffset = -5,
+		GripOffset = 0,
 		BrakePower = 50,
 		
 		IdleRPM = 600,
