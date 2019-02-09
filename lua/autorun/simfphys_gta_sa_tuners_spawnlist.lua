@@ -59,14 +59,14 @@ local V = {
 		RearDamping = 1300,
 		RearRelativeDamping = 1300,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 45,
+		MaxGrip = 60,
 		Efficiency = 1,
-		GripOffset = -0.8,
+		GripOffset = 1,
 		BrakePower = 34,
 		
 		IdleRPM = 800,
@@ -175,12 +175,12 @@ local V = {
 		RearDamping = 1300,
 		RearRelativeDamping = 1300,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 45,
+		MaxGrip = 55,
 		Efficiency = 1,
 		GripOffset = -1,
 		BrakePower = 34,
@@ -291,12 +291,12 @@ local V = {
 		RearDamping = 1300,
 		RearRelativeDamping = 1300,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 45,
+		MaxGrip = 62,
 		Efficiency = 1,
 		GripOffset = -0.9,
 		BrakePower = 34,
@@ -419,19 +419,19 @@ local V = {
 		RearDamping = 1600,
 		RearRelativeDamping = 1600,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 45,
+		MaxGrip = 70,
 		Efficiency = 1,
-		GripOffset = -0.4,
+		GripOffset = 1,
 		BrakePower = 34,
 		
 		IdleRPM = 800,
 		LimitRPM = 7800,
-		PeakTorque = 200,
+		PeakTorque = 220,
 		PowerbandStart = 900,
 		PowerbandEnd = 7600,
 		Turbocharged = false,
@@ -547,14 +547,14 @@ local V = {
 		RearDamping = 1600,
 		RearRelativeDamping = 1600,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 45,
+		MaxGrip = 60,
 		Efficiency = 1,
-		GripOffset = -0.4,
+		GripOffset = 0.5,
 		BrakePower = 34,
 		
 		IdleRPM = 800,
@@ -663,14 +663,14 @@ local V = {
 		RearDamping = 1600,
 		RearRelativeDamping = 1600,
 		
-		FastSteeringAngle = 10,
+		FastSteeringAngle = 25,
 		SteeringFadeFastSpeed = 535,
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 45,
+		MaxGrip = 60,
 		Efficiency = 1,
-		GripOffset = 0.2,
+		GripOffset = 0.7,
 		BrakePower = 34,
 		
 		IdleRPM = 800,
