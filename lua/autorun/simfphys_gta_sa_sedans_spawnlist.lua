@@ -1,5 +1,5 @@
 local V = {
-	Name = "admiral",
+	Name = "Admiral",
 	Model = "models/GTA_SA/sedans/admiral.mdl",
 	Class = "gmod_sent_vehicle_fphysics_base",
 	Category = "GTA SA Sedans",
@@ -17,24 +17,32 @@ local V = {
 		CustomSuspensionTravel = 5,
 		
 		CustomWheelModel = "models/GTA_SA/sedans/admiral_wheel.mdl",
-		CustomWheelPosFL = Vector(56,33,-14),
-		CustomWheelPosFR = Vector(56,-33,-14),
-		CustomWheelPosRL = Vector(-47,33,-14),
-		CustomWheelPosRR = Vector(-47,-33,-14),
+		CustomWheelPosFL = Vector(62.5,32.7,-16.5),
+		CustomWheelPosFR = Vector(62.5,-32.7,-16.5),
+		CustomWheelPosRL = Vector(-62.7,32.7,-16.5),
+		CustomWheelPosRR = Vector(-62.7,-32.7,-16.5),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
 		CustomMassCenter = Vector(10,0,0),
 		
 		CustomSteerAngle = 45,
 		
-		SeatOffset = Vector(-10,-16,15),
+		SeatOffset = Vector(-5,-16,15),
 		SeatPitch = -10,
 		SeatYaw = 90,
 		
 		PassengerSeats = {
 			{
-				pos = Vector(2,-17,-15),
-				ang = Angle(0,-90,25)
+				pos = Vector(4,-17,-15),
+				ang = Angle(0,-90,20)
+			},
+			{
+				pos = Vector(-35,17,-15),
+				ang = Angle(0,-90,18)
+			},
+			{
+				pos = Vector(-35,-17,-15),
+				ang = Angle(0,-90,18)
 			}
 		
 		},
@@ -49,13 +57,13 @@ local V = {
 			}
 		},
 		
-		FrontHeight = 6,
-		FrontConstant = 36000,
+		FrontHeight = 9,
+		FrontConstant = 40000,
 		FrontDamping = 1300,
 		FrontRelativeDamping = 1300,
 		
-		RearHeight = 5,
-		RearConstant = 36000,
+		RearHeight = 8,
+		RearConstant = 40000,
 		RearDamping = 1300,
 		RearRelativeDamping = 1300,
 		
@@ -64,24 +72,24 @@ local V = {
 		
 		TurnSpeed = 5,
 		
-		MaxGrip = 45,
+		MaxGrip = 65,
 		Efficiency = 1,
 		GripOffset = -0.8,
 		BrakePower = 34,
 		
 		IdleRPM = 800,
 		LimitRPM = 7800,
-		PeakTorque = 190,
+		PeakTorque = 150,
 		PowerbandStart = 900,
 		PowerbandEnd = 7600,
 		Turbocharged = false,
 		Supercharged = false,
 		
-		FuelFillPos = Vector(-25,-37,3),
+		FuelFillPos = Vector(-69.9,37.3,4.5),
 		FuelType = FUELTYPE_PETROL,
 		FuelTankSize = 60,
 		
-		PowerBias = 0.95,
+		PowerBias = -1,
 		
 		EngineSoundPreset = 0,
 
