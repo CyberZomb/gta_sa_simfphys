@@ -1324,3 +1324,845 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_peren", V )
+
+local V = {
+	Name = "Premier",
+	Model = "models/GTA_SA/sedans/premier.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Sedans",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1600,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "premier",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/sedans/premier_wheel.mdl",
+		CustomWheelPosFL = Vector(58.6,33.1,-12.6),
+		CustomWheelPosFR = Vector(58.6,-33.1,-12.6),
+		CustomWheelPosRL = Vector(-59,33.1,-12.6),
+		CustomWheelPosRR = Vector(-59,-33.1,-12.6),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-4,-18,15),
+		SeatPitch = -10,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(5,-17,-15),
+				ang = Angle(0,-90,20)
+			},
+			{
+				pos = Vector(-34,17,-16),
+				ang = Angle(0,-90,18)
+			},
+			{
+				pos = Vector(-34,-17,-16),
+				ang = Angle(0,-90,18)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-93.9,-20.1,-18.7),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 9,
+		FrontConstant = 40000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 8,
+		RearConstant = 40000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 65,
+		Efficiency = 1,
+		GripOffset = 2,
+		BrakePower = 34,
+		
+		IdleRPM = 800,
+		LimitRPM = 7400,
+		PeakTorque = 190,
+		PowerbandStart = 900,
+		PowerbandEnd = 6900,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-77,39.2,2.8),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 60,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_080/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_080/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_080/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_081/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.45,
+		Gears = {-0.12,0,0.1,0.17,0.28,0.39,0.5}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_premier", V )
+
+local V = {
+	Name = "Primo",
+	Model = "models/GTA_SA/sedans/primo.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Sedans",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1600,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "primo",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/sedans/primo_wheel.mdl",
+		CustomWheelPosFL = Vector(57.6,32.7,-12.6),
+		CustomWheelPosFR = Vector(57.6,-32.7,-12.6),
+		CustomWheelPosRL = Vector(-53.2,32.7,-12.6),
+		CustomWheelPosRR = Vector(-53.2,-32.7,-12.6),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(0,-18,16),
+		SeatPitch = -10,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(10,-17,-15),
+				ang = Angle(0,-90,20)
+			},
+			{
+				pos = Vector(-30,17,-15),
+				ang = Angle(0,-90,20)
+			},
+			{
+				pos = Vector(-30,-17,-15),
+				ang = Angle(0,-90,20)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-94,-22.3,-16.2),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 9,
+		FrontConstant = 40000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 8,
+		RearConstant = 40000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 58,
+		Efficiency = 1,
+		GripOffset = 2,
+		BrakePower = 34,
+		
+		IdleRPM = 800,
+		LimitRPM = 6400,
+		PeakTorque = 165,
+		PowerbandStart = 900,
+		PowerbandEnd = 6100,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-72,37,4.3),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 60,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_001/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_001/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_001/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_002/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.50,
+		Gears = {-0.12,0,0.1,0.22,0.38,0.45}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_primo", V )
+
+local V = {
+	Name = "Regina",
+	Model = "models/GTA_SA/sedans/regina.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Sedans",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1500,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "regina",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/sedans/regina_wheel.mdl",
+		CustomWheelPosFL = Vector(61.2,32.7,-13.6),
+		CustomWheelPosFR = Vector(61.2,-32.7,-13.6),
+		CustomWheelPosRL = Vector(-57.2,32.7,-13.6),
+		CustomWheelPosRR = Vector(-57.2,-32.7,-13.6),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-4,-18,18),
+		SeatPitch = -10,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(8,-17,-12),
+				ang = Angle(0,-90,20)
+			},
+			{
+				pos = Vector(-30,17,-11),
+				ang = Angle(0,-90,20)
+			},
+			{
+				pos = Vector(-30,-17,-11),
+				ang = Angle(0,-90,20)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-101,-16.2,-16.5),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 9,
+		FrontConstant = 40000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 8,
+		RearConstant = 40000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 55,
+		Efficiency = 1,
+		GripOffset = 2,
+		BrakePower = 34,
+		
+		IdleRPM = 800,
+		LimitRPM = 6400,
+		PeakTorque = 155,
+		PowerbandStart = 900,
+		PowerbandEnd = 6100,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-71,36,0.7),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 60,
+		
+		PowerBias = 0.8,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_088/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_088/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_088/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_089/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.52,
+		Gears = {-0.12,0,0.1,0.22,0.38,0.45}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_regina", V )
+
+local V = {
+	Name = "Romero",
+	Model = "models/GTA_SA/sedans/romero.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Sedans",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 2500,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "romero",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/sedans/romero_wheel.mdl",
+		CustomWheelPosFL = Vector(71.6,34.9,-16.2),
+		CustomWheelPosFR = Vector(71.6,-34.9,-16.2),
+		CustomWheelPosRL = Vector(-72,34.9,-16.2),
+		CustomWheelPosRR = Vector(-72,-34.9,-16.2),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(4,-18,12),
+		SeatPitch = -10,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(16,-17,-19),
+				ang = Angle(0,-90,20)
+			},
+			{
+				pos = Vector(-30,17,-11),
+				ang = Angle(0,-90,20)
+			},
+			{
+				pos = Vector(-30,-17,-11),
+				ang = Angle(0,-90,20)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-101,-16.2,-16.5),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 12,
+		FrontConstant = 50000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 11,
+		RearConstant = 50000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 75,
+		Efficiency = 1,
+		GripOffset = 2,
+		BrakePower = 34,
+		
+		IdleRPM = 800,
+		LimitRPM = 6200,
+		PeakTorque = 175,
+		PowerbandStart = 900,
+		PowerbandEnd = 5600,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-79.5,40.3,2.1),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 60,
+		
+		PowerBias = 0.8,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_088/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_088/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_088/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_089/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.52,
+		Gears = {-0.12,0,0.08,0.19,0.27,0.38,0.45}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_romero", V )
+
+local V = {
+	Name = "Sentinel",
+	Model = "models/GTA_SA/sedans/sentinel.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Sedans",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1600,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "sentinel",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/sedans/sentinel_wheel.mdl",
+		CustomWheelPosFL = Vector(59,29.8,-16.2),
+		CustomWheelPosFR = Vector(59,-29.8,-16.2),
+		CustomWheelPosRL = Vector(-58.6,29.8,-16.2),
+		CustomWheelPosRR = Vector(-58.6,-29.8,-16.2),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-5,-14,14),
+		SeatPitch = -10,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(4,-16,-18),
+				ang = Angle(0,-90,20)
+			},
+			{
+				pos = Vector(-32,17,-19),
+				ang = Angle(0,-90,18)
+			},
+			{
+				pos = Vector(-32,-17,-19),
+				ang = Angle(0,-90,18)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-96,-17.2,-18),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 9,
+		FrontConstant = 40000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 8,
+		RearConstant = 40000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 65,
+		Efficiency = 1,
+		GripOffset = 2,
+		BrakePower = 34,
+		
+		IdleRPM = 800,
+		LimitRPM = 7400,
+		PeakTorque = 150,
+		PowerbandStart = 900,
+		PowerbandEnd = 6900,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-78,37.3,-1),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 60,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_080/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_080/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_080/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_081/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.45,
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_sentinel", V )
+
+local V = {
+	Name = "Solair",
+	Model = "models/GTA_SA/sedans/solair.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Sedans",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 2000,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "solair",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/sedans/solair_wheel.mdl",
+		CustomWheelPosFL = Vector(60.8,33.4,-15.8),
+		CustomWheelPosFR = Vector(60.8,-33.4,-15.8),
+		CustomWheelPosRL = Vector(-61.9,33.4,-15.8),
+		CustomWheelPosRR = Vector(-61.9,-33.4,-15.8),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(1,-17,11),
+		SeatPitch = -10,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(11,-17,-18),
+				ang = Angle(0,-90,20)
+			},
+			{
+				pos = Vector(-30,17,-19),
+				ang = Angle(0,-90,20)
+			},
+			{
+				pos = Vector(-30,-17,-19),
+				ang = Angle(0,-90,20)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-99,-18.7,-21.9),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 12,
+		FrontConstant = 50000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 11,
+		RearConstant = 50000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 78,
+		Efficiency = 1,
+		GripOffset = 2,
+		BrakePower = 34,
+		
+		IdleRPM = 800,
+		LimitRPM = 6400,
+		PeakTorque = 185,
+		PowerbandStart = 900,
+		PowerbandEnd = 6100,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-73.8,39.9,-3.6),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 60,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_001/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_001/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_001/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_002/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.50,
+		Gears = {-0.12,0,0.1,0.22,0.38,0.45}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_solair", V )
+
+local V = {
+	Name = "Stafford",
+	Model = "models/GTA_SA/sedans/stafford.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Sedans",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 2200,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "stafford",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/sedans/stafford_wheel.mdl",
+		CustomWheelPosFL = Vector(63.7,38.5,-10.4),
+		CustomWheelPosFR = Vector(63.7,-38.5,-10.4),
+		CustomWheelPosRL = Vector(-63.7,38.5,-10.4),
+		CustomWheelPosRR = Vector(-63.7,-38.5,-10.4),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-1,-18,21),
+		SeatPitch = -10,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(8,-17,-8),
+				ang = Angle(0,-90,20)
+			},
+			{
+				pos = Vector(-29,17,-9),
+				ang = Angle(0,-90,20)
+			},
+			{
+				pos = Vector(-29,-17,-9),
+				ang = Angle(0,-90,20)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-99.7,14.4,-16.9),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 12,
+		FrontConstant = 50000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 11,
+		RearConstant = 50000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 78,
+		Efficiency = 1,
+		GripOffset = 2,
+		BrakePower = 34,
+		
+		IdleRPM = 800,
+		LimitRPM = 6400,
+		PeakTorque = 175,
+		PowerbandStart = 900,
+		PowerbandEnd = 6100,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-65.5,-42,8.6),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 60,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_001/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_001/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_001/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_002/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.50,
+		Gears = {-0.12,0,0.08,0.19,0.28,0.38,0.45}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_stafford", V )

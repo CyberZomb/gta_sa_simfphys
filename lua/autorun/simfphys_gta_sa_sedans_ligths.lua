@@ -519,3 +519,356 @@ local light_table = {
 
 }
 list.Set( "simfphys_lights", "peren", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 75.3, 27.3, -0.7 ),
+	L_HeadLampAng = Angle(0,0,0),
+	R_HeadLampPos = Vector( 75.3, -27.3, -0.7 ),
+	R_HeadLampAng = Angle(0,0,0),
+	
+	L_RearLampPos = Vector(-87.9,24,1),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-87.9,-24,1),
+	R_RearLampAng = Angle(0,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 85.3, 27.3, -0.7 ),material = "sprites/light_ignorez",size = 38, color = Color( 255,230,230,100)},
+		{pos = Vector( 85.3, -27.3, -0.7 ),material = "sprites/light_ignorez",size = 38, color = Color( 255,230,230,100)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 85.3, 27.3, -0.7 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+		{pos = Vector( 85.3, -27.3, -0.7 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-97.9,30,1),material = "sprites/light_ignorez",size = 35,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-97.9,-30,1),material = "sprites/light_ignorez",size = 35,color = Color( 255, 0, 0,  150)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-97.9,23,1),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-97.9,-23,1),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-97.9,23,1),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+		{pos = Vector(-97.9,-23,1),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+	},
+	
+	DelayOn = 0.1,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			Vector(-97,36,1),
+			Vector( 83, 35, -0.7 ),
+		},
+		Right = {
+			Vector(-97,-36,1),
+			Vector( 83, -35, -0.7 ),
+		},
+	}
+
+}
+list.Set( "simfphys_lights", "premier", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 85.4, 24.1, 1 ),
+	L_HeadLampAng = Angle(0,0,0),
+	R_HeadLampPos = Vector( 85.4, -24.1, 1 ),
+	R_HeadLampAng = Angle(0,0,0),
+	
+	L_RearLampPos = Vector(-87.9,24,1),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-87.9,-24,1),
+	R_RearLampAng = Angle(0,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 95.4, 24.1, 1 ),material = "sprites/light_ignorez",size = 38, color = Color( 255,230,230,100)},
+		{pos = Vector( 95.4, -24.1, 1 ),material = "sprites/light_ignorez",size = 38, color = Color( 255,230,230,100)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 95.4, 24.1, 1 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+		{pos = Vector( 95.4, -24.1, 1 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-98,29,2),material = "sprites/light_ignorez",size = 38,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-98,-29,2),material = "sprites/light_ignorez",size = 38,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-98,23,2),material = "sprites/light_ignorez",size = 38,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-98,-23,2),material = "sprites/light_ignorez",size = 38,color = Color( 255, 0, 0,  150)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-98,16,2),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-98,-16,2),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-98,16,2),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+		{pos = Vector(-98,-16,2),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+	},
+	
+	DelayOn = 0.1,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			Vector(-96,34,2),
+			Vector( 89, 35, 1 ),
+		},
+		Right = {
+			Vector(-96,-34,2),
+			Vector( 89, -35, 1 ),
+		},
+	}
+
+}
+list.Set( "simfphys_lights", "primo", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 80, 26.6, 1 ),
+	L_HeadLampAng = Angle(0,0,0),
+	R_HeadLampPos = Vector( 80, -26.6, 1 ),
+	R_HeadLampAng = Angle(0,0,0),
+	
+	L_RearLampPos = Vector(-89,34.9,-2.5),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-89,-34.9,-2.5),
+	R_RearLampAng = Angle(0,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 90, 26.6, 1 ),material = "sprites/light_ignorez",size = 40, color = Color( 255,230,230,100)},
+		{pos = Vector( 90, -26.6, 1 ),material = "sprites/light_ignorez",size = 40, color = Color( 255,230,230,100)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 90, 26.6, 1 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+		{pos = Vector( 90, -26.6, 1 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-99,34.9,-2.5),material = "sprites/light_ignorez",size = 32,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-99,-34.9,-2.5),material = "sprites/light_ignorez",size = 32,color = Color( 255, 0, 0,  150)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-99,34.9,1.8),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-99,-34.9,1.8),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-99,34.9,1.8),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+		{pos = Vector(-99,-34.9,1.8),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+	},
+	
+	DelayOn = 0.1,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			Vector(-99,34.9,1.8),
+			Vector( 90, 35, 1 ),
+		},
+		Right = {
+			Vector(-99,-34.9,1.8),
+			Vector( 90, -35, 1 ),
+		},
+	}
+
+}
+list.Set( "simfphys_lights", "regina", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 89.7, 27.3, -6.8 ),
+	L_HeadLampAng = Angle(0,0,0),
+	R_HeadLampPos = Vector( 89.7, -27.3, -6.8 ),
+	R_HeadLampAng = Angle(0,0,0),
+	
+	L_RearLampPos = Vector(-100.9,36.3,0.3),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-100.9,-36.3,0.3),
+	R_RearLampAng = Angle(0,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 99.7, 27.3, -6.8 ),material = "sprites/light_ignorez",size = 40, color = Color( 255,230,230,100)},
+		{pos = Vector( 99.7, -27.3, -6.8 ),material = "sprites/light_ignorez",size = 40, color = Color( 255,230,230,100)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 99.7, 27.3, -6.8 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+		{pos = Vector( 99.7, -27.3, -6.8 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-111.9,36.3,0.3),material = "sprites/light_ignorez",size = 32,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-111.9,-36.3,0.3),material = "sprites/light_ignorez",size = 32,color = Color( 255, 0, 0,  150)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-111.9,36.3,-4.3),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-111.9,-36.3,-4.3),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-111.9,36.3,-4.3),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+		{pos = Vector(-111.9,-36.3,-4.3),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+	},
+	
+	DelayOn = 0.1,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			Vector(-111.9,36.3,-4.3),
+			Vector( 101, 36, -6.8 ),
+		},
+		Right = {
+			Vector(-111.9,-36.3,-4.3),
+			Vector( 101, -36, -6.8 ),
+		},
+	}
+
+}
+list.Set( "simfphys_lights", "romero", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 74.9, 17, -2.1 ),
+	L_HeadLampAng = Angle(0,0,0),
+	R_HeadLampPos = Vector( 74.9, -17, -2.1 ),
+	R_HeadLampAng = Angle(0,0,0),
+	
+	L_RearLampPos = Vector(-87.9,26,-1.8),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-87.9,-26,-1.8),
+	R_RearLampAng = Angle(0,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 84.9, 17, -2.1 ),material = "sprites/light_ignorez",size = 34, color = Color( 255,230,230,100)},
+		{pos = Vector( 84.9, -17, -2.1 ),material = "sprites/light_ignorez",size = 34, color = Color( 255,230,230,100)},
+		{pos = Vector( 84.9, 23, -2.1 ),material = "sprites/light_ignorez",size = 34, color = Color( 255,230,230,100)},
+		{pos = Vector( 84.9, -23, -2.1 ),material = "sprites/light_ignorez",size = 34, color = Color( 255,230,230,100)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 84.9, 20, -2.1 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+		{pos = Vector( 84.9, -20, -2.1 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-97.9,26,-1.8),material = "sprites/light_ignorez",size = 38,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-97.9,-26,-1.8),material = "sprites/light_ignorez",size = 38,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-97.9,20,-1.8),material = "sprites/light_ignorez",size = 38,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-97.9,-20,-1.8),material = "sprites/light_ignorez",size = 38,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-97.9,14,-1.8),material = "sprites/light_ignorez",size = 38,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-97.9,-14,-1.8),material = "sprites/light_ignorez",size = 38,color = Color( 255, 0, 0,  150)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-97.9,8,-1.8),material = "sprites/light_ignorez",size = 32,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-97.9,-8,-1.8),material = "sprites/light_ignorez",size = 32,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-97.9,8,-1.8),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+		{pos = Vector(-97.9,-8,-1.8),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+	},
+	
+	DelayOn = 0.1,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			Vector(-96,32,-1.8),
+			Vector( 82, 31, -2.1 ),
+		},
+		Right = {
+			Vector(-96,-32,-1.8),
+			Vector( 82, -31, -2.1 ),
+		},
+	}
+
+}
+list.Set( "simfphys_lights", "sentinel", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 82.1, 19, -4.3 ),
+	L_HeadLampAng = Angle(0,0,0),
+	R_HeadLampPos = Vector( 82.1, -19, -4.3 ),
+	R_HeadLampAng = Angle(0,0,0),
+	
+	L_RearLampPos = Vector(-91.1,34.9,-5),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-91.1,-34.9,-5),
+	R_RearLampAng = Angle(0,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 92.1, 19, -4.3 ),material = "sprites/light_ignorez",size = 34, color = Color( 255,230,230,100)},
+		{pos = Vector( 92.1, -19, -4.3 ),material = "sprites/light_ignorez",size = 34, color = Color( 255,230,230,100)},
+		{pos = Vector( 92.1, 25, -4.3 ),material = "sprites/light_ignorez",size = 34, color = Color( 255,230,230,100)},
+		{pos = Vector( 92.1, -25, -4.3 ),material = "sprites/light_ignorez",size = 34, color = Color( 255,230,230,100)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 92.1, 23, -4.3 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+		{pos = Vector( 92.1, -23, -4.3 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-101.1,34.9,-5),material = "sprites/light_ignorez",size = 34,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-101.1,-34.9,-5),material = "sprites/light_ignorez",size = 34,color = Color( 255, 0, 0,  150)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-101.1,34.9,1),material = "sprites/light_ignorez",size = 32,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-101.1,-34.9,1),material = "sprites/light_ignorez",size = 32,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-101.1,34.9,1),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+		{pos = Vector(-101.1,-34.9,1),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+	},
+	
+	DelayOn = 0.1,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			Vector(-101.1,34.9,1),
+			Vector( 87, 34, -4.3 ),
+		},
+		Right = {
+			Vector(-101.1,-34.9,1),
+			Vector( 87, -34, -4.3 ),
+		},
+	}
+
+}
+list.Set( "simfphys_lights", "solair", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 84.3, 28, 0 ),
+	L_HeadLampAng = Angle(0,0,0),
+	R_HeadLampPos = Vector( 84.3, -28, 0 ),
+	R_HeadLampAng = Angle(0,0,0),
+	
+	L_RearLampPos = Vector(-82.2,39.4,2),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-82.2,39.4,2),
+	R_RearLampAng = Angle(0,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 94.3, 28, 0 ),material = "sprites/light_ignorez",size = 38, color = Color( 255,230,230,100)},
+		{pos = Vector( 94.3, -28, 0 ),material = "sprites/light_ignorez",size = 38, color = Color( 255,230,230,100)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 94.3, 28, 0 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+		{pos = Vector( 94.3, -28, 0 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-102.2,39.4,2),material = "sprites/light_ignorez",size = 22,color = Color( 255, 0, 0,  150)},
+		{pos = Vector(-102.2,-39.4,2),material = "sprites/light_ignorez",size = 22,color = Color( 255, 0, 0,  150)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-102.2,39.4,-2),material = "sprites/light_ignorez",size = 18,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-102.2,-39.4,-2),material = "sprites/light_ignorez",size = 18,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-102.2,39.4,-2),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+		{pos = Vector(-102.2,-39.4,-2),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+	},
+	
+	DelayOn = 0.1,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			Vector(-102.2,39.4,-2),
+			Vector( 94.3, 28, -8 ),
+		},
+		Right = {
+			Vector(-102.2,-39.4,-2),
+			Vector( 94.3, -28, -8 ),
+		},
+	}
+
+}
+list.Set( "simfphys_lights", "stafford", light_table)
