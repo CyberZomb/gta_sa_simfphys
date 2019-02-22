@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gta_sa/towtruck92wheel"
+	"$nocull" 1
+}
