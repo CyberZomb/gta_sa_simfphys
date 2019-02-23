@@ -126,7 +126,7 @@ local V = {
 	Members = {
 		Mass = 5500,
 		
-		EnginePos = Vector(100,0,10),
+		EnginePos = Vector(-200,0,10),
 		
 		LightsTable = "bus",
 		
@@ -253,3 +253,262 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_bus", V )
+
+local V = {
+	Name = "Cabbie",
+	Model = "models/GTA_SA/public_service/cabbie.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Public Service",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1750,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "cabbie",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/public_service/cabbie_wheel.mdl",
+		CustomWheelPosFL = Vector(68.7,34.2,-19.8),
+		CustomWheelPosFR = Vector(68.7,-34.2,-19.8),
+		CustomWheelPosRL = Vector(-68.4,34.2,-19.8),
+		CustomWheelPosRR = Vector(-68.4,-34.2,-19.8),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,0),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(10,-17,9),
+		SeatPitch = -10,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(18,-17,-19),
+				ang = Angle(0,-90,20)
+			},
+			{
+				pos = Vector(-18,17,-19),
+				ang = Angle(0,-90,20)
+			},
+			{
+				pos = Vector(-18,-17,-19),
+				ang = Angle(0,-90,20)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-96.8,-17.2,-27),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 9,
+		FrontConstant = 42000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 8,
+		RearConstant = 42000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 69,
+		Efficiency = 1,
+		GripOffset = 2,
+		BrakePower = 32,
+		
+		IdleRPM = 800,
+		LimitRPM = 6400,
+		PeakTorque = 185,
+		PowerbandStart = 900,
+		PowerbandEnd = 6100,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-69.4,39.2,-0.3),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 60,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_019/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_019/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_019/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_020/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.48,
+		Gears = {-0.12,0,0.1,0.22,0.38,0.45}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_cabbie", V )
+
+local V = {
+	Name = "Coach",
+	Model = "models/GTA_SA/public_service/coach.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Public Service",
+	SpawnOffset = Vector(0,0,30),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 9500,
+		
+		EnginePos = Vector(-200,0,10),
+		
+		LightsTable = "coach",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 0,
+		
+		CustomWheelModel = "models/GTA_SA/public_service/coach_wheel.mdl",
+		CustomWheelPosFL = Vector(142.2,43.5,-18),
+		CustomWheelPosFR = Vector(142.2,-43.5,-18),
+		CustomWheelPosML = Vector(-101.2,43.5,-18),
+		CustomWheelPosMR = Vector(-101.2,-43.5,-18),
+		CustomWheelPosRL = Vector(-141.8,43.5,-18),
+		CustomWheelPosRR = Vector(-141.8,-43.5,-18),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(0,0,2),
+		
+		CustomSteerAngle = 40,
+		
+		SeatOffset = Vector(159,-25,50),
+		SeatPitch = 8,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(140,30,12),
+				ang = Angle(0,-90,8)
+			},
+			{
+				pos = Vector(140,-30,12),
+				ang = Angle(0,-90,8)
+			},
+			{
+				pos = Vector(140,10,12),
+				ang = Angle(0,-90,8)
+			},
+			{
+				pos = Vector(140,-10,12),
+				ang = Angle(0,-90,8)
+			},
+			{
+				pos = Vector(130,0,12),
+				ang = Angle(0,-90,8)
+			},
+			{
+				pos = Vector(130,0,12),
+				ang = Angle(0,-90,8)
+			},
+			{
+				pos = Vector(130,0,12),
+				ang = Angle(0,-90,8)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-199,-28,-28),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 27,
+		FrontConstant = 50000,
+		FrontDamping = 9000,
+		FrontRelativeDamping = 1000,
+		
+		RearHeight = 19,
+		RearConstant = 50000,
+		RearDamping = 9000,
+		RearRelativeDamping = 1000,
+		
+		FastSteeringAngle = 30,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 190,
+		Efficiency = 1,
+		GripOffset = 1,
+		BrakePower = 60,
+		
+		IdleRPM = 600,
+		LimitRPM = 4000,
+		PeakTorque = 350,
+		PowerbandStart = 700,
+		PowerbandEnd = 3800,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-178.9,48.6,-18),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 85,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_026/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_026/sound_001.wav",
+		Sound_MidPitch = 1.2,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_026/sound_001.wav",
+		Sound_HighPitch = 1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_027/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.12,0,0.11,0.22,0.32,0.52}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_coach", V )
