@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gta_sa/remapcamperbody256"
+	"$nocull" 1
+}
