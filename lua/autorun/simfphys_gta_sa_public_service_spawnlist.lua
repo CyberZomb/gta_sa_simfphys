@@ -914,13 +914,15 @@ local V = {
 			}
 		},
 		
+		StrengthenSuspension = true,
+		
 		FrontHeight = 22,
-		FrontConstant = 50000,
+		FrontConstant = 60000,
 		FrontDamping = 10000,
 		FrontRelativeDamping = 1000,
 		
 		RearHeight = 18,
-		RearConstant = 50000,
+		RearConstant = 60000,
 		RearDamping = 10000,
 		RearRelativeDamping = 1000,
 		
