@@ -301,3 +301,114 @@ local light_table = {
 
 }
 list.Set( "simfphys_lights", "journey", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 2.9, 0, 4.3 ),
+	L_HeadLampAng = Angle(14,0,0),
+	R_HeadLampPos = Vector( 2.9, 0, 4.3 ),
+	R_HeadLampAng = Angle(14,0,0),
+	
+	L_RearLampPos = Vector(-22,0,3.9),
+	L_RearLampAng = Angle(10,180,0),
+	R_RearLampPos = Vector(-22,0,3.9),
+	R_RearLampAng = Angle(10,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 12.9, 0, 4.3 ),material = "sprites/light_ignorez",size = 25, color = Color( 255,230,230,120)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 12.9, 0, 4.3 ),material = "sprites/light_ignorez",size = 30, color = Color( 255,235,220,220)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-32,0,-3.9),material = "sprites/light_ignorez",size = 20,color = Color( 255, 0, 0,  120)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-32,0,-3.9),material = "sprites/light_ignorez",size = 28,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-32,0,-3.9),material = "sprites/light_ignorez",size = 20,color = Color( 255, 255, 255, 200)},
+	},
+	
+	DelayOn = 0,
+	DelayOff = 0.1,
+
+}
+list.Set( "simfphys_lights", "kart", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 19.8, 10.4, -2.8 ),
+	L_HeadLampAng = Angle(14,0,0),
+	R_HeadLampPos = Vector( 19.8, -10.4, -2.8 ),
+	R_HeadLampAng = Angle(14,0,0),
+	
+	L_RearLampPos = Vector(-26.7,14.4,0.3),
+	L_RearLampAng = Angle(10,180,0),
+	R_RearLampPos = Vector(-26.7,-14.4,0.3),
+	R_RearLampAng = Angle(10,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 29.8, 10.4, -2.8 ),material = "sprites/light_ignorez",size = 25, color = Color( 255,230,230,120)},
+		{pos = Vector( 29.8, -10.4, -2.8 ),material = "sprites/light_ignorez",size = 25, color = Color( 255,230,230,120)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 29.8, 10.4, -2.8 ),material = "sprites/light_ignorez",size = 30, color = Color( 255,235,220,220)},
+		{pos = Vector( 29.8, -10.4, -2.8 ),material = "sprites/light_ignorez",size = 30, color = Color( 255,235,220,220)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-36.7,14.4,0.3),material = "sprites/light_ignorez",size = 20,color = Color( 255, 0, 0,  120)},
+		{pos = Vector(-36.7,-14.4,0.3),material = "sprites/light_ignorez",size = 20,color = Color( 255, 0, 0,  120)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-36.7,14.4,0.3),material = "sprites/light_ignorez",size = 28,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-36.7,-14.4,0.3),material = "sprites/light_ignorez",size = 28,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-36.7,14.4,0.3),material = "sprites/light_ignorez",size = 20,color = Color( 255, 255, 255, 200)},
+		{pos = Vector(-36.7,-14.4,0.3),material = "sprites/light_ignorez",size = 20,color = Color( 255, 255, 255, 200)},
+	},
+	
+	DelayOn = 0,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			Vector(-36.7,14.4,0.3),
+			Vector( 29.8, 10.4, -2.8 ),
+		},
+		Right = {
+			Vector(-36.7,-14.4,0.3),
+			Vector( 29.8, -10.4, -2.8 ),
+		},
+	}
+
+}
+list.Set( "simfphys_lights", "mower", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 0.8, 0, 20.8),
+	L_HeadLampAng = Angle(14,0,0),
+	
+	L_RearLampPos = Vector(-18.8,0,7.5),
+	L_RearLampAng = Angle(10,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 10.8, 0, 20.8),material = "sprites/light_ignorez",size = 25, color = Color( 255,230,230,120)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 10.8, 0, 20.8),material = "sprites/light_ignorez",size = 30, color = Color( 255,235,220,220)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-28.8,0,7.5),material = "sprites/light_ignorez",size = 20,color = Color( 255, 0, 0,  120)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-28.8,0,7.5),material = "sprites/light_ignorez",size = 28,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-28.8,0,7.5),material = "sprites/light_ignorez",size = 20,color = Color( 255, 255, 255, 200)},
+	},
+	
+	DelayOn = 0,
+	DelayOff = 0.1,
+
+}
+list.Set( "simfphys_lights", "quad", light_table)

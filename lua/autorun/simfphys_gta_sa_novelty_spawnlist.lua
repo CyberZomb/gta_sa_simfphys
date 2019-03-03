@@ -729,3 +729,493 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_journey", V )
+
+local V = {
+	Name = "Kart",
+	Model = "models/GTA_SA/novelty/kart.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Novelty",
+	SpawnOffset = Vector(0,0,10),
+	SpawnAngleOffset = 90,
+	
+	Members = {
+		Mass = 600,
+		
+		EnginePos = Vector(-16.9,-11,-1),
+		
+		LightsTable = "kart",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 0,
+		
+		CustomWheelModel = "models/GTA_SA/novelty/kart_wheel.mdl",
+		CustomWheelPosFL = Vector(20.16,18.7,-5.7),
+		CustomWheelPosFR = Vector(20.16,-18.7,-5.7),
+		CustomWheelPosRL = Vector(-22.3,19.4,-5.7),
+		CustomWheelPosRR = Vector(-22.3,-19.4,-5.7),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(0,0,1),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-17,0,19),
+		SeatPitch = -7,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-27.7,9.3,-2.1),
+				ang = Angle(90,180,0),
+			},
+			{
+				pos = Vector(-27.7,9.3,-2.1),
+				ang = Angle(90,180,0),
+			},
+			{
+				pos = Vector(-27.7,9.3,-2.1),
+				ang = Angle(90,180,0),
+			},
+			{
+				pos = Vector(-27.7,9.3,-2.1),
+				ang = Angle(90,180,0),
+			}
+		},
+		StrengthenSuspension = true,
+		
+		FrontHeight = 4,
+		FrontConstant = 22000,
+		FrontDamping = 1200,
+		FrontRelativeDamping = 80,
+		
+		RearHeight = 4,
+		RearConstant = 22000,
+		RearDamping = 1200,
+		RearRelativeDamping = 80,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 45,
+		Efficiency = 1,
+		GripOffset = 0,
+		BrakePower = 10,
+		
+		IdleRPM = 300,
+		LimitRPM = 6000,
+		PeakTorque = 80,
+		PowerbandStart = 600,
+		PowerbandEnd = 5500,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(6.4,0,0.3),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 10,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_055/sound_002.wav",
+		Sound_IdlePitch = 1.3,
+		
+		Sound_Mid = "bank_055/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_055/sound_001.wav",
+		Sound_HighPitch = 1.2,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_055/sound_001.wav",
+		Sound_ThrottlePitch = 1.1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.17,0,0.14,0.29,0.5,0.74}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_kart", V )
+
+local V = {
+	Name = "Mower",
+	Model = "models/GTA_SA/novelty/mower.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Novelty",
+	SpawnOffset = Vector(0,0,10),
+	SpawnAngleOffset = 90,
+	
+	Members = {
+		Mass = 900,
+		
+		EnginePos = Vector(30,0,5),
+		
+		LightsTable = "mower",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 0,
+		
+		CustomWheelModel = "models/GTA_SA/novelty/mower_wheel.mdl",
+		CustomWheelPosFL = Vector(24.8,16.9,-12.6),
+		CustomWheelPosFR = Vector(24.8,-16.9,-12.6),
+		CustomWheelPosRL = Vector(-24.4,16.9,-12.6),
+		CustomWheelPosRR = Vector(-24.4,-16.9,-12.6),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(1,0,1),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-28,0,26),
+		SeatPitch = 17,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-27.7,-9.3,-10),
+				ang = Angle(90,180,0),
+			},
+			{
+				pos = Vector(-27.7,-9.3,-10),
+				ang = Angle(90,180,0),
+			},
+			{
+				pos = Vector(-27.7,-9.3,-10),
+				ang = Angle(90,180,0),
+			},
+			{
+				pos = Vector(-27.7,-9.3,-10),
+				ang = Angle(90,180,0),
+			}
+		},
+		StrengthenSuspension = false,
+		
+		FrontHeight = 4,
+		FrontConstant = 28000,
+		FrontDamping = 1200,
+		FrontRelativeDamping = 80,
+		
+		RearHeight = 4,
+		RearConstant = 28000,
+		RearDamping = 1200,
+		RearRelativeDamping = 80,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 45,
+		Efficiency = 1,
+		GripOffset = 0,
+		BrakePower = 10,
+		
+		IdleRPM = 300,
+		LimitRPM = 5000,
+		PeakTorque = 60,
+		PowerbandStart = 600,
+		PowerbandEnd = 4500,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-32.7,13.6,4.3),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 10,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_055/sound_002.wav",
+		Sound_IdlePitch = 1.3,
+		
+		Sound_Mid = "bank_055/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_055/sound_001.wav",
+		Sound_HighPitch = 1.2,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_055/sound_001.wav",
+		Sound_ThrottlePitch = 1.1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.17,0,0.12,0.22,0.4}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_mower", V )
+
+local V = {
+	Name = "Quad",
+	Model = "models/GTA_SA/novelty/quad.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Novelty",
+	SpawnOffset = Vector(0,0,10),
+	SpawnAngleOffset = 90,
+	
+	Members = {
+		Mass = 800,
+		
+		EnginePos = Vector(0,0,5),
+		
+		LightsTable = "quad",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 0,
+		
+		CustomWheelModel = "models/GTA_SA/novelty/quad_wheel.mdl",
+		CustomWheelPosFL = Vector(21.9,14.7,-10),
+		CustomWheelPosFR = Vector(21.9,-14.7,-10),
+		CustomWheelPosRL = Vector(-21.6,14.7,-10),
+		CustomWheelPosRR = Vector(-21.6,-14.7,-10),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(0,0,2),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-18,0,29),
+		SeatPitch = 20,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(-25,0,-1),
+				ang = Angle(0,-90,-5)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-27,-6.1,2.8),
+				ang = Angle(130,180,0),
+			},
+			{
+				pos = Vector(-27,-6.1,2.8),
+				ang = Angle(130,180,0),
+			},
+			{
+				pos = Vector(-27,6.1,2.8),
+				ang = Angle(130,180,0),
+			},
+			{
+				pos = Vector(-27,6.1,2.8),
+				ang = Angle(130,180,0),
+			}
+		},
+		StrengthenSuspension = true,
+		
+		FrontHeight = 2,
+		FrontConstant = 22000,
+		FrontDamping = 1200,
+		FrontRelativeDamping = 80,
+		
+		RearHeight = 2,
+		RearConstant = 22000,
+		RearDamping = 1200,
+		RearRelativeDamping = 80,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 55,
+		Efficiency = 1,
+		GripOffset = 0,
+		BrakePower = 10,
+		
+		IdleRPM = 300,
+		LimitRPM = 7000,
+		PeakTorque = 80,
+		PowerbandStart = 600,
+		PowerbandEnd = 6300,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-32.7,13.6,4.3),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 20,
+		
+		PowerBias = 0,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_041/sound_002.wav",
+		Sound_IdlePitch = 1.3,
+		
+		Sound_Mid = "bank_041/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_041/sound_001.wav",
+		Sound_HighPitch = 1.2,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_041/sound_001.wav",
+		Sound_ThrottlePitch = 1.1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.17,0,0.12,0.22,0.37,0.48}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_quad", V )
+
+local V = {
+	Name = "Vortex",
+	Model = "models/GTA_SA/novelty/vortex.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Novelty",
+	SpawnOffset = Vector(0,0,10),
+	SpawnAngleOffset = 90,
+	
+	Members = {
+		Mass = 900,
+		
+		EnginePos = Vector(-30,0,5),
+		
+		LightsTable = "vortex",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 0,
+		
+		CustomWheelModel = "models/GTA_SA/novelty/kart_wheel.mdl",
+		CustomWheelPosFL = Vector(-10,18,-10),
+		CustomWheelPosFR = Vector(-10,-18,-10),
+		CustomWheelPosRL = Vector(-45,18,-10),
+		CustomWheelPosRR = Vector(-45,-18,-10),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(0,0,1),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(1,0,25),
+		SeatPitch = 1,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-57,25.9,20.1),
+				ang = Angle(90,180,0),
+			},
+			{
+				pos = Vector(-57,25.9,20.1),
+				ang = Angle(90,180,0),
+			},
+			{
+				pos = Vector(-57,25.9,20.1),
+				ang = Angle(90,180,0),
+			},
+			{
+				pos = Vector(-57,25.9,20.1),
+				ang = Angle(90,180,0),
+			}
+		},
+		StrengthenSuspension = false,
+		
+		FrontHeight = 3,
+		FrontConstant = 20000,
+		FrontDamping = 1200,
+		FrontRelativeDamping = 80,
+		
+		RearHeight = 3,
+		RearConstant = 20000,
+		RearDamping = 1200,
+		RearRelativeDamping = 80,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 10,
+		Efficiency = 1,
+		GripOffset = 0,
+		BrakePower = 0,
+		
+		IdleRPM = 300,
+		LimitRPM = 5000,
+		PeakTorque = 280,
+		PowerbandStart = 600,
+		PowerbandEnd = 4500,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-25,0,10),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 30,
+		
+		PowerBias = 0,
+		
+		EngineSoundPreset = 0,
+		
+		Sound_Idle = "bank_071/sound_002.wav",
+		Sound_IdlePitch = 1.3,
+		
+		Sound_Mid = "bank_071/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_071/sound_001.wav",
+		Sound_HighPitch = 1.2,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_071/sound_001.wav",
+		Sound_ThrottlePitch = 1.1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.25,0,0.6}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_vortex", V )
