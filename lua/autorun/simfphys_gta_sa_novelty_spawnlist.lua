@@ -1215,7 +1215,7 @@ local V = {
 		snd_horn = "bank_068/sound_002.wav",
 		
 		DifferentialGear = 0.5,
-		Gears = {-0.25,0,0.6}
+		Gears = {-0.6,0,0.6}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_vortex", V )
