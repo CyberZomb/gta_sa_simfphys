@@ -615,3 +615,241 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_fbiranch", V )
+
+local V = {
+	Name = "Fire Truck",
+	Model = "models/GTA_SA/government/firetruk.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Government",
+	SpawnOffset = Vector(0,0,50),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 6500,
+		
+		EnginePos = Vector(140,0,10),
+		
+		LightsTable = "firetruk",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 2,
+		
+		CustomWheelModel = "models/GTA_SA/government/firetruk_wheel.mdl",
+		CustomWheelPosFL = Vector(88.2,37.4,-29),
+		CustomWheelPosFR = Vector(88.8,-37.4,-29),
+		CustomWheelPosRL = Vector(-73.4,37.4,-29),
+		CustomWheelPosRR = Vector(-73.4,-37.4,-29),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(5,0,15),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(100,-20,47),
+		SeatPitch = 10,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(109,-20,-7),
+				ang = Angle(0,-90,8)
+			},
+			{
+				pos = Vector(53,20,-7),
+				ang = Angle(0,-90,8)
+			},
+			{
+				pos = Vector(53,-20,-7),
+				ang = Angle(0,-90,8)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-132,-20,-32.4),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		StrengthenSuspension = true,
+		
+		FrontHeight = 2,
+		FrontConstant = 50000,
+		FrontDamping = 3000,
+		FrontRelativeDamping = 1000,
+		
+		RearHeight = 2,
+		RearConstant = 50000,
+		RearDamping = 3000,
+		RearRelativeDamping = 1000,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 3,
+		
+		MaxGrip = 150,
+		Efficiency = 1,
+		GripOffset = 2,
+		BrakePower = 50,
+		
+		IdleRPM = 600,
+		LimitRPM = 5600,
+		PeakTorque = 250,
+		PowerbandStart = 700,
+		PowerbandEnd = 5300,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-127,39.9,-19),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 90,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_077/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_077/sound_001.wav",
+		Sound_MidPitch = 1.5,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_077/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_078/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.1,0,0.1,0.2,0.32,0.48,0.6}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_firetruk", V )
+
+local V = {
+	Name = "Fire Truck Ladder",
+	Model = "models/GTA_SA/government/firela.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Government",
+	SpawnOffset = Vector(0,0,50),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 6500,
+		
+		EnginePos = Vector(110,0,0),
+		
+		LightsTable = "firela",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 2,
+		
+		CustomWheelModel = "models/GTA_SA/government/firela_wheel.mdl",
+		CustomWheelPosFL = Vector(88.2,37.4,-29),
+		CustomWheelPosFR = Vector(88.8,-37.4,-29),
+		CustomWheelPosRL = Vector(-73.4,37.4,-29),
+		CustomWheelPosRR = Vector(-73.4,-37.4,-29),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(5,0,15),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(80,-20,47),
+		SeatPitch = 10,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(91,-20,0),
+				ang = Angle(0,-90,8)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-132,-20,-32.4),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		StrengthenSuspension = true,
+		
+		FrontHeight = 2,
+		FrontConstant = 50000,
+		FrontDamping = 3000,
+		FrontRelativeDamping = 1000,
+		
+		RearHeight = 2,
+		RearConstant = 50000,
+		RearDamping = 3000,
+		RearRelativeDamping = 1000,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 3,
+		
+		MaxGrip = 150,
+		Efficiency = 1,
+		GripOffset = 2,
+		BrakePower = 50,
+		
+		IdleRPM = 600,
+		LimitRPM = 5600,
+		PeakTorque = 250,
+		PowerbandStart = 700,
+		PowerbandEnd = 5300,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(74.1,42,11.5),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 90,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_077/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_077/sound_001.wav",
+		Sound_MidPitch = 1.5,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_077/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_078/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.1,0,0.1,0.2,0.32,0.48,0.6}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_firela", V )

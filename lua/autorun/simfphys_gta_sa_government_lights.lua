@@ -239,7 +239,7 @@ local light_table = {
 		Right = {
 			Vector(-140.4,-34.9,11.5),
 			Vector( 114.1, -43.2, -20.8 ),
-			Vector( 97.2, 34.2, 9.3 ),
+			Vector( 97.2, -34.2, 9.3 ),
 		},
 	},
 	ems_sounds = {"bank_068/sound_011.wav"},
@@ -456,3 +456,236 @@ local light_table = {
 
 }
 list.Set( "simfphys_lights", "fbiranch", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 139.7, 29.8, -5 ),
+	L_HeadLampAng = Angle(10,0,0),
+	R_HeadLampPos = Vector( 139.7, -29.8, -5 ),
+	R_HeadLampAng = Angle(10,0,0),
+	
+	L_RearLampPos = Vector(-114.5,39.2,8.28),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-114.5,-39.2,8.28),
+	R_RearLampAng = Angle(0,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 149.7, 29.8, -5 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,230,230,180)},
+		{pos = Vector( 149.7, -29.8, -5 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,230,230,180)},
+		{pos = Vector( 131.7, 31.6, 46.8),material = "sprites/light_ignorez",size = 17, color = Color( 255,125,45,120)},
+		{pos = Vector( 131.7, -31.6, 46.8),material = "sprites/light_ignorez",size = 17, color = Color( 255,125,45,120)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 149.7, 24.1, -5 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+		{pos = Vector( 149.7, -24.1, -5 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-124.5,39.2,8.28),material = "sprites/light_ignorez",size = 29,color = Color( 255, 0, 0,  190)},
+		{pos = Vector(-124.5,-39.2,8.28),material = "sprites/light_ignorez",size = 29,color = Color( 255, 0, 0,  190)},
+		{pos = Vector( -137.8, 35.6, -27.3),material = "sprites/light_ignorez",size = 17, color = Color( 255,50,0,120)},
+		{pos = Vector( -137.8, -35.6, -27.3),material = "sprites/light_ignorez",size = 17, color = Color( 255,50,0,120)},
+		{pos = Vector( -137.8, 0, -27.3),material = "sprites/light_ignorez",size = 17, color = Color( 255,50,0,120)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-124.5,36.3,8.28),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-124.5,-36.3,8.28),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-124.5,33.1,8.28),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+		{pos = Vector(-124.5,-33.1,8.28),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+	},
+	
+	DelayOn = 0,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			Vector(-124.5,39.2,2.5),
+			Vector( 149.7, 29.8, 2.5 ),
+			Vector( 97.2, 34.2, 9.3 ),
+		},
+		Right = {
+			Vector(-124.5,-39.2,2.5),
+			Vector( 149.7, -29.8, 2.5 ),
+			Vector( 97.2, 34.2, 9.3 ),
+		},
+	},
+	ems_sounds = {"bank_068/sound_011.wav"},
+	ems_sprites = {
+		{   --1
+			pos = Vector(114.8,-32.7,52.2),
+			material = "sprites/light_glow02_add_noz",
+			size = 38,
+			Colors = {Color(0,0,0,0),Color(255,0,0,255)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+		{
+			pos = Vector(114.8,32.7,52.2),
+			material = "sprites/light_glow02_add_noz",
+			size = 38,
+			Colors = {Color(255,0,0,255),Color(0,0,0,0)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+		{   --2
+			pos = Vector( 149.7, 24.1, 2.5 ),
+			material = "sprites/light_glow02_add_noz",
+			size = 38,
+			Colors = {Color(0,0,0,0),Color(255,0,0,255)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+		{
+			pos = Vector( 149.7, -24.1, 2.5 ),
+			material = "sprites/light_glow02_add_noz",
+			size = 38,
+			Colors = {Color(255,0,0,255),Color(0,0,0,0)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+		{   --3
+			pos = Vector(-117.3,-15.8,14),
+			material = "sprites/light_glow02_add_noz",
+			size = 32,
+			Colors = {Color(0,0,0,0),Color(255,145,0,255)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+		{
+			pos = Vector(-117.3,15.8,14),
+			material = "sprites/light_glow02_add_noz",
+			size = 32,
+			Colors = {Color(255,145,0,255),Color(0,0,0,0)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+		{   --4
+			pos = Vector(-117.3,-3.9,14),
+			material = "sprites/light_glow02_add_noz",
+			size = 38,
+			Colors = {Color(0,0,0,0),Color(255,145,0,255)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+		{
+			pos = Vector(-117.3,3.9,14),
+			material = "sprites/light_glow02_add_noz",
+			size = 38,
+			Colors = {Color(255,145,0,255),Color(0,0,0,0)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+		{   --5
+			pos = Vector(-117.3,-9.7,14),
+			material = "sprites/light_glow02_add_noz",
+			size = 32,
+			Colors = {Color(0,0,0,0),Color(255,0,0,255)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+		{
+			pos = Vector(-117.3,9.7,14),
+			material = "sprites/light_glow02_add_noz",
+			size = 32,
+			Colors = {Color(255,0,0,255),Color(0,0,0,0)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+
+	}
+
+}
+list.Set( "simfphys_lights", "firetruk", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 119.7, 29.8, -5 ),
+	L_HeadLampAng = Angle(10,0,0),
+	R_HeadLampPos = Vector( 119.7, -29.8, -5 ),
+	R_HeadLampAng = Angle(10,0,0),
+	
+	L_RearLampPos = Vector(-109.5,34.5,-17.6),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-109.5,-34.5,-17.6),
+	R_RearLampAng = Angle(0,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 131.4, 29.8, -5 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,230,230,180)},
+		{pos = Vector( 131.4, -29.8, -5 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,230,230,180)},
+		{pos = Vector( 113.4, 28.8, 51.8),material = "sprites/light_ignorez",size = 17, color = Color( 255,125,45,120)},
+		{pos = Vector( 113.4, -28.8, 51.8),material = "sprites/light_ignorez",size = 17, color = Color( 255,125,45,120)},
+		{pos = Vector( 113.4, 11.5, 51.8),material = "sprites/light_ignorez",size = 17, color = Color( 255,125,45,120)},
+		{pos = Vector( 113.4, -11.5, 51.8),material = "sprites/light_ignorez",size = 17, color = Color( 255,125,45,120)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 131.4, 24.1, -5 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+		{pos = Vector( 131.4, -24.1, -5 ),material = "sprites/light_ignorez",size = 50, color = Color( 255,235,220,170)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-119.5,34.5,-17.6),material = "sprites/light_ignorez",size = 29,color = Color( 255, 0, 0,  190)},
+		{pos = Vector(-119.5,-34.5,-17.6),material = "sprites/light_ignorez",size = 29,color = Color( 255, 0, 0,  190)},
+		{pos = Vector( -150.4, 35.6, -26.2),material = "sprites/light_ignorez",size = 17, color = Color( 255,50,0,120)},
+		{pos = Vector( -150.4, -35.6, -26.2),material = "sprites/light_ignorez",size = 17, color = Color( 255,50,0,120)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-119.5,31.3,-17.6),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-119.5,-31.3,-17.6),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-119.5,28,-17.6),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+		{pos = Vector(-119.5,-28,-17.6),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+	},
+	
+	DelayOn = 0,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			Vector(-119.5,34.5,-21.9),
+			Vector( 131.4, 29.8, 2.5 ),
+			Vector( 97.2, 34.2, 9.3 ),
+		},
+		Right = {
+			Vector(-119.5,-34.5,-21.9),
+			Vector( 131.4, -29.8, 2.5 ),
+			Vector( 97.2, 34.2, 9.3 ),
+		},
+	},
+	ems_sounds = {"bank_068/sound_011.wav"},
+	ems_sprites = {
+		{   --1
+			pos = Vector(98.2,33.8,57.2),
+			material = "sprites/light_glow02_add_noz",
+			size = 38,
+			Colors = {Color(0,0,0,0),Color(255,145,0,255)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+		{
+			pos = Vector(98.2,-33.8,57.2),
+			material = "sprites/light_glow02_add_noz",
+			size = 38,
+			Colors = {Color(255,145,0,255),Color(0,0,0,0)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+		{   --2
+			pos = Vector( 131.4, 24.1, 2.5 ),
+			material = "sprites/light_glow02_add_noz",
+			size = 38,
+			Colors = {Color(0,0,0,0),Color(255,0,0,255)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+		{
+			pos = Vector( 131.4, -24.1, 2.5 ),
+			material = "sprites/light_glow02_add_noz",
+			size = 38,
+			Colors = {Color(255,0,0,255),Color(0,0,0,0)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+		{   --3
+			pos = Vector(71.6,33.8,57.2),
+			material = "sprites/light_glow02_add_noz",
+			size = 32,
+			Colors = {Color(0,0,0,0),Color(255,145,0,255)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+		{
+			pos = Vector(71.6,-33.8,57.2),
+			material = "sprites/light_glow02_add_noz",
+			size = 32,
+			Colors = {Color(255,145,0,255),Color(0,0,0,0)}, -- the script will go from color to color
+			Speed = 0.4, -- for how long each color will be drawn
+		},
+
+	}
+
+}
+list.Set( "simfphys_lights", "firela", light_table)
