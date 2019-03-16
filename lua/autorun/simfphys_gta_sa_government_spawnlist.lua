@@ -731,7 +731,7 @@ local V = {
 		Sound_ThrottleVolume = 4,
 		
 		--
-		snd_horn = "bank_068/sound_002.wav",
+		snd_horn = "bank_068/sound_012.wav",
 		
 		DifferentialGear = 0.5,
 		Gears = {-0.1,0,0.1,0.2,0.32,0.48,0.6}
@@ -846,7 +846,7 @@ local V = {
 		Sound_ThrottleVolume = 4,
 		
 		--
-		snd_horn = "bank_068/sound_002.wav",
+		snd_horn = "bank_068/sound_012.wav",
 		
 		DifferentialGear = 0.5,
 		Gears = {-0.1,0,0.1,0.2,0.32,0.48,0.6}
@@ -967,7 +967,7 @@ local V = {
 		Sound_ThrottleVolume = 4,
 		
 		--
-		snd_horn = "bank_068/sound_002.wav",
+		snd_horn = "bank_068/sound_012.wav",
 		
 		DifferentialGear = 0.45,
 		Gears = {-0.12,0,0.1,0.17,0.28,0.39,0.5}
@@ -1088,7 +1088,7 @@ local V = {
 		Sound_ThrottleVolume = 4,
 		
 		--
-		snd_horn = "bank_068/sound_002.wav",
+		snd_horn = "bank_068/sound_012.wav",
 		
 		DifferentialGear = 0.45,
 		Gears = {-0.12,0,0.1,0.17,0.28,0.39,0.5}
@@ -1209,7 +1209,7 @@ local V = {
 		Sound_ThrottleVolume = 4,
 		
 		--
-		snd_horn = "bank_068/sound_002.wav",
+		snd_horn = "bank_068/sound_012.wav",
 		
 		DifferentialGear = 0.45,
 		Gears = {-0.12,0,0.1,0.17,0.28,0.39,0.5}
@@ -1325,7 +1325,7 @@ local V = {
 		Sound_ThrottleVolume = 4,
 		
 		--
-		snd_horn = "bank_068/sound_002.wav",
+		snd_horn = "bank_068/sound_012.wav",
 		
 		DifferentialGear = 0.5,
 		Gears = {-0.12,0,0.08,0.17,0.28,0.4,0.53}
