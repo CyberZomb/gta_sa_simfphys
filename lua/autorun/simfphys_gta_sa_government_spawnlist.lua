@@ -1332,3 +1332,129 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_copcarru", V )
+
+local V = {
+	Name = "S.W.A.T.",
+	Model = "models/GTA_SA/government/swatvan.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Government",
+	SpawnOffset = Vector(0,0,50),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 5000,
+		
+		EnginePos = Vector(-80,0,0),
+		
+		LightsTable = "swatvan",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 0,
+		
+		CustomWheelModel = "models/GTA_SA/government/swatvan_wheel.mdl",
+		CustomWheelPosFL = Vector(60.1,33.1,-10),
+		CustomWheelPosFR = Vector(60.1,-33.1,-10),
+		CustomWheelPosRL = Vector(-60.1,33.1,-10),
+		CustomWheelPosRR = Vector(-60.1,-33.1,-10),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(3,0,15),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(23,-14,48),
+		SeatPitch = 12,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(1,-17,12),
+				ang = Angle(0,-90,8)
+			},
+			{
+				pos = Vector(1,0,12),
+				ang = Angle(0,90,8)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-114.4,14.4,49.3),
+				ang = Angle(0,180,0),
+			},
+			{
+				pos = Vector(-114.4,11,49.3),
+				ang = Angle(0,180,0),
+			},
+			{
+				pos = Vector(-114.4,17,49.3),
+				ang = Angle(0,180,0),
+			}
+		},
+		
+		StrengthenSuspension = true,
+		
+		FrontHeight = 0,
+		FrontConstant = 50000,
+		FrontDamping = 3000,
+		FrontRelativeDamping = 2000,
+		
+		RearHeight = 0,
+		RearConstant = 50000,
+		RearDamping = 3000,
+		RearRelativeDamping = 2000,
+		
+		FastSteeringAngle = 35,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 150,
+		Efficiency = 1,
+		GripOffset = 2,
+		BrakePower = 60,
+		
+		IdleRPM = 500,
+		LimitRPM = 5000,
+		PeakTorque = 200,
+		PowerbandStart = 650,
+		PowerbandEnd = 4700,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-60.8,45.7,33.1),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 90,
+		
+		PowerBias = 0.4,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_074/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_074/sound_001.wav",
+		Sound_MidPitch = 1.5,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_074/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_075/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_012.wav",
+		
+		DifferentialGear = 0.4,
+		Gears = {-0.1,0,0.08,0.15,0.26,0.39,0.5}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_swatvan", V )

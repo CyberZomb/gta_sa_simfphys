@@ -985,3 +985,55 @@ local light_table = {
 
 }
 list.Set( "simfphys_lights", "copcarru", light_table)
+
+local light_table = {
+	L_HeadLampPos = Vector( 100.8, 27.7, 16.2 ),
+	L_HeadLampAng = Angle(10,0,0),
+	R_HeadLampPos = Vector( 100.8, -27.7, 16.2 ),
+	R_HeadLampAng = Angle(10,0,0),
+	
+	L_RearLampPos = Vector(-100.5,35.6,41),
+	L_RearLampAng = Angle(0,180,0),
+	R_RearLampPos = Vector(-100.5,-35.6,41),
+	R_RearLampAng = Angle(0,180,0),
+	
+	Headlight_sprites = {
+		{pos = Vector( 110.8, 27.7, 16.2 ),material = "sprites/light_ignorez",size = 37, color = Color( 255,230,230,180)},
+		{pos = Vector( 110.8, -27.7, 16.2 ),material = "sprites/light_ignorez",size = 37, color = Color( 255,230,230,180)},
+	},
+	Headlamp_sprites = {
+		{pos = Vector( 104, 18.3, 35.2 ),material = "sprites/light_ignorez",size = 30, color = Color( 255,235,220,170)},
+		{pos = Vector( 104, -18.3, 35.2 ),material = "sprites/light_ignorez",size = 30, color = Color( 255,235,220,170)},
+		{pos = Vector( 104, 12.2, 35.2 ),material = "sprites/light_ignorez",size = 30, color = Color( 255,235,220,170)},
+		{pos = Vector( 104, -12.2, 35.2 ),material = "sprites/light_ignorez",size = 30, color = Color( 255,235,220,170)},
+	},
+	Rearlight_sprites = {
+		{pos = Vector(-110.5,35.6,41),material = "sprites/light_ignorez",size = 24,color = Color( 255, 0, 0,  190)},
+		{pos = Vector(-110.5,-35.6,41),material = "sprites/light_ignorez",size = 24,color = Color( 255, 0, 0,  190)},
+	},
+	Brakelight_sprites = {
+		{pos = Vector(-110.5,35.6,41),material = "sprites/light_ignorez",size = 29,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-110.5,-35.6,41),material = "sprites/light_ignorez",size = 29,color = Color( 255, 0, 0,  180)},
+	},
+	Reverselight_sprites = {
+		{pos = Vector(-115.2,35.6,32.4),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+		{pos = Vector(-115.2,-35.6,32.4),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+	},
+	
+	DelayOn = 0,
+	DelayOff = 0.1,
+	
+	Turnsignal_sprites = {
+		Left = {
+			Vector(-115.2,35.6,32.4),
+			Vector( 111.9, 40.3, 31.6 ),
+		},
+		Right = {
+			Vector(-115.2,-35.6,32.4),
+			Vector( 111.9, -40.3, 31.6 ),
+		},
+	},
+	ems_sounds = {"bank_068/sound_011.wav"}
+
+}
+list.Set( "simfphys_lights", "swatvan", light_table)
