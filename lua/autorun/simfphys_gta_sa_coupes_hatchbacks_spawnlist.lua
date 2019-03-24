@@ -293,7 +293,7 @@ local V = {
 		
 		IdleRPM = 700,
 		LimitRPM = 4800,
-		PeakTorque = 180,
+		PeakTorque = 190,
 		PowerbandStart = 800,
 		PowerbandEnd = 4600,
 		Turbocharged = false,
@@ -331,7 +331,7 @@ local V = {
 		snd_horn = "bank_068/sound_002.wav",
 		
 		DifferentialGear = 0.5,
-		Gears = {-0.12,0,0.12,0.22,0.33,0.48,0.61}
+		Gears = {-0.12,0,0.12,0.23,0.40,0.6}
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_buccanee", V )
@@ -447,3 +447,232 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_cadrona", V )
+
+local V = {
+	Name = "Clover",
+	Model = "models/GTA_SA/coupes_hatchbacks/clover.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Coupes & Hatchbacks",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1600,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "clover",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/coupes_hatchbacks/clover_wheel.mdl",
+		CustomWheelPosFL = Vector(57.9,32,-13.3),
+		CustomWheelPosFR = Vector(57.9,-32,-13.3),
+		CustomWheelPosRL = Vector(-56.8,32,-13.3),
+		CustomWheelPosRR = Vector(-56.8,-32,-13.3),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,4),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-10,-18,15),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(2,-18,-14),
+				ang = Angle(0,-90,21)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-101.1,-21.2,-13.6),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 8,
+		FrontConstant = 38000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 7,
+		RearConstant = 38000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 52,
+		Efficiency = 1,
+		GripOffset = 3,
+		BrakePower = 30,
+		
+		IdleRPM = 700,
+		LimitRPM = 4800,
+		PeakTorque = 190,
+		PowerbandStart = 800,
+		PowerbandEnd = 4600,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-69.1,36,11.1),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 55,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_039/sound_002.wav",
+		Sound_IdlePitch = 0.8,
+		
+		Sound_Mid = "bank_039/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_039/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_039/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.12,0,0.12,0.23,0.40,0.6}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_clover", V )
+
+local V = {
+	Name = "Club",
+	Model = "models/GTA_SA/coupes_hatchbacks/club.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Coupes & Hatchbacks",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1400,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "club",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/coupes_hatchbacks/club_wheel.mdl",
+		CustomWheelPosFL = Vector(58.6,34.5,-8.5),
+		CustomWheelPosFR = Vector(58.6,-34.5,-8.5),
+		CustomWheelPosRL = Vector(-58.3,34.5,-8.5),
+		CustomWheelPosRR = Vector(-58.3,-34.5,-8.5),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(4,0,4),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-6,-15,21),
+		SeatPitch = -4,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(2,-17,-9),
+				ang = Angle(0,-90,15)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-84.2,-20.52,-12.6),
+				ang = Angle(90,180,0),
+			},
+			{
+				pos = Vector(-84.2,20.52,-12.6),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 8,
+		FrontConstant = 36000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 7,
+		RearConstant = 36000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 55,
+		Efficiency = 1,
+		GripOffset = 1,
+		BrakePower = 34,
+		
+		IdleRPM = 800,
+		LimitRPM = 7400,
+		PeakTorque = 140,
+		PowerbandStart = 900,
+		PowerbandEnd = 7000,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-31.93,-35.16,4.28),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 60,
+		
+		PowerBias = -1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_086/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_086/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_086/sound_001.wav",
+		Sound_HighPitch = 0.9,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_087/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.6,
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_club", V )
