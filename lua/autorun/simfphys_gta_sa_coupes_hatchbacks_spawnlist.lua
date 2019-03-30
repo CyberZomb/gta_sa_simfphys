@@ -1476,3 +1476,343 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_manana", V )
+
+local V = {
+	Name = "Previon",
+	Model = "models/GTA_SA/coupes_hatchbacks/previon.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Coupes & Hatchbacks",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1400,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "previon",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/coupes_hatchbacks/previon_wheel.mdl",
+		CustomWheelPosFL = Vector(49.644,30.661884,-13),
+		CustomWheelPosFR = Vector(49.644,-30.661884,-13),
+		CustomWheelPosRL = Vector(-50.44176,30.661884,-13),
+		CustomWheelPosRR = Vector(-50.44176,-30.661884,-13),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(4,0,4),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-9,-14,18),
+		SeatPitch = -10,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(1,-14,-14),
+				ang = Angle(0,-90,21)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-91.1772,-17.542584,-18.029088),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 34000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 5,
+		RearConstant = 34000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 50,
+		Efficiency = 1,
+		GripOffset = 1,
+		BrakePower = 34,
+		
+		IdleRPM = 800,
+		LimitRPM = 5300,
+		PeakTorque = 150,
+		PowerbandStart = 900,
+		PowerbandEnd = 4900,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-65.62872,35.564004,5.074308),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 60,
+		
+		PowerBias = -1,
+		
+		EngineSoundPreset = 0,
+
+		Sound_Idle = "bank_001/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_001/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_001/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_002/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.58,
+		Gears = {-0.12,0,0.1,0.21,0.38,0.45}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_previon", V )
+
+local V = {
+	Name = "Sabre",
+	Model = "models/GTA_SA/coupes_hatchbacks/sabre.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Coupes & Hatchbacks",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1700,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "sabre",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/coupes_hatchbacks/sabre_wheel.mdl",
+		CustomWheelPosFL = Vector(55.5552,33.3,-14),
+		CustomWheelPosFR = Vector(55.5552,-33.3,-14),
+		CustomWheelPosRL = Vector(-55.9422,33.3,-14),
+		CustomWheelPosRR = Vector(-55.9422,-33.3,-14),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,4),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-9,-16,13),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(4,-16,-18),
+				ang = Angle(0,-90,25)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-92.96496,-17.457084,-17.96292),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 8,
+		FrontConstant = 38000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 7,
+		RearConstant = 38000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 58,
+		Efficiency = 1,
+		GripOffset = 2,
+		BrakePower = 30,
+		
+		IdleRPM = 700,
+		LimitRPM = 4800,
+		PeakTorque = 200,
+		PowerbandStart = 800,
+		PowerbandEnd = 4600,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-57.6054,38.3652,4.681116),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 55,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_039/sound_002.wav",
+		Sound_IdlePitch = 0.8,
+		
+		Sound_Mid = "bank_039/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_039/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_039/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.12,0,0.12,0.23,0.40,0.6}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_sabre", V )
+
+local V = {
+	Name = "Stallion",
+	Model = "models/GTA_SA/coupes_hatchbacks/stallion.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Coupes & Hatchbacks",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1600,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "stallion",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/coupes_hatchbacks/stallion_wheel.mdl",
+		CustomWheelPosFL = Vector(56.052,31.5,-17),
+		CustomWheelPosFR = Vector(56.052,-31.5,-17),
+		CustomWheelPosRL = Vector(-54.468,31.5,-17),
+		CustomWheelPosRR = Vector(-54.468,-31.5,-17),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(7,0,4),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-20,-18,14),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(-8,-16,-19),
+				ang = Angle(0,-90,25)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-92.12508,12.439548,-15.322356),
+				ang = Angle(90,180,0),
+			},
+			{
+				pos = Vector(-92.12508,-12.439548,-15.322356),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 8,
+		FrontConstant = 38000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 7,
+		RearConstant = 38000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 58,
+		Efficiency = 1,
+		GripOffset = 2,
+		BrakePower = 30,
+		
+		IdleRPM = 700,
+		LimitRPM = 4800,
+		PeakTorque = 185,
+		PowerbandStart = 800,
+		PowerbandEnd = 4600,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-54.468,39.79656,2.226204),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 55,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_039/sound_002.wav",
+		Sound_IdlePitch = 0.8,
+		
+		Sound_Mid = "bank_039/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_039/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_039/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.12,0,0.12,0.23,0.40,0.6}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_stallion", V )
