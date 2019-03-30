@@ -1018,3 +1018,461 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_fortune", V )
+
+local V = {
+	Name = "Hermes",
+	Model = "models/GTA_SA/coupes_hatchbacks/hermes.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Coupes & Hatchbacks",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1950,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "hermes",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/coupes_hatchbacks/hermes_wheel.mdl",
+		CustomWheelPosFL = Vector(65.19672,34.202844,-18),
+		CustomWheelPosFR = Vector(65.19672,-34.202844,-18),
+		CustomWheelPosRL = Vector(-65.09448,34.202844,-18),
+		CustomWheelPosRR = Vector(-65.09448,-34.202844,-18),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,4),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-14,-18,16),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(-9,-17,-17),
+				ang = Angle(0,-90,15)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-101.6928,-21.169584,-21.07944),
+				ang = Angle(90,180,0),
+			},
+			{
+				pos = Vector(-101.6928,21.169584,-21.07944),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 45000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 5,
+		RearConstant = 45000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 65,
+		Efficiency = 1,
+		GripOffset = 1,
+		BrakePower = 34,
+		
+		IdleRPM = 800,
+		LimitRPM = 7400,
+		PeakTorque = 200,
+		PowerbandStart = 900,
+		PowerbandEnd = 7000,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-101.6928,0,-13.493088),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 54,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_028/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_028/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_028/sound_001.wav",
+		Sound_HighPitch = 0.9,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_028/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.58,
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_hermes", V )
+
+local V = {
+	Name = "Hustler",
+	Model = "models/GTA_SA/coupes_hatchbacks/hustler.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Coupes & Hatchbacks",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1700,
+		
+		EnginePos = Vector(40,0,10),
+		
+		LightsTable = "hustler",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/coupes_hatchbacks/hustler_wheel.mdl",
+		CustomWheelPosFL = Vector(51.0138,30.592116,-18),
+		CustomWheelPosFR = Vector(51.0138,-30.592116,-18),
+		CustomWheelPosRL = Vector(-51.01416,30.592116,-18),
+		CustomWheelPosRR = Vector(-51.01416,-30.592116,-18),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,4),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-14,-12,16),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(-7,-13,-18),
+				ang = Angle(0,-90,15)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-81.54576,-11.132064,-23.331672),
+				ang = Angle(90,180,0),
+			},
+			{
+				pos = Vector(-81.54576,11.132064,-23.331672),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 45000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 5,
+		RearConstant = 45000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 65,
+		Efficiency = 1,
+		GripOffset = 1,
+		BrakePower = 34,
+		
+		IdleRPM = 800,
+		LimitRPM = 7400,
+		PeakTorque = 200,
+		PowerbandStart = 900,
+		PowerbandEnd = 7000,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-79.99236,0,-11.630952),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 54,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_069/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_069/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_069/sound_001.wav",
+		Sound_HighPitch = 0.9,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_069/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.58,
+		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_hustler", V )
+
+local V = {
+	Name = "Majestic",
+	Model = "models/GTA_SA/coupes_hatchbacks/majestic.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Coupes & Hatchbacks",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1400,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "majestic",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/coupes_hatchbacks/majestic_wheel.mdl",
+		CustomWheelPosFL = Vector(60.59232,33.264,-14.4),
+		CustomWheelPosFR = Vector(60.59232,-33.264,-14.4),
+		CustomWheelPosRL = Vector(-53.43264,33.264,-14.4),
+		CustomWheelPosRR = Vector(-53.43264,-33.264,-14.4),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,4),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-8,-17,16),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(1,-16,-14),
+				ang = Angle(-4,-90,17)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-103.55292,-18.006732,-18.407232),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 8,
+		FrontConstant = 38000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 7,
+		RearConstant = 38000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 52,
+		Efficiency = 1,
+		GripOffset = 3,
+		BrakePower = 30,
+		
+		IdleRPM = 700,
+		LimitRPM = 4800,
+		PeakTorque = 195,
+		PowerbandStart = 800,
+		PowerbandEnd = 4600,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-70.30656,39.48228,2.396448),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 60,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_086/sound_002.wav",
+		Sound_IdlePitch = 0.8,
+		
+		Sound_Mid = "bank_086/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_086/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_086/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.12,0,0.12,0.23,0.43,0.62}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_majestic", V )
+
+local V = {
+	Name = "Manana",
+	Model = "models/GTA_SA/coupes_hatchbacks/manana.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Coupes & Hatchbacks",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1000,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "manana",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/coupes_hatchbacks/manana_wheel.mdl",
+		CustomWheelPosFL = Vector(49.94604,29.628,-10),
+		CustomWheelPosFR = Vector(49.94604,-29.628,-10),
+		CustomWheelPosRL = Vector(-49.55148,29.628,-10),
+		CustomWheelPosRR = Vector(-49.55148,-29.628,-10),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(4,0,4),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-9,-14,18),
+		SeatPitch = -10,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(1,-14,-14),
+				ang = Angle(0,-90,21)
+			}
+		
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-83.70504,-14.16996,-16.001676),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 34000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 5,
+		RearConstant = 34000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 50,
+		Efficiency = 1,
+		GripOffset = 1,
+		BrakePower = 34,
+		
+		IdleRPM = 800,
+		LimitRPM = 5300,
+		PeakTorque = 150,
+		PowerbandStart = 900,
+		PowerbandEnd = 4900,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-60.1128,34.872048,7.709868),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 60,
+		
+		PowerBias = -1,
+		
+		EngineSoundPreset = 0,
+
+		Sound_Idle = "bank_001/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_001/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_001/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_002/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.58,
+		Gears = {-0.12,0,0.1,0.21,0.38,0.45}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_manana", V )
