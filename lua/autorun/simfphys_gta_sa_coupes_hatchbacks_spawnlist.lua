@@ -1816,3 +1816,227 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_stallion", V )
+
+local V = {
+	Name = "Tampa",
+	Model = "models/GTA_SA/coupes_hatchbacks/tampa.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Coupes & Hatchbacks",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1700,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "tampa",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/coupes_hatchbacks/tampa_wheel.mdl",
+		CustomWheelPosFL = Vector(62.64396,34.733088,-13),
+		CustomWheelPosFR = Vector(62.64396,-34.733088,-13),
+		CustomWheelPosRL = Vector(-52.38036,34.733088,-13),
+		CustomWheelPosRR = Vector(-52.38036,-34.733088,-13),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,4),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(0,-16,13),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(13,-16,-16),
+				ang = Angle(0,-90,25)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-88.90524,-16.130484,-15.043212),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 8,
+		FrontConstant = 38000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 7,
+		RearConstant = 38000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 58,
+		Efficiency = 1,
+		GripOffset = 2,
+		BrakePower = 30,
+		
+		IdleRPM = 700,
+		LimitRPM = 4800,
+		PeakTorque = 190,
+		PowerbandStart = 800,
+		PowerbandEnd = 4600,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-42.33816,38.8134,7.956108),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 55,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_088/sound_002.wav",
+		Sound_IdlePitch = 0.8,
+		
+		Sound_Mid = "bank_088/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_088/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_089/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.12,0,0.12,0.23,0.40,0.6}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_tampa", V )
+
+local V = {
+	Name = "Virgo",
+	Model = "models/GTA_SA/coupes_hatchbacks/virgo.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Coupes & Hatchbacks",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1700,
+		
+		EnginePos = Vector(60,0,10),
+		
+		LightsTable = "virgo",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 5,
+		
+		CustomWheelModel = "models/GTA_SA/coupes_hatchbacks/virgo_wheel.mdl",
+		CustomWheelPosFL = Vector(56.41236,30.024,-16),
+		CustomWheelPosFR = Vector(56.41236,-30.024,-16),
+		CustomWheelPosRL = Vector(-56.56968,30.024,-16),
+		CustomWheelPosRR = Vector(-56.56968,-30.024,-16),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(10,0,4),
+		
+		CustomSteerAngle = 45,
+		
+		SeatOffset = Vector(-14,-15,13),
+		SeatPitch = -5,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(0,-15,-18),
+				ang = Angle(0,-90,25)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-104.70924,-20.864628,-20.425896),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 8,
+		FrontConstant = 38000,
+		FrontDamping = 1300,
+		FrontRelativeDamping = 1300,
+		
+		RearHeight = 7,
+		RearConstant = 38000,
+		RearDamping = 1300,
+		RearRelativeDamping = 1300,
+		
+		FastSteeringAngle = 25,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 5,
+		
+		MaxGrip = 58,
+		Efficiency = 1,
+		GripOffset = 2,
+		BrakePower = 30,
+		
+		IdleRPM = 700,
+		LimitRPM = 4800,
+		PeakTorque = 190,
+		PowerbandStart = 800,
+		PowerbandEnd = 4600,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-78.40908,35.563968,0),
+		FuelType = FUELTYPE_PETROL,
+		FuelTankSize = 55,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		
+		Sound_Idle = "bank_088/sound_002.wav",
+		Sound_IdlePitch = 0.8,
+		
+		Sound_Mid = "bank_088/sound_001.wav",
+		Sound_MidPitch = 1,
+		Sound_MidVolume = 1,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_088/sound_001.wav",
+		Sound_HighPitch = 1.3,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_089/sound_001.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.12,0,0.12,0.23,0.40,0.6}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_virgo", V )
