@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gta_sa/rccam92dirt64"
+	"$nocull" 1
+}
