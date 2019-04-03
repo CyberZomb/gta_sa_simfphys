@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gta_sa/bloodrbbody128a"
+	"$nocull" 1
+}
