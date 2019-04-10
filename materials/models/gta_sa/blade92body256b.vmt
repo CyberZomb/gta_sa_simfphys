@@ -1,6 +1,6 @@
 "VertexlitGeneric"
 {
-	"$basetexture" "models/gta_sa/remapcamperbody256"
+	"$basetexture" "models/gta_sa/blade92body256b"
 	"$bumpmap" "models/gta_sa/vehiclegrunge256_normal"
 	"$nocull" "1"	
 	"$rimlight" "1"
