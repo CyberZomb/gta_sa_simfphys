@@ -357,3 +357,118 @@ local V = {
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_moonbeam", V )
+
+local V = {
+	Name = "Mr Whoopee",
+	Model = "models/GTA_SA/vans/mrwhoop.mdl",
+	Class = "gmod_sent_vehicle_fphysics_base",
+	Category = "GTA SA Vans",
+	SpawnOffset = Vector(0,0,20),
+	SpawnAngleOffset = 90,
+
+	Members = {
+		Mass = 1700,
+		
+		EnginePos = Vector(90,0,10),
+		
+		LightsTable = "mrwhoop",
+		
+		CustomWheels = true,
+		CustomSuspensionTravel = 1,
+		
+		CustomWheelModel = "models/GTA_SA/vans/mrwhoop_wheel.mdl",
+		CustomWheelPosFL = Vector( 61.54848, 31.968,-23),
+		CustomWheelPosFR = Vector( 61.54848,-31.968,-23),
+		CustomWheelPosRL = Vector(-46.77264, 31.968,-23),
+		CustomWheelPosRR = Vector(-46.77264,-31.968,-23),
+		CustomWheelAngleOffset = Angle(0,90,0),
+		
+		CustomMassCenter = Vector(4,0,10),
+		
+		CustomSteerAngle = 32,
+		
+		SeatOffset = Vector(20,-20,32),
+		SeatPitch = 8,
+		SeatYaw = 90,
+		
+		PassengerSeats = {
+			{
+				pos = Vector(26,-20,-6),
+				ang = Angle(0,-90,8)
+			},
+			{
+				pos = Vector(-13,-5,-8),
+				ang = Angle(0,180,-20)
+			}
+		},
+		
+		ExhaustPositions = {
+			{
+				pos = Vector(-82.51992,13.469868,-28.22832),
+				ang = Angle(90,180,0),
+			}
+		},
+		
+		FrontHeight = 6,
+		FrontConstant = 50000,
+		FrontDamping = 3000,
+		FrontRelativeDamping = 3000,
+		
+		RearHeight = 6,
+		RearConstant = 50000,
+		RearDamping = 3000,
+		RearRelativeDamping = 3000,
+		
+		FastSteeringAngle = 19,
+		SteeringFadeFastSpeed = 535,
+		
+		TurnSpeed = 2,
+		
+		MaxGrip = 70,
+		Efficiency = 1,
+		GripOffset = 0,
+		BrakePower = 50,
+		
+		IdleRPM = 600,
+		LimitRPM = 4000,
+		PeakTorque = 280,
+		PowerbandStart = 700,
+		PowerbandEnd = 3800,
+		Turbocharged = false,
+		Supercharged = false,
+		
+		FuelFillPos = Vector(-68.46984,38.07936,-11.352096),
+		FuelType = FUELTYPE_DIESEL,
+		FuelTankSize = 60,
+		
+		PowerBias = 1,
+		
+		EngineSoundPreset = 0,
+
+		Sound_Idle = "bank_088/sound_002.wav",
+		Sound_IdlePitch = 1,
+		
+		Sound_Mid = "bank_088/sound_001.wav",
+		Sound_MidPitch = 1.5,
+		Sound_MidVolume = 2,
+		Sound_MidFadeOutRPMpercent = 80,
+		Sound_MidFadeOutRate = 0.8,
+		
+		Sound_High = "bank_088/sound_001.wav",
+		Sound_HighPitch = 1.1,
+		Sound_HighVolume = 1.5,
+		Sound_HighFadeInRPMpercent = 80,
+		Sound_HighFadeInRate = 0.8,
+		
+		Sound_Throttle = "bank_089/sound_002.wav",
+		Sound_ThrottlePitch = 1,
+		Sound_ThrottleVolume = 4,
+		
+		--
+		snd_horn = "bank_068/sound_002.wav",
+		
+		DifferentialGear = 0.5,
+		Gears = {-0.12,0,0.14,0.24,0.36,0.48,0.6}
+	}
+}
+list.Set( "simfphys_vehicles", "simfphys_gta_sa_mrwhoop", V )
