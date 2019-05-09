@@ -1459,38 +1459,38 @@ local V = {
 		LightsTable = "windsor",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = 5,
+		CustomSuspensionTravel = 2,
 		
 		CustomWheelModel = "models/GTA_SA/Sport cars/windsor_wheel.mdl",
-		CustomWheelPosFL = Vector(58,38,-18),
-		CustomWheelPosFR = Vector(58,-38,-18),
-		CustomWheelPosRL = Vector(-57.5,38,-18),
-		CustomWheelPosRR = Vector(-57.5,-38,-18),
+		CustomWheelPosFL = Vector( 55.12572, 26.027532,-11),
+		CustomWheelPosFR = Vector( 55.12572,-26.027532,-11),
+		CustomWheelPosRL = Vector(-55.61388, 26.027532,-11),
+		CustomWheelPosRR = Vector(-55.61388,-26.027532,-11),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
 		CustomMassCenter = Vector(5,0,0),
 		
 		CustomSteerAngle = 45,
 		
-		SeatOffset = Vector(-15,-17,11),
-		SeatPitch = -5,
+		SeatOffset = Vector(-15,-16,12),
+		SeatPitch = -12,
 		SeatYaw = 90,
 		
 		PassengerSeats = {
 			{
-				pos = Vector(-10,-17,-22),
-				ang = Angle(0,-90,17)
+				pos = Vector(-3,-17,-19),
+				ang = Angle(0,-90,28)
 			}
 		},
 		
 		ExhaustPositions = {
 			{
-				pos = Vector(-98,25,-16),
-				ang = Angle(90,165,0),
+				pos = Vector(-81.57852, 4.9761,-13.689756),
+				ang = Angle(90,180,0),
 			},	
 			{
-				pos = Vector(-98,-25,-16),
-				ang = Angle(90,165,0),
+				pos = Vector(-81.57852,-4.9761,-13.689756),
+				ang = Angle(90,180,0),
 			}		
 		},
 		
@@ -1511,7 +1511,7 @@ local V = {
 		
 		MaxGrip = 55,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = -1,
 		BrakePower = 35,
 		
 		IdleRPM = 1100,
@@ -1522,14 +1522,13 @@ local V = {
 		Turbocharged = false,	
 		Supercharged = true,
 		
-		FuelFillPos = Vector(-43.5,42,4),
+		FuelFillPos = Vector(-53.82288,28.277496,6.625008),
 		FuelType = FUELTYPE_PETROL,
 		FuelTankSize = 50,
 		
-		PowerBias = 0.9,
+		PowerBias = 1,
 		
 		EngineSoundPreset = 0,
-
 		
 		Sound_Idle = "bank_094/sound_002.wav",
 		Sound_IdlePitch = 1,
@@ -1569,7 +1568,7 @@ local V = {
 	SpawnAngleOffset = 90,
 
 	Members = {
-		Mass = 1500,
+		Mass = 1400,
 		
 		EnginePos = Vector(50,0,10),
 		
@@ -1579,36 +1578,32 @@ local V = {
 		CustomSuspensionTravel = 5,
 		
 		CustomWheelModel = "models/GTA_SA/Sport cars/zr350_wheel.mdl",
-		CustomWheelPosFL = Vector(58,38,-18),
-		CustomWheelPosFR = Vector(58,-38,-18),
-		CustomWheelPosRL = Vector(-57.5,38,-18),
-		CustomWheelPosRR = Vector(-57.5,-38,-18),
-		CustomWheelAngleOffset = Angle(0,-90,0),
+		CustomWheelPosFL = Vector( 61.34616, 36.8028,-11.52),
+		CustomWheelPosFR = Vector( 61.34616,-36.8028,-11.52),
+		CustomWheelPosRL = Vector(-58.33584, 36.8028,-11.52),
+		CustomWheelPosRR = Vector(-58.33584,-36.8028,-11.52),
+		CustomWheelAngleOffset = Angle(0,90,0),
 		
 		CustomMassCenter = Vector(5,0,0),
 		
 		CustomSteerAngle = 45,
 		
-		SeatOffset = Vector(-15,-17,11),
+		SeatOffset = Vector(-15,-17,14),
 		SeatPitch = -5,
 		SeatYaw = 90,
 		
 		PassengerSeats = {
 			{
-				pos = Vector(-10,-17,-22),
+				pos = Vector(-3,-18,-19),
 				ang = Angle(0,-90,17)
 			}
 		},
 		
 		ExhaustPositions = {
 			{
-				pos = Vector(-98,25,-16),
+				pos = Vector(-101.26152,-21.16638,-15.995268),
 				ang = Angle(90,165,0),
-			},	
-			{
-				pos = Vector(-98,-25,-16),
-				ang = Angle(90,165,0),
-			}		
+			}	
 		},
 		
 		FrontHeight = 9,
@@ -1626,24 +1621,24 @@ local V = {
 		
 		TurnSpeed = 6.9,
 		
-		MaxGrip = 35,
+		MaxGrip = 56,
 		Efficiency = 1,
-		GripOffset = -2,
+		GripOffset = 1,
 		BrakePower = 35,
 		
 		IdleRPM = 1100,
 		LimitRPM = 5600,
-		PeakTorque = 200,
+		PeakTorque = 260,
 		PowerbandStart = 1900,
 		PowerbandEnd = 5400,
 		Turbocharged = false,	
 		Supercharged = true,
 		
-		FuelFillPos = Vector(-43.5,42,4),
+		FuelFillPos = Vector(-55.16388, 41.50008,7.464708),
 		FuelType = FUELTYPE_PETROL,
 		FuelTankSize = 50,
 		
-		PowerBias = 0.9,
+		PowerBias = 1,
 		
 		EngineSoundPreset = 0,
 
@@ -1670,7 +1665,7 @@ local V = {
 		--
 		snd_horn = "bank_068/sound_002.wav",
 		
-		DifferentialGear = 0.6,
+		DifferentialGear = 0.69,
 		Gears = {-0.12,0,0.1,0.17,0.25,0.34,0.45}
 	}
 }
