@@ -15,6 +15,7 @@ local V = {
 		
 		CustomWheels = true,
 		CustomSuspensionTravel = 1,
+		StrengthenSuspension = true,
 		
 		CustomWheelModel = "models/GTA_SA/government/ambulan_wheel.mdl",
 		CustomWheelPosFL = Vector(79.5,34.5,-23.7),
@@ -23,7 +24,7 @@ local V = {
 		CustomWheelPosRR = Vector(-78.1,-36.3,-23.7),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
-		CustomMassCenter = Vector(4,0,12),
+		CustomMassCenter = Vector(4,0,10),
 		
 		CustomSteerAngle = 32,
 		
@@ -73,7 +74,7 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 70,
+		MaxGrip = 120,
 		Efficiency = 1,
 		GripOffset = 0,
 		BrakePower = 50,
@@ -139,7 +140,7 @@ local V = {
 		LightsTable = "barracks",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = -6,
+		CustomSuspensionTravel = 1,
 		
 		CustomWheelModel = "models/GTA_SA/government/barracks_wheel.mdl",
 		CustomWheelPosFL = Vector(107.6,46.4,-35),
@@ -150,7 +151,7 @@ local V = {
 		CustomWheelPosRR = Vector(-107.2,-46.4,-35),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
-		CustomMassCenter = Vector(4,0,4),
+		CustomMassCenter = Vector(4,0,12),
 		
 		CustomSteerAngle = 45,
 		
@@ -696,7 +697,7 @@ local V = {
 		
 		IdleRPM = 600,
 		LimitRPM = 5600,
-		PeakTorque = 250,
+		PeakTorque = 320,
 		PowerbandStart = 700,
 		PowerbandEnd = 5300,
 		Turbocharged = false,
@@ -755,7 +756,7 @@ local V = {
 		LightsTable = "firela",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = 2,
+		CustomSuspensionTravel = 1,
 		
 		CustomWheelModel = "models/GTA_SA/government/firela_wheel.mdl",
 		CustomWheelPosFL = Vector(88.2,37.4,-29),
@@ -811,7 +812,7 @@ local V = {
 		
 		IdleRPM = 600,
 		LimitRPM = 5600,
-		PeakTorque = 250,
+		PeakTorque = 320,
 		PowerbandStart = 700,
 		PowerbandEnd = 5300,
 		Turbocharged = false,
