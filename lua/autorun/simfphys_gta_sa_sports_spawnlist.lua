@@ -1280,7 +1280,7 @@ local V = {
 		
 		TurnSpeed = 6.9,
 		
-		MaxGrip = 35,
+		MaxGrip = 45,
 		Efficiency = 1,
 		GripOffset = -2,
 		BrakePower = 35,
@@ -1342,54 +1342,50 @@ local V = {
 	Members = {
 		Mass = 1400,
 		
-		EnginePos = Vector(50,0,10),
+		EnginePos = Vector(-50,0,10),
 		
 		LightsTable = "turismo",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = 5,
+		CustomSuspensionTravel = 1,
 		
 		CustomWheelModel = "models/GTA_SA/Sport cars/turismo_wheel.mdl",
-		CustomWheelPosFL = Vector(58,38,-18),
-		CustomWheelPosFR = Vector(58,-38,-18),
-		CustomWheelPosRL = Vector(-57.5,38,-18),
-		CustomWheelPosRR = Vector(-57.5,-38,-18),
+		CustomWheelPosFL = Vector( 46.92204, 32.436,-9),
+		CustomWheelPosFR = Vector( 46.92204,-32.436,-9),
+		CustomWheelPosRL = Vector(-61.20108, 32.436,-9),
+		CustomWheelPosRR = Vector(-61.20108,-32.436,-9),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
 		CustomMassCenter = Vector(5,0,0),
 		
 		CustomSteerAngle = 45,
 		
-		SeatOffset = Vector(-15,-17,11),
-		SeatPitch = -5,
+		SeatOffset = Vector(-15,-17,10),
+		SeatPitch = -8,
 		SeatYaw = 90,
 		
 		PassengerSeats = {
 			{
-				pos = Vector(-10,-17,-22),
-				ang = Angle(0,-90,17)
+				pos = Vector(2,-17,-21),
+				ang = Angle(0,-90,28)
 			}
 		},
 		
 		ExhaustPositions = {
 			{
-				pos = Vector(-98,25,-16),
-				ang = Angle(90,165,0),
-			},	
-			{
-				pos = Vector(-98,-25,-16),
-				ang = Angle(90,165,0),
-			}		
+				pos = Vector(-92.30256,0,-13.278168),
+				ang = Angle(90,180,0),
+			}	
 		},
 		
 		FrontHeight = 9,
-		FrontConstant = 25000,
-		FrontDamping = 700,
+		FrontConstant = 30000,
+		FrontDamping = 1400,
 		FrontRelativeDamping = 2000,
 		
 		RearHeight = 9,
-		RearConstant = 25000,
-		RearDamping = 1000,
+		RearConstant = 30000,
+		RearDamping = 1400,
 		RearRelativeDamping = 1000,
 		
 		FastSteeringAngle = 25,
@@ -1397,7 +1393,7 @@ local V = {
 		
 		TurnSpeed = 6.9,
 		
-		MaxGrip = 35,
+		MaxGrip = 45,
 		Efficiency = 1,
 		GripOffset = -2,
 		BrakePower = 35,
@@ -1410,7 +1406,7 @@ local V = {
 		Turbocharged = false,	
 		Supercharged = true,
 		
-		FuelFillPos = Vector(-43.5,42,4),
+		FuelFillPos = Vector(-43.76772,-37.32156,-1.45908),
 		FuelType = FUELTYPE_PETROL,
 		FuelTankSize = 50,
 		
