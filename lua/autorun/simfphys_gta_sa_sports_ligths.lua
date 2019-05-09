@@ -890,6 +890,11 @@ local light_table = {
 	DelayOn = 0.1,
 	DelayOff = 0.1,
 	
+	BodyGroups = {
+		On = {1,1},
+		Off = {1,0}
+	},
+	
 	Turnsignal_sprites = {
 		Left = {
 			Vector(-89,38.5,5),
