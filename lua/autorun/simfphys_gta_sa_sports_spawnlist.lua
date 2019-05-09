@@ -3,7 +3,7 @@ local V = {
 	Model = "models/GTA_SA/Sport cars/alpha.mdl",
 	Class = "gmod_sent_vehicle_fphysics_base",
 	Category = "GTA SA Sports",
-	SpawnOffset = Vector(0,0,10),
+	SpawnOffset = Vector(0,0,20),
 	SpawnAngleOffset = 90,
 
 	Members = {
@@ -242,7 +242,7 @@ local V = {
 	Model = "models/GTA_SA/Sport cars/buffalo.mdl",
 	Class = "gmod_sent_vehicle_fphysics_base",
 	Category = "GTA SA Sports",
-	SpawnOffset = Vector(0,0,10),
+	SpawnOffset = Vector(0,0,20),
 	SpawnAngleOffset = 90,
 
 	Members = {
@@ -811,7 +811,7 @@ local V = {
 	Model = "models/GTA_SA/Sport cars/hotknife.mdl",
 	Class = "gmod_sent_vehicle_fphysics_base",
 	Category = "GTA SA Sports",
-	SpawnOffset = Vector(0,0,10),
+	SpawnOffset = Vector(0,0,20),
 	SpawnAngleOffset = 90,
 
 	Members = {
@@ -1102,7 +1102,7 @@ local V = {
 	Model = "models/GTA_SA/Sport cars/phoenix.mdl",
 	Class = "gmod_sent_vehicle_fphysics_base",
 	Category = "GTA SA Sports",
-	SpawnOffset = Vector(0,0,10),
+	SpawnOffset = Vector(0,0,20),
 	SpawnAngleOffset = 90,
 
 	Members = {
@@ -1509,7 +1509,7 @@ local V = {
 		
 		TurnSpeed = 6.9,
 		
-		MaxGrip = 35,
+		MaxGrip = 55,
 		Efficiency = 1,
 		GripOffset = -2,
 		BrakePower = 35,
