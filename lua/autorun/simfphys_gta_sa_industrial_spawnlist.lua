@@ -15,6 +15,7 @@ local V = {
 		
 		CustomWheels = true,
 		CustomSuspensionTravel = 2,
+		StrengthenSuspension = true,
 		
 		CustomWheelModel = "models/GTA_SA/industrial/benson_wheel.mdl",
 		CustomWheelPosFL = Vector(62,31,-24),
@@ -23,7 +24,7 @@ local V = {
 		CustomWheelPosRR = Vector(-77,-33,-24),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
-		CustomMassCenter = Vector(10,0,0),
+		CustomMassCenter = Vector(10,0,6),
 		
 		CustomSteerAngle = 30,
 		
@@ -61,7 +62,7 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 70,
+		MaxGrip = 90,
 		Efficiency = 1,
 		GripOffset = 2,
 		BrakePower = 50,
@@ -127,7 +128,8 @@ local V = {
 		LightsTable = "boxville",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = -6,
+		CustomSuspensionTravel = 1,
+		StrengthenSuspension = true,
 		
 		CustomWheelModel = "models/GTA_SA/industrial/boxville_wheel.mdl",
 		CustomWheelPosFL = Vector(86,39,-30),
@@ -248,7 +250,7 @@ local V = {
 		LightsTable = "cement",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = -6,
+		CustomSuspensionTravel = 1,
 		
 		CustomWheelModel = "models/GTA_SA/industrial/cement_wheel.mdl",
 		CustomWheelPosFL = Vector(104,47,-59),
@@ -372,6 +374,7 @@ local V = {
 		
 		CustomWheels = true,
 		CustomSuspensionTravel = 0,
+		StrengthenSuspension = true,
 		
 		//CustomWheelModel_R = "models/GTA_SA/industrial/combine_wheel_medium.mdl",
 		CustomWheelModel = "models/GTA_SA/industrial/combine_wheel_large.mdl",
@@ -424,7 +427,7 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 140,
+		MaxGrip = 170,
 		Efficiency = 1,
 		GripOffset = 1,
 		BrakePower = 50,
@@ -490,7 +493,7 @@ local V = {
 		LightsTable = "dft30",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = -6,
+		CustomSuspensionTravel = 1,
 		
 		CustomWheelModel = "models/GTA_SA/industrial/dft30_wheel.mdl",
 		CustomWheelPosFL = Vector(107,47,-47),
@@ -501,7 +504,7 @@ local V = {
 		CustomWheelPosRR = Vector(-145,-47,-45),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
-		CustomMassCenter = Vector(10,0,0),
+		CustomMassCenter = Vector(10,0,6),
 		
 		CustomSteerAngle = 30,
 		
@@ -543,7 +546,7 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 90,
+		MaxGrip = 120,
 		Efficiency = 1,
 		GripOffset = 1,
 		BrakePower = 50,
@@ -609,7 +612,8 @@ local V = {
 		LightsTable = "dozer",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = -6,
+		CustomSuspensionTravel = 1,
+		StrengthenSuspension =true,
 		
 		CustomWheelModel = "models/GTA_SA/industrial/dozer_wheel.mdl",
 		CustomWheelPosFL = Vector(60,45,-32),
@@ -660,7 +664,7 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 110,
+		MaxGrip = 200,
 		Efficiency = 1,
 		GripOffset = 1,
 		BrakePower = 60,
@@ -726,7 +730,8 @@ local V = {
 		LightsTable = "dumper",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = -6,
+		CustomSuspensionTravel = 1,
+		StrengthenSuspension = true,
 		
 		CustomWheelModel = "models/GTA_SA/industrial/dumper_wheel.mdl",
 		CustomWheelPosFL = Vector(115,83,-66),
@@ -843,7 +848,8 @@ local V = {
 		LightsTable = "flatbed",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = -6,
+		CustomSuspensionTravel = 1,
+		StrengthenSuspension = true,
 		
 		CustomWheelModel = "models/GTA_SA/industrial/flatbed_wheel.mdl",
 		CustomWheelPosFL = Vector(106,50,-41),
@@ -854,7 +860,7 @@ local V = {
 		CustomWheelPosRR = Vector(-108,-50,-39),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
-		CustomMassCenter = Vector(10,0,0),
+		CustomMassCenter = Vector(10,0,6),
 		
 		CustomSteerAngle = 45,
 		
@@ -1066,7 +1072,8 @@ local V = {
 		LightsTable = "linerun",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = -2,
+		CustomSuspensionTravel = 1,
+		StrengthenSuspension = true,
 		
 		CustomWheelModel = "models/GTA_SA/industrial/linerun_f_wheel.mdl",
 		CustomWheelModel_R = "models/GTA_SA/industrial/linerun_r_wheel.mdl",
@@ -1135,7 +1142,7 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 90,
+		MaxGrip = 140,
 		Efficiency = 1,
 		GripOffset = 5,
 		BrakePower = 60,
@@ -1202,6 +1209,7 @@ local V = {
 		
 		CustomWheels = true,
 		CustomSuspensionTravel = 1,
+		StrengthenSuspension = true,
 		
 		CustomWheelModel = "models/GTA_SA/industrial/mule_wheel.mdl",
 		CustomWheelPosFL = Vector(78,35,-28),
@@ -1210,7 +1218,7 @@ local V = {
 		CustomWheelPosRR = Vector(-77,-36,-28),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
-		CustomMassCenter = Vector(10,0,0),
+		CustomMassCenter = Vector(10,0,7),
 		
 		CustomSteerAngle = 32,
 		
@@ -1248,7 +1256,7 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 70,
+		MaxGrip = 110,
 		Efficiency = 1,
 		GripOffset = 0,
 		BrakePower = 50,
@@ -1315,6 +1323,7 @@ local V = {
 		
 		CustomWheels = true,
 		CustomSuspensionTravel = 1,
+		StrengthenSuspension = true,
 		
 		CustomWheelModel = "models/GTA_SA/industrial/packer_f_wheel.mdl",
 		CustomWheelModel_R = "models/GTA_SA/industrial/packer_r_wheel.mdl",
@@ -1372,7 +1381,7 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 100,
+		MaxGrip = 150,
 		Efficiency = 1,
 		GripOffset = 2,
 		BrakePower = 60,
@@ -1438,7 +1447,8 @@ local V = {
 		LightsTable = "rdtrain",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = -2,
+		CustomSuspensionTravel = 1,
+		StrengthenSuspension = true,
 		
 		CustomWheelModel = "models/GTA_SA/industrial/rdtrain_f_wheel.mdl",
 		CustomWheelModel_R = "models/GTA_SA/industrial/rdtrain_r_wheel.mdl",
@@ -1496,7 +1506,7 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 100,
+		MaxGrip = 120,
 		Efficiency = 1,
 		GripOffset = 5,
 		BrakePower = 60,
@@ -1562,7 +1572,8 @@ local V = {
 		LightsTable = "petro",
 		
 		CustomWheels = true,
-		CustomSuspensionTravel = -2,
+		CustomSuspensionTravel = 1,
+		StrengthenSuspension = true,
 		
 		CustomWheelModel = "models/GTA_SA/industrial/petro_wheel.mdl",
 		CustomWheelPosFL = Vector(128,50,-40),
@@ -1631,7 +1642,7 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 90,
+		MaxGrip = 120,
 		Efficiency = 1,
 		GripOffset = 5,
 		BrakePower = 60,
@@ -1819,6 +1830,7 @@ local V = {
 		
 		CustomWheels = true,
 		CustomSuspensionTravel = 2,
+		StrengthenSuspension = true,
 		
 		CustomWheelModel = "models/GTA_SA/industrial/yankee_wheel.mdl",
 		CustomWheelPosFL = Vector(92,38,-30),
@@ -1827,7 +1839,7 @@ local V = {
 		CustomWheelPosRR = Vector(-100,-44,-30),
 		CustomWheelAngleOffset = Angle(0,90,0),
 		
-		CustomMassCenter = Vector(5,0,0),
+		CustomMassCenter = Vector(5,0,8),
 		
 		CustomSteerAngle = 32,
 		
@@ -1865,7 +1877,7 @@ local V = {
 		
 		TurnSpeed = 2,
 		
-		MaxGrip = 80,
+		MaxGrip = 120,
 		Efficiency = 1,
 		GripOffset = 0,
 		BrakePower = 50,
