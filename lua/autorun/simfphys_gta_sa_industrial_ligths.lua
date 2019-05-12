@@ -77,8 +77,8 @@ local light_table = {
 		{pos = Vector(-110,-32,7),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
 	},
 	Reverselight_sprites = {
-		{pos = Vector(-110,32,13),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
-		{pos = Vector(-110,-32,13),material = "sprites/light_ignorez",size = 17,color = Color( 255, 255, 255, 250)},
+		{pos = Vector(-110,32,7),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
+		{pos = Vector(-110,-32,7),material = "sprites/light_ignorez",size = 27,color = Color( 255, 0, 0,  180)},
 	},
 	
 	DelayOn = 0.1,
