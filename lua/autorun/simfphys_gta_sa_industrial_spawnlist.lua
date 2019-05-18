@@ -607,6 +607,10 @@ local V = {
 	Members = {
 		Mass = 10000,
 		
+		ModelInfo = {
+			Color = Color(59,75,77,255)
+		},
+		
 		EnginePos = Vector(-110,0,0),
 		
 		LightsTable = "dozer",

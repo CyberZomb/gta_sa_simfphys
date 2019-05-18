@@ -268,6 +268,7 @@ local V = {
 		ModelInfo = {
 			Color = Color(215,142,16,255)
 		},
+		
 		EnginePos = Vector(60,0,10),
 		
 		LightsTable = "cabbie",
@@ -635,6 +636,10 @@ local V = {
 
 	Members = {
 		Mass = 1550,
+		
+		ModelInfo = {
+			Color = Color(215,142,16,255)
+		},
 		
 		EnginePos = Vector(60,0,10),
 		
