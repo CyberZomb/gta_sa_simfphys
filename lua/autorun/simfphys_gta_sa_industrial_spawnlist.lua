@@ -1199,23 +1199,6 @@ local V = {
                 print("INSTALL TRAILERS BASE FIRST")
             end
         end
-//        OnTick = function(ent)
-//            if ent:SimfIsTrailer() != nil then
-//                ent:Lock() -- locks trailer
-//                if not ent:GetIsBraking() then
-//                    ent.ForceTransmission = 1
-//                    if ent:GetNWBool("zadnyaya_gear", false) then
-//                        ent.PressedKeys["joystick_throttle"] = 0 -- makes thottle to 0 when reverse, for remove handbrake
-//                        ent.PressedKeys["joystick_brake"] = 1 -- makes brake to 1, for turn on reverse
-//                    else
-//                        ent.PressedKeys["joystick_throttle"] = 1 -- makes thottle to 1, for remove handbrake
-//                        ent.PressedKeys["joystick_brake"] = 0 -- makes brake to 0, for turn off reverse
-//                    end
-//                end
-//            else
-//                print("INSTALL TRAILERS BASE FIRST")
-//            end
-//        end
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_linerun", V )
@@ -1579,7 +1562,18 @@ local V = {
 		snd_horn = "bank_068/sound_002.wav",
 		
 		DifferentialGear = 0.5,
-		Gears = {-0.1,0,0.09,0.16,0.26,0.38,0.5}
+		Gears = {-0.1,0,0.09,0.16,0.26,0.38,0.5},
+//For trailers
+		OnSpawn = function(ent)
+            if ent:SimfIsTrailer() != nil then
+                ent:SetActive(true) -- makes avtive
+                ent:SetSimfIsTrailer(false)
+                ent:SetTrailerCenterposition(Vector(6,6,6))
+                ent:SetCenterposition(Vector(-119.7648,0,-21.468348))
+            else
+                print("INSTALL TRAILERS BASE FIRST")
+            end
+        end
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_rdtrain", V )
@@ -1715,7 +1709,18 @@ local V = {
 		snd_horn = "bank_068/sound_002.wav",
 		
 		DifferentialGear = 0.5,
-		Gears = {-0.1,0,0.09,0.16,0.26,0.38,0.5}
+		Gears = {-0.1,0,0.09,0.16,0.26,0.38,0.5},
+//For trailers
+		OnSpawn = function(ent)
+            if ent:SimfIsTrailer() != nil then
+                ent:SetActive(true) -- makes avtive
+                ent:SetSimfIsTrailer(false)
+                ent:SetTrailerCenterposition(Vector(6,6,6))
+                ent:SetCenterposition(Vector(-133.70652,0,-3.660696))
+            else
+                print("INSTALL TRAILERS BASE FIRST")
+            end
+        end
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_petro", V )
@@ -1836,7 +1841,18 @@ local V = {
 		snd_horn = "bank_068/sound_002.wav",
 		
 		DifferentialGear = 0.5,
-		Gears = {-0.1,0,0.09,0.16,0.26,0.38}
+		Gears = {-0.1,0,0.09,0.16,0.26,0.38},
+//For trailers
+		OnSpawn = function(ent)
+            if ent:SimfIsTrailer() != nil then
+                ent:SetActive(true) -- makes avtive
+                ent:SetSimfIsTrailer(false)
+                ent:SetTrailerCenterposition(Vector(6,6,6))
+                ent:SetCenterposition(Vector(-87.6885,0,-1.67973))
+            else
+                print("INSTALL TRAILERS BASE FIRST")
+            end
+        end
 	}
 }
 list.Set( "simfphys_vehicles", "simfphys_gta_sa_tractor", V )
