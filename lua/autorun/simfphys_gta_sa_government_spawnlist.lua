@@ -135,6 +135,10 @@ local V = {
 	Members = {
 		Mass = 10500,
 		
+		ModelInfo = {
+			Color = Color(60,74,59,255)
+		},
+		
 		EnginePos = Vector(120,0,0),
 		
 		LightsTable = "barracks",
@@ -385,6 +389,10 @@ local V = {
 
 	Members = {
 		Mass = 4000,
+		
+		ModelInfo = {
+			Color = Color(47,54,85,255)
+		},
 		
 		EnginePos = Vector(60,0,0),
 		
@@ -1344,6 +1352,10 @@ local V = {
 
 	Members = {
 		Mass = 5000,
+		
+		ModelInfo = {
+			Color = Color(47,54,85,255)
+		},
 		
 		EnginePos = Vector(-80,0,0),
 		
