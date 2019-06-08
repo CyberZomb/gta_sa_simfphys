@@ -2,4 +2,13 @@
 {
 	"$basetexture" "models/gta_sa/artict1_128x64"
 	"$nocull" 1
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
 }
